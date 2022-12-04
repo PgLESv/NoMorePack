@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:chest_minecart"
+        },
+        "title": {"translate":"Correios!"},
+        "description": {"color":"green","translate":"Abra um Minecart de uma Mina Abandonada!"},
+        "announce_to_chat": "true"
+    },
+    "parent": "minecraft:mining/dungeons_and_spawners",
+    "rewards": {
+        "function": "bc_rewards:mining/steals_on_wheels"
+    },		
+    "criteria": {
+		"heart_of_the_sea": {
+			"trigger": "minecraft:player_generates_container_loot",
+			"conditions": {
+				"loot_table": "minecraft:chests/abandoned_mineshaft"
+			}
+		}
+	}		
+}

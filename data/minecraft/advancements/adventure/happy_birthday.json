@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:cake"
+		},
+		"title": {"translate":"Parabains"},
+		"description": {"color":"green","translate":"Coloque uma vela em um bolo"},
+		"announce_to_chat": "true"
+	},
+	"parent": "minecraft:adventure/root",
+	"rewards": {
+		"function": "bc_rewards:building/happy_birthday"
+	},		
+	"criteria": {
+		"candle_cake": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"tag": "minecraft:candle_cakes"
+					}
+				},
+				"item": {
+					"tag": "minecraft:candles"
+				}
+			}
+		}
+	}	
+}

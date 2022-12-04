@@ -1,0 +1,18 @@
+{
+	"parent": "minecraft:desafios/all_effects",	
+	"criteria": {
+		"root": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"minecraft:desafios/root": "true"
+						}
+					}
+				}
+			}
+		}
+	}
+}

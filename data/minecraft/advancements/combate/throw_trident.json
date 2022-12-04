@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:trident"
+		},
+		"title": {"translate":"Jogada de mestre"},
+		"description": {"translate":"Jogue um Tridente em alguma coisa"},
+		"announce_to_chat": "true"
+	},
+	"parent": "minecraft:combate/because_im_aquaman",
+	"rewards": {
+		"function": "bc_rewards:weaponry/a_throwaway_joke"
+	},
+	"criteria": {
+		"shot_trident": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"type": {
+						"is_projectile": true,
+						"direct_entity": {
+							"type": "minecraft:trident"
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_apple"
+        },
+        "title": {"translate":"Maçã do Amor"},
+        "description": {"translate":"Crie e coma uma Maçã Dourada comum"},
+        "announce_to_chat": "true"
+    },
+    "parent": "minecraft:husbandry/plant_seed",
+	"rewards": {
+		"function": "bc_rewards:farming/ultra_hardcore"
+    },		
+    "criteria": {
+        "golden_apple": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+					"items": [
+						"minecraft:golden_apple"
+					]
+                }
+            }
+        }
+    }
+}

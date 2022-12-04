@@ -1,0 +1,31 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:fire_charge"
+		},
+		"title": {"translate":"Recepção calorosa"},
+		"description": {"color":"#75E1FF","translate":"Destrua um Ghast com uma bola de fogo"},
+		"announce_to_chat": "true",
+		"frame": "goal"
+	},
+	"parent": "minecraft:nether/root",
+	"rewards": {
+		"function": "bc_rewards:nether/return_to_sender"
+	},	
+	"criteria": {
+		"killed_ghast": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:ghast"
+				},
+				"killing_blow": {
+					"is_projectile": true,
+					"direct_entity": {
+						"type": "minecraft:fireball"
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,35 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:iron_sword"
+		},
+		"title": {"translate":"Vex do AliExpress"},
+		"description": {"color":"green","translate":"Dê a um Allay uma Espada de Ferro"},
+		"announce_to_chat": "true"
+	},
+	"parent": "minecraft:adventure/allayance",
+	"rewards": {
+		"function": "bc_rewards:adventure/budget_vex"
+	},		
+	"criteria": {
+		"iron_sword": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"type": "minecraft:allay"
+						},
+						"entity": "this"
+					}
+				],
+				"item": {
+					"items": [
+						"minecraft:iron_sword"
+					]
+				}
+			}
+		}
+	}
+}

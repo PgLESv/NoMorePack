@@ -1,0 +1,31 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:blue_banner"
+		},
+		"title": {"translate":"GPS"},
+		"description": {"color":"green","translate":"Clique com o botão direito do mouse em um banner com um mapa"},
+		"announce_to_chat": "true"
+	},
+	"parent": "minecraft:adventure/root",
+	"rewards": {
+		"function": "bc_rewards:adventure/im_not_lost_anymore"
+	},
+	"criteria": {
+		"map": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"tag": "minecraft:banners"
+					}
+				},
+				"item": {
+					"items": [
+						"minecraft:filled_map"
+					]
+				}
+			}
+		}
+	}
+}

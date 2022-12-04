@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:black_concrete_powder"
+		},
+		"title": {"translate":"Sem Medo de Alturas"},
+		"description": {"color":"dark_purple","translate":"Traga um Warden para a altura do mundo. Não pode ter medo de altura se não pode ver a altura"},
+		"announce_to_chat": "true",
+		"frame": "challenge"
+	},
+	"parent": "minecraft:combate/blind_stare",
+	"rewards": {
+		"function": "bc_rewards:monsters/not_afraid_of_heights"
+	},		
+	"criteria": {
+		"not_afraid_of_heights": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

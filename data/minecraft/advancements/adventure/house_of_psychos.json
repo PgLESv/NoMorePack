@@ -1,0 +1,45 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:dark_oak_door"
+		},
+		"title": {"translate":"Manicômio"},
+		"description": {"color":"green","translate":"Encontre uma mansão na floresta"},
+		"announce_to_chat": "true"
+	},
+	"parent": "minecraft:adventure/war_is_coming",
+	"rewards": {
+		"function": "bc_rewards:adventure/house_of_psychos"
+	},		
+	"criteria": {
+		"mansion": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"location": {
+								"structure": "mansion"
+							}
+						}
+					},
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"type_specific": {
+									"type": "player",
+									"gamemode": "spectator"
+								}
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}

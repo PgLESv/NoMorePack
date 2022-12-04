@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:coal_block"
+        },
+        "title": {"translate":"Fã de Carvão"},
+        "description": {"translate":"Minere Carvão suficiente para fazer um pack de blocos!"},
+        "announce_to_chat": "true",
+		"frame": "challenge"
+    },
+    "parent": "minecraft:mining/iconic_merchandising_prop",
+    "rewards": {
+		"function": "bc_rewards:mining/master_coal_miner"
+    },		
+    "criteria": {
+        "coal": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"items": [
+							"minecraft:coal_block"
+						],
+						"count": 64
+                    }
+                ]
+            }
+        }
+    }
+}

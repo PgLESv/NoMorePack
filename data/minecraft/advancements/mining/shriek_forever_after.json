@@ -1,0 +1,24 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:sculk_shrieker"
+		},
+		"title": {"translate":"Grite Para Sempre"},
+		"description": {"color":"green","translate":"Ative um Sculk Shrieker no Deep Dark. Pode não querer fazer isso muitas vezes mais…"},
+		"announce_to_chat": "true"
+	},
+	"parent": "minecraft:mining/kill_mob_near_sculk_catalyst",
+	"rewards": {
+		"function": "bc_rewards:mining/shriek_forever_after"
+	},		
+	"criteria": {
+		"darkness": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"minecraft:darkness": {}
+				}
+			}
+		}
+	}
+}

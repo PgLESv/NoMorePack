@@ -1,0 +1,46 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:dispenser"
+		},
+		"title": {"translate":"A cobaia se revoltou"},
+		"description": {"color":"dark_purple","translate":"Seja atacado por uma criatura com todos os efeitos de poção"},
+		"announce_to_chat": "true",
+		"frame": "challenge"
+	},
+	"parent": "minecraft:magia/all_potions",
+	"rewards": {
+		"function": "bc_rewards:potion/a_furious_test_subject"
+	},		
+	"criteria": {
+		"phantom": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"effects": { 
+							"minecraft:speed": {}, 
+							"minecraft:slowness": {}, 
+							"minecraft:strength": {}, 
+							"minecraft:jump_boost": {}, 
+							"minecraft:regeneration": {}, 
+							"minecraft:fire_resistance": {}, 
+							"minecraft:water_breathing": {}, 
+							"minecraft:invisibility": {}, 
+							"minecraft:night_vision": {}, 
+							"minecraft:weakness": {}, 
+							"minecraft:poison": {}, 
+							"minecraft:resistance": {},
+							"minecraft:slow_falling": {}
+						},
+						"distance": {
+							"absolute": {
+								"min": 0.001
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

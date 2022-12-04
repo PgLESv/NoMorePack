@@ -1,0 +1,36 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick"
+        },
+        "title": {"translate":"Rabicó Simulator"},
+        "description": {"color":"#75E1FF","translate":"Ande 1km em um porco"},
+        "announce_to_chat": "true",
+		"frame": "goal"
+    },
+    "parent": "minecraft:stats/scourge_of_the_west",
+	"rewards": {
+		"function": "bc_rewards:statistics/snout_500"
+    },		
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"stats": [
+							{
+								"type": "minecraft:custom",
+								"stat": "minecraft:pig_one_cm",
+								"value": {
+									"min": 100000
+								}
+							}
+						]
+					}
+				}
+			}
+        }
+    }
+}

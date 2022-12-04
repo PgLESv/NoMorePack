@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:prismarine_crystals"
+        },
+        "title": {"translate":"No Mar Profundo"},
+        "description": {"color":"#75E1FF","translate":"Mate um Elder Guardian"},
+        "announce_to_chat": "true",
+        "frame": "goal"
+    },
+    "parent": "minecraft:adventure/titanic",
+    "rewards": {
+        "function": "bc_rewards:adventure/the_deep_end"
+    },	
+    "criteria": {
+        "elder_guardian": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:elder_guardian"
+                }
+            }
+        }
+    }
+}

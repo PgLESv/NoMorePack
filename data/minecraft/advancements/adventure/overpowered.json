@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:enchanted_golden_apple"
+		},
+		"title": {"translate":"Superpoderoso"},
+		"description": {"color":"dark_purple","translate":"Obtenha uma Maçã do Notch"},
+		"announce_to_chat": "true",
+		"frame": "challenge"
+	},
+	"parent": "minecraft:adventure/totem_of_undying",
+	"rewards": {
+		"function": "bc_rewards:adventure/overpowered"
+	},		
+	"criteria": {
+		"golden_apple": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:enchanted_golden_apple"
+						]
+					}
+				]
+			}
+		}
+	}
+}

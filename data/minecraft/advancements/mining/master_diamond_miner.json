@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_block"
+        },
+        "title": {"translate":"Degustador de Diamantes"},
+        "description": {"translate":"Minere Diamantes suficientes para fazer um pack de blocos!"},
+        "announce_to_chat": "true",
+		"frame": "challenge"
+    },
+    "parent": "minecraft:mining/master_iron_miner",
+    "rewards": {
+		"function": "bc_rewards:mining/master_diamond_miner"
+    },		
+    "criteria": {
+        "diamond": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"items": [
+							"minecraft:diamond_block"
+						],
+						"count": 64
+                    }
+                ]
+            }
+        }
+    }
+}

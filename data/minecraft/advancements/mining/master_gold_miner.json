@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:gold_block"
+        },
+        "title": {"translate":"Amador de Ouro"},
+        "description": {"translate":"Minere Ouro suficiente para fazer um pack de blocos!"},
+        "announce_to_chat": "true",
+		"frame": "challenge"
+    },
+    "parent": "minecraft:mining/master_copper_miner",
+    "rewards": {
+		"function": "bc_rewards:mining/master_gold_miner"
+    },		
+    "criteria": {
+        "gold": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"items": [
+							"minecraft:gold_block"
+						],
+						"count": 64
+                    }
+                ]
+            }
+        }
+    }
+}

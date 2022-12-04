@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:ancient_debris"
+        },
+        "title": {"translate":"Fã de Detritos Ancestrais"},
+        "description": {"color":"#75E1FF","translate":"Minere um pack de Detritos Ancestrais!"},
+        "announce_to_chat": "true",
+		"frame": "challenge"
+    },
+    "parent": "minecraft:nether/diamonds_are_not_forever",
+	"rewards": {
+		"function": "bc_rewards:nether/netherite_miner"
+    },	
+    "criteria": {
+        "ancient_debris": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"items": [
+							"minecraft:ancient_debris"
+						],
+						"count": 64
+                    }
+                ]
+            }
+        }
+    }
+}

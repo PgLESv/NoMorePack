@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:pointed_dripstone"
+        },
+        "title": {"translate":"Olhe para cima"},
+        "description": {"translate":"Obtenha estalactites de uma caverna de espeleotemas"},
+        "announce_to_chat": "true"
+    },
+    "parent": "minecraft:mining/deep_slate_nine",
+    "rewards": {
+		"function": "bc_rewards:mining/thats_the_point"
+    },		
+    "criteria": {
+        "pointed_dripstone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"items": [
+							"minecraft:pointed_dripstone"
+						]
+                    }
+                ]
+            }
+        }
+    }
+}

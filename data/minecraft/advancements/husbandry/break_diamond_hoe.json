@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:diamond_hoe"
+		},
+		"title": {"translate":"Serius_Dedication"},
+		"description": {"translate":"Faça uma enxada de netherite"},
+		"announce_to_chat": "true",
+		"frame": "challenge"
+	},
+	"parent": "minecraft:husbandry/plant_seed",
+	"rewards": {
+		"function": "bc_rewards:farming/serious_dedication"
+	},	
+	"criteria": {
+		"netherite_hoe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:netherite_hoe"
+						]
+					}
+				]
+			}
+		}
+	}
+}

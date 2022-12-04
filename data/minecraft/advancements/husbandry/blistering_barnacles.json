@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:light_blue_carpet"
+        },
+        "title": {"translate":"Um Banho Fresquinho!"},
+        "description": {"color":"green","translate":"Leve uma cuspida de uma Lhama! =D"},
+        "announce_to_chat": "true"
+
+    },
+    "parent": "minecraft:husbandry/tame_an_animal",
+    "rewards": {
+        "function": "bc_rewards:animal/blistering_barnacles"
+    },		
+    "criteria": {
+        "llama_hurt_player": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "minecraft:llama"
+					}
+				}
+            }
+        }		
+    }
+}

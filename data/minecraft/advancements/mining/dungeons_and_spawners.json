@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:mossy_cobblestone"
+        },
+        "title": {"translate":"Cuidado com o mímico"},
+        "description": {"color":"green","translate":"Abra um baú em uma dungeon subterranea"},
+        "announce_to_chat": "true"
+    },
+    "parent": "minecraft:mining/rock_bottom",
+    "rewards": {
+        "function": "bc_rewards:mining/dungeons_and_spawners"
+    },		
+    "criteria": {
+		"dungeon": {
+			"trigger": "minecraft:player_generates_container_loot",
+			"conditions": {
+				"loot_table": "minecraft:chests/simple_dungeon"
+			}
+		}
+	}		
+}

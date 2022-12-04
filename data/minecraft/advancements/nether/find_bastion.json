@@ -1,0 +1,45 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:polished_blackstone_bricks"
+		},
+		"title": {"translate":"Anos dourados"},
+		"description": {"translate":"Entre em um bastião em ruínas"},
+		"announce_to_chat": "true"
+	},
+	"parent": "minecraft:nether/root",
+	"rewards": {
+		"function": "bc_rewards:nether/those_were_the_days"
+	},		
+	"criteria": {
+		"bastion_remnant": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"location": {
+								"structure": "bastion_remnant"
+							}
+						}
+					},
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"type_specific": {
+									"type": "player",
+									"gamemode": "spectator"
+								}
+							}
+						}
+					}
+				]
+			}
+		}		
+	}
+}

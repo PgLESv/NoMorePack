@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_block"
+        },
+        "title": {"translate":"Apreciador de Ferro"},
+        "description": {"translate":"Minere Ferro suficiente para fazer um pack de blocos!"},
+        "announce_to_chat": "true",
+		"frame": "challenge"
+    },
+    "parent": "minecraft:mining/master_gold_miner",
+    "rewards": {
+		"function": "bc_rewards:mining/master_iron_miner"
+    },		
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"items": [
+							"minecraft:iron_block"
+						],
+						"count": 64
+                    }
+                ]
+            }
+        }
+    }
+}

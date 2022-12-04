@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:black_candle"
+        },
+        "title": {"translate":"O Ritual Começa"},
+        "description": {"color":"#75E1FF","translate":"Pegue um pack de velas pretas"},
+        "announce_to_chat": "true",
+		"frame": "goal"
+    },
+    "parent": "minecraft:adventure/happy_birthday",
+	"rewards": {
+		"function": "bc_rewards:building/the_ritual_begins"
+    },		
+    "criteria": {
+        "black_candle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"items": [
+							"minecraft:black_candle"
+						],
+						"count": 64
+                    }
+                ]
+            }
+        }
+    }
+}

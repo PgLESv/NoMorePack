@@ -1,0 +1,36 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:firework_rocket"
+        },
+        "title": {"translate":"Bem-te-vi"},
+        "description": {"color":"dark_purple","translate":"Voe 1000km com uma Elytra!"},
+        "announce_to_chat": "true",
+		"frame": "challenge"
+    },
+    "parent": "minecraft:stats/supersonic",
+	"rewards": {
+		"function": "bc_rewards:statistics/frequent_flyer"
+    },		
+    "criteria": {
+		"trigger": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"stats": [
+							{
+								"type": "minecraft:custom",
+								"stat": "minecraft:aviate_one_cm",
+								"value": {
+									"min": 100000000
+								}
+							}
+						]
+					}
+				}
+			}
+		}
+	}
+}

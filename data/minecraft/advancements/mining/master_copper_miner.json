@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:copper_block"
+        },
+        "title": {"translate":"Entusiata de Cobre"},
+        "description": {"translate":"Minere Cobre suficiente para fazer um pack de blocos!"},
+        "announce_to_chat": "true",
+		"frame": "challenge"
+    },
+    "parent": "minecraft:mining/master_coal_miner",
+    "rewards": {
+		"function": "bc_rewards:mining/master_copper_miner"
+    },		
+    "criteria": {
+        "copper_block": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"items": [
+							"minecraft:copper_block"
+						],
+						"count": 64
+                    }
+                ]
+            }
+        }
+    }
+}

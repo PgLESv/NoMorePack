@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:music_disc_pigstep"
+        },
+        "title": {"translate":"Summer Eletrohits 2020"},
+        "description": {"color":"#75E1FF","translate":"Consiga Pigstep nos baús de um Bastion"},
+        "announce_to_chat": "true",
+		"frame": "goal"
+    },
+    "parent": "minecraft:nether/loot_bastion",
+	"rewards": {
+		"function": "bc_rewards:nether/wub_wub_wub"
+    },	
+    "criteria": {
+        "music_disc_pigstep": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"items": [
+							"minecraft:music_disc_pigstep"
+						]
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:sculk"
+		},
+		"title": {"translate":"Um lugar silencioso"},
+		"description": {"translate":"Caminhe furtivamente perto de um sensor de sculk ou defensor para evitar a detecção"},
+		"announce_to_chat": "true"
+	},
+	"parent": "minecraft:mining/fallen_kingdom",
+	"rewards": {
+		"function": "bc_rewards:mining/sneak_100"
+	},
+	"criteria": {
+		"avoid_vibration": {
+			"trigger": "minecraft:avoid_vibration"
+		}
+	}
+}

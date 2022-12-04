@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:crossbow"
+		},
+		"title": {"translate":"O primeiro disparo"},
+		"description": {"translate":"Atire com uma besta"},
+		"announce_to_chat": "true"
+	},
+	"parent": "minecraft:combate/shoot_arrow",
+	"rewards": {
+		"function": "bc_rewards:weaponry/ol_betsy"
+	},
+	"criteria": {
+		"shot_crossbow": {
+			"trigger": "minecraft:shot_crossbow",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:crossbow"
+					]
+				}
+			}
+		}
+	}
+}

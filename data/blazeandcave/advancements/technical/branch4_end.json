@@ -1,0 +1,18 @@
+{
+	"parent": "minecraft:desafios/abyss_lord",	
+	"criteria": {
+		"root": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"minecraft:desafios/root": "true"
+						}
+					}
+				}
+			}
+		}
+	}
+}

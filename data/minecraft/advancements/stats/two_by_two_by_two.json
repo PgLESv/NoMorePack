@@ -1,0 +1,36 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:chicken"
+        },
+        "title": {"translate":"De dois em dois em dois..."},
+        "description": {"color":"dark_purple","translate":"Faça 2500 animais filhotes"},
+        "announce_to_chat": "true",
+		"frame": "challenge"
+    },
+    "parent": "minecraft:stats/root",
+	"rewards": {
+		"function": "bc_rewards:statistics/two_by_two"
+    },		
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"stats": [
+							{
+								"type": "minecraft:custom",
+								"stat": "minecraft:animals_bred",
+								"value": {
+									"min": 2500
+								}
+							}
+						]
+					}
+				}
+			}
+        }
+    }
+}

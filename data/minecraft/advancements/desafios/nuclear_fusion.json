@@ -1,0 +1,36 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:trident"
+        },
+        "title": {"translate":"SHAZAM!"},
+        "description": {"color":"#FF2A2A","translate":"Acerte todos os Mobs que se transformam com Raios de uma vez só!"},
+        "announce_to_chat": "true",
+		"frame": "challenge"
+    },
+    "parent": "minecraft:desafios/root",
+    "rewards": {
+        "function": "bc_rewards:challenges/nuclear_fusion"
+    },
+	"criteria": {
+		"struck_villager": {
+			"trigger": "minecraft:channeled_lightning",
+			"conditions": {
+				"victims": [
+					{
+						"type": "minecraft:villager"
+					},
+					{
+						"type": "minecraft:pig"
+					},
+					{
+						"type": "minecraft:creeper"
+					},
+					{
+						"type": "minecraft:mooshroom"
+					}					
+				]
+			}
+		}
+	}
+}

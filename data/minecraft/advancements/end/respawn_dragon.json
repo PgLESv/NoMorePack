@@ -1,0 +1,25 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:end_crystal"
+		},
+		"title": {"translate":"A volta dos que não foram"},
+		"description": {"color":"#75E1FF","translate":"Invoque o Dragão do End."},
+		"announce_to_chat": "true",
+		"frame": "goal"
+	},
+	"parent": "minecraft:end/kill_dragon",
+	"rewards": {
+		"function": "bc_rewards:end/the_end_again"
+	},	
+	"criteria": {
+		"summoned_dragon": {
+			"trigger": "minecraft:summoned_entity",
+			"conditions": {
+				"entity": {
+					"type": "ender_dragon"
+				}
+			}
+		}
+	}
+}

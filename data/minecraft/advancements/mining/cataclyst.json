@@ -1,0 +1,25 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:nether_star"
+		},
+		"title": {"translate":"Cataclyst"},
+		"description": {"color":"dark_purple","translate":"Mate um Wither perto de um Sculk Catalyst para liberar uma grande explosão de sculk"},
+		"announce_to_chat": "true",
+		"frame": "challenge"
+	},
+	"parent": "minecraft:mining/the_block_of_eternal_screaming",
+	"rewards": {
+		"function": "bc_rewards:mining/cataclyst"
+	},
+	"criteria": {
+		"kill_mob_near_sculk_catalyst": {
+			"trigger": "minecraft:kill_mob_near_sculk_catalyst",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:wither"
+				}
+			}
+		}
+	}
+}
