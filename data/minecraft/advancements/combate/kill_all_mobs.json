@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:diamond_sword"
 		},
-		"title": {"translate":"Monsters Hunted"},
-		"description": {"translate":"Kill one of every hostile monster"},
+		"title": {"translate":"Serial Killer Do Bem"},
+		"description": {"translate":"Mate um de cada mob hostil"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},
