@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:lead"
 		},
-		"title": {"translate":"União tricolor!"},
-		"description": {"color":"#75E1FF","translate":"Tenha todos os anfibrilhos em seu inventário"},
+		"title": {"translate":"Os três mosqueteiros"},
+		"description": {"color":"#75E1FF","translate":"Capture todos os tipos de sapo com um laço"},
 		"announce_to_chat": "true",
 		"frame": "goal"
 	},
