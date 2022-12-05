@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:apple"
 		},
-		"title": {"translate":"A Balanced Diet"},
-		"description": {"translate":"Eat everything that is edible, even if it's not good for you"},
+		"title": {"translate":"Uma dieta equilibrada"},
+		"description": {"translate":"Coma tudo o que é comestível, mesmo que não seja bom para você"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},
