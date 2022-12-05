@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:dragon_breath"
 		},
-		"title": {"translate":"Very Very Frightening"},
-		"description": {"translate":"Strike a Villager with lightning"},
+		"title": {"translate":"Estou em choque com esses preços},
+		"description": {"translate":"Acerte um Villager com um raio"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},
