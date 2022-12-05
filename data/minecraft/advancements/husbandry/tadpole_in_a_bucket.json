@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:tadpole_bucket"
 		},
-		"title": {"translate":"Bukkit bukkit"},
-		"description": {"translate":"Catch a Tadpole in a Bucket"},
+		"title": {"translate":"Croac-croac"},
+		"description": {"translate":"Pegue um girino com um balde"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:husbandry/root",
