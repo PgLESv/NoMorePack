@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:verdant_froglight"
 		},
-		"title": {"translate":"Incandescent!"},
-		"description": {"color":"#75E1FF","translate":"Light up the area with all three hues of Froglight"},
+		"title": {"translate":"Incandenscente!"},
+		"description": {"color":"#75E1FF","translate":"Ilumine uma area com as três lanternas de sapos, porque isso é possivel aparentemente"},
 		"announce_to_chat": "true",
 		"frame": "goal"
 	},
