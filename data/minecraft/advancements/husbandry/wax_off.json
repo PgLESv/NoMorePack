@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:stone_axe"
 		},
-		"title": {"translate":"Wax Off"},
-		"description": {"translate":"Use an axe to scrape wax off of a Copper Block"},
+		"title": {"translate":"Tira cera"},
+		"description": {"translate":"Remova a cera de um bloco de cobre"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:husbandry/wax_on",
