@@ -4,8 +4,8 @@
 			"item": "minecraft:totem_of_undying",
 			"nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
 		},
-		"title": {"translate":"Postmortal"},
-		"description": {"color":"#75E1FF","translate":"Use a Totem of Undying to cheat death"},
+		"title": {"translate":"EU VOLTEI"},
+		"description": {"color":"#75E1FF","translate":"Use um totem da imortalidade e engane a morte"},
 		"announce_to_chat": "true",
 		"frame": "goal"
 	},
