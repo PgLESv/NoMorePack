@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:wheat"
 		},
-		"title": {"translate":"Repopulation"},
-		"description": {"translate":"Breed two cows with wheat"},
+		"title": {"translate":"Farm de carne?"},
+		"description": {"translate":"Reproduza duas vacas},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:husbandry/root",
