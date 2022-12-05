@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:iron_chestplate"
 		},
-		"title": {"translate":"Suit Up"},
-		"description": {"translate":"Protect yourself with a piece of iron armor"},
+		"title": {"translate":"Ferrado... Literalmente"},
+		"description": {"translate":"Se proteja com uma armadura de Ferro"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:combate/root",
