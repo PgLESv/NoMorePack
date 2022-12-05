@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:spyglass"
 		},
-		"title": {"translate":"Is it a Plane?"},
-		"description": {"translate":"Look at the Ender Dragon through a Spyglass"},
+		"title": {"translate":"É um avião?"},
+		"description": {"translate":"Observe o Ender Dragon através de uma luneta"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:adventure/spyglass_at_ghast",
