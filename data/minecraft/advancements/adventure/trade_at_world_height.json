@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:nether_star"
 		},
-		"title": {"translate":"Star Trader"},
-		"description": {"color":"#75E1FF","translate":"Trade with a villager at the build height limit"},
+		"title": {"translate":"Troca nas alturas!"},
+		"description": {"color":"#75E1FF","translate":"Troque com um villager na altura máxima de construção"},
 		"announce_to_chat": "true",
 		"frame": "goal"
 	},
