@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:trident"
 		},
-		"title": {"translate":"The Healing Power of Friendship"},
-		"description": {"translate":"Team up with an Axolotl and win a fight"},
+		"title": {"translate":"A união faz a força"},
+		"description": {"translate":"Junte-se a um axolote e ganhe uma batalha"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:husbandry/axolotl_in_a_bucket",
