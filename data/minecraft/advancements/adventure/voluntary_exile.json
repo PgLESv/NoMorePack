@@ -9,7 +9,7 @@
 		"announce_to_chat": "true"
 
 	},
-	"parent": "blazeandcave:adventure/root",
+	"parent": "minecraft:adventure/root",
 	"rewards": {
 		"function": "bc_rewards:adventure/ive_got_a_bad_feeling_about_this"
 	},		
