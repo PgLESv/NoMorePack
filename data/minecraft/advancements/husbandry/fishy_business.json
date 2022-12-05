@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:fishing_rod"
 		},
-		"title": {"translate":"Fishy Business"},
-		"description": {"translate":"Catch a fish"},
+		"title": {"translate":"O mar está para peixe"},
+		"description": {"translate":"Pegue um peixe"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:husbandry/root",
