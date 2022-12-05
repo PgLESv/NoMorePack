@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:warped_sign"
 		},
-		"title": {"translate":"Glow and Behold"},
-		"description": {"translate":"Use a Glow Ink Sac to light up a sign"},
+		"title": {"translate":"Brilhe e admire!"},
+		"description": {"translate":"Faça o texto de uma placa brilhar"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:husbandry/cephalight",
