@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:birch_boat"
 		},
-		"title": {"translate":"Whatever Floats Your Goat!"},
-		"description": {"translate":"Get in a Boat and float with a Goat"},
+		"title": {"translate":"Cabra à vista!"},
+		"description": {"translate":"Entre num bote com uma cabra"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:husbandry/root",
