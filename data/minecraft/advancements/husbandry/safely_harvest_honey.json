@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:campfire"
 		},
-		"title": {"translate":"Bee Our Guest"},
-		"description": {"translate":"Use a bottle to collect Honey from a Beehive with a campfire beneath it so you don't aggravate the bees"},
+		"title": {"translate":"Seja mel convidado"},
+		"description": {"translate":"Use uma fogueira para coletar mel de uma colmeia usando uma garrafa sem agravar as abelhas"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:husbandry/root",
