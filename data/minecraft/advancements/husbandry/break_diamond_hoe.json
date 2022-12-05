@@ -3,7 +3,7 @@
 		"icon": {
 			"item": "minecraft:diamond_hoe"
 		},
-		"title": {"translate":"Serius_Dedication"},
+		"title": {"translate":"Dedicação exclusiva"},
 		"description": {"translate":"Faça uma enxada de netherite"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
