@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:honeycomb"
 		},
-		"title": {"translate":"Wax On"},
-		"description": {"translate":"Use Honeycombs to wax a Copper Block, preventing it from oxidising"},
+		"title": {"translate":"Bota cera"},
+		"description": {"translate":"Aplique um favo de mel a um bloco de cobre"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:husbandry/safely_harvest_honey",
