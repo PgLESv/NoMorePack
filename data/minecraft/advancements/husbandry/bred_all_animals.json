@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:hay_block"
 		},
-		"title": {"translate":"Overpopulation"},
-		"description": {"translate":"Breed every type of animal"},
+		"title": {"translate":"De dois em dois"},
+		"description": {"translate":"Reproduza todos os animais!"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},
