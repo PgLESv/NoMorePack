@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:dead_bush"
 		},
-		"title": {"translate":"Yay! Deadbush!"},
-		"description": {"color":"green","translate":"Get a deadbush cause you're a noob"},
+		"title": {"translate":"Que daora, um Arbusto Seco"},
+		"description": {"color":"green","translate":"Consiga um Arbusto Seco, que serve pra... decoração?"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:husbandry/plant_seed",
