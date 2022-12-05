@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:axolotl_bucket"
 		},
-		"title": {"translate":"The Cutest Predator"},
-		"description": {"translate":"Catch an Axolotl in a Bucket"},
+		"title": {"translate":"Fofos e furiosos"},
+		"description": {"translate":"Capture um axolote com um balde"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:husbandry/tactical_fishing",
