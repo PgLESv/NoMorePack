@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:cookie"
 		},
-		"title": {"translate":"You’ve Got a Friend in Me"},
-		"description": {"translate":"Have an Allay deliver items to you"},
+		"title": {"translate":"Amigo, estou aqui"},
+		"description": {"translate":"Receba um item de um allay"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:husbandry/root",
