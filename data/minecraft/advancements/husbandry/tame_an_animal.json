@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:bone"
 		},
-		"title": {"translate":"Leader of the Pack"},
-		"description": {"translate":"Befriend a wolf"},
+		"title": {"translate":"Lider da matilha"},
+		"description": {"translate":"Dome um Lobo"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:husbandry/root",
