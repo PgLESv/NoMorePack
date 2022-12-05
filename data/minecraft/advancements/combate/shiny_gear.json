@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:diamond_chestplate"
 		},
-		"title": {"translate":"Cover Me With Diamonds"},
-		"description": {"translate":"Diamond armor saves lives"},
+		"title": {"translate":"Me cubra de Diamantes"},
+		"description": {"translate":"Armaduras de Diamantes salvam vidas"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:combate/obtain_armor",
