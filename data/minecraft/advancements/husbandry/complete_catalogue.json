@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:cod"
 		},
-		"title": {"translate":"A Complete Catalogue"},
-		"description": {"translate":"Tame all cat variants!"},
+		"title": {"translate":"Um gatálogo completo"},
+		"description": {"translate":"Domestique todos os tipos de gatos!"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},
