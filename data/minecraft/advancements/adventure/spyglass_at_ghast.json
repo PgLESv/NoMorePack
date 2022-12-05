@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:spyglass"
 		},
-		"title": {"translate":"Is it a Balloon?"},
-		"description": {"translate":"Look at a Ghast through a Spyglass"},
+		"title": {"translate":"É um balão?"},
+		"description": {"translate":"Observe um Ghast através de uma luneta"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:adventure/spyglass_at_parrot",
