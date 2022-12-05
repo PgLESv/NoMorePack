@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:wheat_seeds"
 		},
-		"title": {"translate":"A Seedy Place"},
-		"description": {"translate":"Plant a seed and watch it grow"},
+		"title": {"translate":"Elas crescem tão rápido..."},
+		"description": {"translate":"Plante uma semente e veja ela crescer"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:husbandry/root",
