@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:stone_pickaxe"
 		},
-		"title": {"translate":"Getting an Upgrade"},
-		"description": {"translate":"Construct a better pickaxe"},
+		"title": {"translate":"Salto de qualidade"},
+		"description": {"translate":"Construa uma picareta melhor"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:mining/mine_stone",
