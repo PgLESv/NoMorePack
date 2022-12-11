@@ -4,7 +4,7 @@
 			"item": "minecraft:cod"
 		},
 		"title": {"translate":"Um gatálogo completo"},
-		"description": {"translate":"Domestique todos os tipos de gatos!"},
+		"description": {"color":"dark_purple","translate":"Domestique todos os tipos de gatos!"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

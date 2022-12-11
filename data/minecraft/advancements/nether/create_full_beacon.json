@@ -4,7 +4,7 @@
 			"item": "minecraft:beacon"
 		},
 		"title": {"translate":"E houve luz!"},
-		"description": {"translate":"Carregue um sinalizador à potência máxima"},
+		"description": {"color":"dark_purple","translate":"Carregue um sinalizador à potência máxima"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

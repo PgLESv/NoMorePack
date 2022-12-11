@@ -4,7 +4,7 @@
 			"item": "minecraft:ancient_debris"
 		},
 		"title": {"translate":"Adeus, diamantes!"},
-		"description": {"translate":"Obtenha detritos ancestrais"},
+		"description": {"color":"green","translate":"Obtenha detritos ancestrais"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:nether/the_descent",

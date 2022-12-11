@@ -4,7 +4,7 @@
 			"item": "minecraft:spectral_arrow"
 		},
 		"title": {"translate":"Tiro certeiro"},
-		"description": {"translate":"Mate cinco criaturas diferentes com um só tiro de besta"},
+		"description": {"color":"dark_purple","translate":"Mate cinco criaturas diferentes com um só tiro de besta"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

@@ -4,7 +4,7 @@
 			"item": "minecraft:hay_block"
 		},
 		"title": {"translate":"Agricultura"},
-		"description": {"translate":"O mundo está cheio de amigos e comida"},
+		"description": {"color":"green","translate":"O mundo está cheio de amigos e comida"},
 		"background": "minecraft:textures/block/green_concrete_powder.png",
 		"show_toast": false,
 		"announce_to_chat": "false"

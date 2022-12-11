@@ -4,7 +4,7 @@
 			"item": "minecraft:blaze_rod"
 		},
 		"title": {"translate":"Brincando com o fogo"},
-		"description": {"translate":"Obtenha uma vara de um Blaze"},
+		"description": {"color":"green","translate":"Obtenha uma vara de um Blaze"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:nether/find_fortress",

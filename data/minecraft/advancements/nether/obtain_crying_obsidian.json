@@ -4,7 +4,7 @@
 			"item": "minecraft:crying_obsidian"
 		},
 		"title": {"translate":"Quem tá cortando cebola?"},
-		"description": {"translate":"Obtenha uma obsidiana chorona"},
+		"description": {"color":"green","translate":"Obtenha uma obsidiana chorona"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:nether/root",

@@ -4,7 +4,7 @@
 			"item": "minecraft:cookie"
 		},
 		"title": {"translate":"Amigo, estou aqui"},
-		"description": {"translate":"Receba um item de um allay"},
+		"description": {"color":"green","translate":"Receba um item de um allay"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:husbandry/root",

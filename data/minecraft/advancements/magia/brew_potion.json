@@ -4,7 +4,7 @@
 			"item": "minecraft:brewing_stand"
 		},
 		"title": {"translate":"Aprendiz de químico"},
-		"description": {"translate":"Prepare uma poção"},
+		"description": {"color":"green","translate":"Prepare uma poção"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:magia/root",

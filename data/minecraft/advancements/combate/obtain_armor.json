@@ -4,7 +4,7 @@
 			"item": "minecraft:iron_chestplate"
 		},
 		"title": {"translate":"Ferrado... Literalmente"},
-		"description": {"translate":"Se proteja com uma armadura de Ferro"},
+		"description": {"color":"green","translate":"Se proteja com uma armadura de Ferro"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:combate/root",

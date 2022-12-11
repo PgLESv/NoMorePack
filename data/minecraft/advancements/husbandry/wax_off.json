@@ -4,7 +4,7 @@
 			"item": "minecraft:stone_axe"
 		},
 		"title": {"translate":"Tira cera"},
-		"description": {"translate":"Remova a cera de um bloco de cobre"},
+		"description": {"color":"green","translate":"Remova a cera de um bloco de cobre"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:husbandry/wax_on",

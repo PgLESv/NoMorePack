@@ -4,7 +4,7 @@
 			"item": "minecraft:wheat"
 		},
 		"title": {"translate":"Farm de carne?"},
-		"description": {"translate":"Reproduza duas vacas"},
+		"description": {"color":"green","translate":"Reproduza duas vacas"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:husbandry/root",

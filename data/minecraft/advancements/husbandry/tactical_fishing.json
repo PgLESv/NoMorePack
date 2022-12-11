@@ -4,7 +4,7 @@
 			"item": "minecraft:pufferfish_bucket"
 		},
 		"title": {"translate":"Pesca Tática"},
-		"description": {"translate":"Pegue um peixe... sem usar uma vara de pesca!"},
+		"description": {"color":"green","translate":"Pegue um peixe... sem usar uma vara de pesca!"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:husbandry/fishy_business",

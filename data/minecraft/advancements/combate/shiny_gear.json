@@ -4,7 +4,7 @@
 			"item": "minecraft:diamond_chestplate"
 		},
 		"title": {"translate":"Me cubra de Diamantes"},
-		"description": {"translate":"Armaduras de Diamantes salvam vidas"},
+		"description": {"color":"green","translate":"Armaduras de Diamantes salvam vidas"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:combate/obtain_armor",

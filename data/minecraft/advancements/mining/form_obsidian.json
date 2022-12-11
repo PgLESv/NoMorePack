@@ -4,7 +4,7 @@
 			"item": "minecraft:obsidian"
 		},
 		"title": {"translate":"Agua + Lava = PEDRA PRETA"},
-		"description": {"translate":"Pegue um bloco de obsidian"},
+		"description": {"color":"green","translate":"Pegue um bloco de obsidian"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:mining/lava_bucket",

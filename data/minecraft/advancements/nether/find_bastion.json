@@ -4,7 +4,7 @@
 			"item": "minecraft:polished_blackstone_bricks"
 		},
 		"title": {"translate":"Anos dourados"},
-		"description": {"translate":"Entre em um bastião em ruínas"},
+		"description": {"color":"green","translate":"Entre em um bastião em ruínas"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:nether/root",

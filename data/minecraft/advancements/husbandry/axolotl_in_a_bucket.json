@@ -4,7 +4,7 @@
 			"item": "minecraft:axolotl_bucket"
 		},
 		"title": {"translate":"Fofos e furiosos"},
-		"description": {"translate":"Capture um axolote com um balde"},
+		"description": {"color":"green","translate":"Capture um axolote com um balde"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:husbandry/tactical_fishing",

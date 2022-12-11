@@ -4,7 +4,7 @@
 			"item": "minecraft:end_stone"
 		},
 		"title": {"translate":"O End"},
-		"description": {"translate":"Ou o começo?"},
+		"description": {"color":"green","translate":"Ou o começo?"},
 		"background": "minecraft:textures/gui/advancements/backgrounds/end.png",
 		"show_toast": false,
 		"announce_to_chat": "false"

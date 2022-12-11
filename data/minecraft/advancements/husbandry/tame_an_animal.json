@@ -4,7 +4,7 @@
 			"item": "minecraft:bone"
 		},
 		"title": {"translate":"Lider da matilha"},
-		"description": {"translate":"Dome um Lobo"},
+		"description": {"color":"green","translate":"Dome um Lobo"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:husbandry/root",

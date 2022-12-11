@@ -3,8 +3,13 @@
 		"icon": {
 			"item": "minecraft:stone_pickaxe"
 		},
+<<<<<<< Updated upstream
 		"title": {"translate":"Salto de qualidade"},
 		"description": {"color":"green","translate":"Construa uma picareta melhor"},
+=======
+		"title": {"translate":"Getting an Upgrade"},
+		"description": {"color":"green","translate":"Construct a better pickaxe"},
+>>>>>>> Stashed changes
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:mining/mine_stone",

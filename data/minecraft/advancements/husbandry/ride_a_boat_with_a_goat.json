@@ -4,7 +4,7 @@
 			"item": "minecraft:birch_boat"
 		},
 		"title": {"translate":"Cabra à vista!"},
-		"description": {"translate":"Entre num bote com uma cabra"},
+		"description": {"color":"green","translate":"Entre num bote com uma cabra"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:husbandry/root",

@@ -4,7 +4,7 @@
 			"item": "minecraft:diamond_hoe"
 		},
 		"title": {"translate":"Dedicação exclusiva"},
-		"description": {"translate":"Faça uma enxada de netherite"},
+		"description": {"color":"dark_purple","translate":"Faça uma enxada de netherite"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

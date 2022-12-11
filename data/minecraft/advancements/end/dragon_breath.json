@@ -4,7 +4,7 @@
 			"item": "minecraft:dragon_breath"
 		},
 		"title": {"translate":"Aceita uma pastilha?"},
-		"description": {"translate":"Recolha o bafo do dragão em um frasco de vidro."},
+		"description": {"color":"green","translate":"Recolha o bafo do dragão em um frasco de vidro."},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:end/root",

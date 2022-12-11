@@ -4,7 +4,7 @@
 			"item": "minecraft:shulker_shell"
 		},
 		"title": {"translate":"Ótima vista daqui de cima"},
-		"description": {"translate":"Levite até 50 blocos de altura pelos ataques de um Shulker"},
+		"description": {"color":"dark_purple","translate":"Levite até 50 blocos de altura pelos ataques de um Shulker"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

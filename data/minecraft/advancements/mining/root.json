@@ -4,7 +4,7 @@
             "item": "minecraft:cobblestone"
         },
         "title": {"translate":"Mining Away"},
-        "description": {"translate":"I don't know what to mine. I'll mine this anyway"},
+        "description": {"color":"green","translate":"I don't know what to mine. I'll mine this anyway"},
 		"background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
         "show_toast": false,
         "announce_to_chat": true

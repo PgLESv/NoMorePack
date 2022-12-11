@@ -4,7 +4,7 @@
 			"item": "minecraft:apple"
 		},
 		"title": {"translate":"Uma dieta equilibrada"},
-		"description": {"translate":"Coma tudo o que é comestível, mesmo que não seja bom para você"},
+		"description": {"color":"dark_purple","translate":"Coma tudo o que é comestível, mesmo que não seja bom para você"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

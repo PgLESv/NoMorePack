@@ -4,7 +4,7 @@
 			"item": "minecraft:fishing_rod"
 		},
 		"title": {"translate":"O mar está para peixe"},
-		"description": {"translate":"Pegue um peixe"},
+		"description": {"color":"green","translate":"Pegue um peixe"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:husbandry/root",

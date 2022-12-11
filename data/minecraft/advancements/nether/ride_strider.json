@@ -4,7 +4,7 @@
 			"item": "minecraft:warped_fungus_on_a_stick"
 		},
 		"title": {"translate":"Um bote com pernas"},
-		"description": {"translate":"Monte num lavagante usando uma vara com fungo distorcido"},
+		"description": {"color":"green","translate":"Monte num lavagante usando uma vara com fungo distorcido"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:nether/root",

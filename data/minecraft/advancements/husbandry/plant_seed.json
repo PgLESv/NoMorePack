@@ -4,7 +4,7 @@
 			"item": "minecraft:wheat_seeds"
 		},
 		"title": {"translate":"Elas crescem tão rápido..."},
-		"description": {"translate":"Plante uma semente e veja ela crescer"},
+		"description": {"color":"green","translate":"Plante uma semente e veja ela crescer"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:husbandry/root",

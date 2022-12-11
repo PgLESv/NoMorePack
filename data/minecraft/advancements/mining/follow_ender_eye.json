@@ -4,7 +4,7 @@
 			"item": "minecraft:ender_eye"
 		},
 		"title": {"translate":"Segue o olho"},
-		"description": {"translate":"Siga um olho do fim até uma dungeon com o portal do fim"},
+		"description": {"color":"green","translate":"Siga um olho do fim até uma dungeon com o portal do fim"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:mining/enter_the_nether",

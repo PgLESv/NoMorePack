@@ -4,7 +4,7 @@
 			"item": "minecraft:warped_sign"
 		},
 		"title": {"translate":"Brilhe e admire!"},
-		"description": {"translate":"Faça o texto de uma placa brilhar"},
+		"description": {"color":"green","translate":"Faça o texto de uma placa brilhar"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:husbandry/cephalight",
