@@ -3,13 +3,8 @@
 		"icon": {
 			"item": "minecraft:iron_ingot"
 		},
-<<<<<<< Updated upstream
 		"title": {"translate":"A Idade do Ferro"},
 		"description": {"color":"green","translate":"Funda uma barra de ferro"},
-=======
-		"title": {"translate":"Acquire Hardware"},
-		"description": {"color":"green","translate":"Smelt an iron ingot"},
->>>>>>> Stashed changes
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:mining/upgrade_tools",
