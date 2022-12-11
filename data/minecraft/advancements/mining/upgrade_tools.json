@@ -4,7 +4,7 @@
 			"item": "minecraft:stone_pickaxe"
 		},
 		"title": {"translate":"Salto de qualidade"},
-		"description": {"translate":"Construa uma picareta melhor"},
+		"description": {"color":"green","translate":"Construa uma picareta melhor"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:mining/mine_stone",
