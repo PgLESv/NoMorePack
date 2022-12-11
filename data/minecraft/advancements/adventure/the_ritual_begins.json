@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:black_candle"
         },
-        "title": {"translate":"O Ritual Começa"},
+        "title": {"translate":"O Ritual do Feliper Começa"},
         "description": {"color":"#75E1FF","translate":"Pegue um pack de velas pretas"},
         "announce_to_chat": "true",
 		"frame": "goal"

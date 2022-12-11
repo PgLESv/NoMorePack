@@ -3,7 +3,7 @@
 		"icon": {
 			"item": "minecraft:mycelium"
 		},
-		"title": {"translate":"filme do mario"},
+		"title": {"translate":"Filme do mario"},
 		"description": {"color":"green","translate":"Encontre uma Ilha de Cogumelos"},
 		"announce_to_chat": "true"
 	},
