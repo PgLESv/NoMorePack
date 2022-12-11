@@ -5,7 +5,7 @@
 			"nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
         },
         "title": {"translate":"''Epic Axe Crits''"},
-        "description": {"color":"dark_purple","translate":"Crie um maxado com todos os encantamentos no nível máximo"},
+        "description": {"color":"dark_purple","translate":"Crie um machado com todos os encantamentos no nível máximo"},
         "announce_to_chat": "true",
 		"frame": "challenge"
     },
