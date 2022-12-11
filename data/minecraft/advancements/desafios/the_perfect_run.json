@@ -5,7 +5,7 @@
 			"nbt": "{display:{color:15743786}}"
 		},
 		"title": {"translate":"Caos, A Conquista"},
-		"description": {"color":"#FF2A2A","translate":"Invoque e vença o Dragão, o Whiter e uma Raid ao mesmo tempo sem tomar dano"},
+		"description": {"color":"#FF2A2A","translate":"Invoque com uma diferença de 30 segundo e vença o Dragão, o Whiter e uma Raid ao mesmo tempo sem tomar dano"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},
