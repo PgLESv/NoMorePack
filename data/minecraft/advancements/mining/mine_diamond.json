@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:diamond_ore"
 		},
-		"title": {"translate":"Diamonds!"},
-		"description": {"translate":"Acquire diamonds"},
+		"title": {"translate":"Diamantes!"},
+		"description": {"translate":"Obtenha diamantes"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:mining/iron_tools",
