@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:lava_bucket"
 		},
-		"title": {"translate":"Hot Stuff"},
-		"description": {"translate":"Fill a bucket with lava"},
+		"title": {"translate":"Temperatura máxima"},
+		"description": {"translate":"Encha um balde com lava"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:mining/smelt_iron",
