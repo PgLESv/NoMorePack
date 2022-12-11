@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:bone"
         },
-        "title": {"translate":"Cavalaria Morta-Viva"},
+        "title": {"translate":"Cavalaria Morto-Vivo"},
         "description": {"color":"#75E1FF","translate":"Monte em um cavalo esqueleto"},
         "announce_to_chat": "true",
         "frame": "goal"

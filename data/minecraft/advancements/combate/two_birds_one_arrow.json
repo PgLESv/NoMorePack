@@ -3,7 +3,7 @@
 		"icon": {
 			"item": "minecraft:crossbow"
 		},
-		"title": {"translate":"Promoção!!! Leve 2 pelo preço de 1"},
+		"title": {"translate":"Promoção! Leve 2 pelo preço de 1"},
 		"description": {"translate":"Mate dois Phantoms com uma flecha perfurante"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
