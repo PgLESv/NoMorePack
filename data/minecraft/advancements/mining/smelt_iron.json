@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:iron_ingot"
 		},
-		"title": {"translate":"Acquire Hardware"},
-		"description": {"translate":"Smelt an iron ingot"},
+		"title": {"translate":"A Idade do Ferro"},
+		"description": {"translate":"Funda uma barra de ferro"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:mining/upgrade_tools",
