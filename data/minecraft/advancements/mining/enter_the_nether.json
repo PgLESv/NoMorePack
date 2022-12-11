@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:flint_and_steel"
 		},
-		"title": {"translate":"We Need to Go Deeper"},
-		"description": {"color":"#75E1FF","translate":"Build, light and enter a Nether Portal"},
+		"title": {"translate":"Temos que ir MAIS FUNDO"},
+		"description": {"color":"#75E1FF","translate":"Construa um portal para o nether"},
 		"announce_to_chat": "true",
 		"frame": "goal"
 	},
