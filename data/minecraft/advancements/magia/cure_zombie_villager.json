@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:golden_apple"
 		},
-		"title": {"translate":"Zombie Doctor"},
-		"description": {"color":"#75E1FF","translate":"Cure a zombie villager"},
+		"title": {"translate":"Frankenstein é o nome do doutor"},
+		"description": {"color":"#75E1FF","translate":"Cure um villager zumbi"},
 		"announce_to_chat": "true",
 		"frame": "goal"
 	},
