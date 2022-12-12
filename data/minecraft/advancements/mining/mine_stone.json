@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:wooden_pickaxe"
 		},
-		"title": {"translate":"A Idade do Ferro"},
-		"description": {"color":"green","translate":"Funda uma barra de ferro"},
+		"title": {"translate":"A Idade da Pedra"},
+		"description": {"color":"green","translate":"Minere uma pedra"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:mining/root",
