@@ -3,7 +3,7 @@
 		"icon": {
 			"item": "minecraft:fire_charge"
 		},
-		"title": {"translate":"Recepção calorosa"},
+		"title": {"translate":"De volta para você amigo"},
 		"description": {"color":"#75E1FF","translate":"Destrua um Ghast com uma bola de fogo"},
 		"announce_to_chat": "true",
 		"frame": "goal"
