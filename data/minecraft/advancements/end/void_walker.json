@@ -4,7 +4,7 @@
             "item": "minecraft:chorus_flower"
         },
         "title": {"translate":"Em busca da Elytra"},
-        "description": {"color":"#75E1FF","translate":"Explore todos os Biomas do Fim"},
+        "description": {"color":"green","translate":"Explore todos os Biomas do Fim"},
         "announce_to_chat": "true",
         "frame": "goal"
     },

@@ -4,7 +4,7 @@
 			"item": "minecraft:rabbit"
 		},
 		"title": {"translate":"Churras do Admin"},
-		"description": {"color":"#75E1FF","translate":"Coloque todas as comidas possiveis numa fogueira"},
+		"description": {"color":"green","translate":"Coloque todas as comidas possiveis numa fogueira"},
 		"announce_to_chat": "true",
 		"frame": "goal"
 	},

@@ -4,7 +4,7 @@
 			"item": "minecraft:flint_and_steel"
 		},
 		"title": {"translate":"Temos que ir MAIS FUNDO"},
-		"description": {"color":"#75E1FF","translate":"Construa um portal para o nether"},
+		"description": {"color":"green","translate":"Construa um portal para o nether"},
 		"announce_to_chat": "true",
 		"frame": "goal"
 	},

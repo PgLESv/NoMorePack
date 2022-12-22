@@ -4,7 +4,7 @@
             "item": "minecraft:bedrock"
         },
         "title": {"translate":"I have the high ground"},
-        "description": {"color":"#75E1FF","translate":"Suba no teto do Nether"},
+        "description": {"color":"dark_purple","translate":"Suba no teto do Nether"},
         "announce_to_chat": "true"
 
     },

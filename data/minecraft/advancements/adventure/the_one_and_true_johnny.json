@@ -4,7 +4,7 @@
             "item": "minecraft:vindicator_spawn_egg"
         },
         "title": {"translate":"O único e verdadeiro Johnny!"},
-        "description": {"color":"#75E1FF","translate":"Mate o Johnny"},
+        "description": {"color":"dark_purple","translate":"Mate o Johnny"},
         "announce_to_chat": "true",
 		"frame": "goal"
     },

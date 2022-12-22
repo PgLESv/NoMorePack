@@ -4,7 +4,7 @@
 			"item": "minecraft:glowstone"
 		},
 		"title": {"translate":"Quase sete vidas"},
-		"description": {"color":"#75E1FF","translate":"Carregue uma âncora de renascimento ao nível máximo"},
+		"description": {"color":"green","translate":"Carregue uma âncora de renascimento ao nível máximo"},
 		"announce_to_chat": "true",
 		"frame": "goal"
 	},

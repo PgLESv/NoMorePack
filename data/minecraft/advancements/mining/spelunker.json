@@ -4,7 +4,7 @@
             "item": "minecraft:chainmail_helmet"
         },
         "title": {"translate":"Batman?"},
-        "description": {"color":"#75E1FF","translate":"Entre em todas as cavernas"},
+        "description": {"color":"green","translate":"Entre em todas as cavernas"},
         "announce_to_chat": "true"
     },
     "parent": "minecraft:mining/root",

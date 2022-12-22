@@ -4,7 +4,7 @@
 			"item": "minecraft:end_portal_frame"
 		},
 		"title": {"translate":"O fim?"},
-		"description": {"color":"#75E1FF","translate":"Entre em um portal do end"},
+		"description": {"color":"dark_purple","translate":"Entre em um portal do end"},
 		"announce_to_chat": "true",
 		"frame": "goal"
 	},

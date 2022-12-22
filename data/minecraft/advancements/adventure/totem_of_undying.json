@@ -5,7 +5,7 @@
 			"nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
 		},
 		"title": {"translate":"EU VOLTEI"},
-		"description": {"color":"#75E1FF","translate":"Use um totem da imortalidade e engane a morte"},
+		"description": {"color":"green","translate":"Use um totem da imortalidade e engane a morte"},
 		"announce_to_chat": "true",
 		"frame": "goal"
 	},

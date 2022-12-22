@@ -4,7 +4,7 @@
 			"item": "minecraft:end_crystal"
 		},
 		"title": {"translate":"A volta dos que não foram"},
-		"description": {"color":"#75E1FF","translate":"Invoque o Dragão do End."},
+		"description": {"color":"green","translate":"Invoque o Dragão do End."},
 		"announce_to_chat": "true",
 		"frame": "goal"
 	},

@@ -4,7 +4,7 @@
 			"item": "minecraft:villager_spawn_egg"
 		},
 		"title": {"translate":"Filtro de linha"},
-		"description": {"color":"#75E1FF","translate":"Proteja um aldeão de uma descarga elétrica sem causar um incêndio"},
+		"description": {"color":"green","translate":"Proteja um aldeão de uma descarga elétrica sem causar um incêndio"},
 		"announce_to_chat": "true",
 		"frame": "goal"
 	},

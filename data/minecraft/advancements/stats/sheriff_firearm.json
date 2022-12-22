@@ -4,7 +4,7 @@
             "item": "minecraft:golden_horse_armor"
         },
         "title": {"translate":"Pra que Elytra?"},
-        "description": {"color":"#75E1FF","translate":"Ande 10km em cavalo"},
+        "description": {"color":"dark_purple","translate":"Ande 10km em cavalo"},
         "announce_to_chat": "true",
 		"frame": "goal"
     },

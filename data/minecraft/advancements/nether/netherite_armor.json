@@ -4,7 +4,7 @@
 			"item": "minecraft:netherite_chestplate"
 		},
 		"title": {"translate":"Duro de matar"},
-		"description": {"color":"#75E1FF","translate":"Obtenha uma armadura completa de netherita"},
+		"description": {"color":"dark_purple","translate":"Obtenha uma armadura completa de netherita"},
 		"announce_to_chat": "true",
 		"frame": "goal"
 	},

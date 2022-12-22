@@ -5,7 +5,7 @@
 			"nbt": "{Explosion:{Type:0b,Colors:[I; 4312372]}}"
 		},
 		"title": {"translate":"Pirotecnia"},
-		"description": {"color":"#75E1FF","translate":"Faça um foguete de todos os formatos e efeitos adicionais"},
+		"description": {"color":"dark_purple","translate":"Faça um foguete de todos os formatos e efeitos adicionais"},
 		"announce_to_chat": "true",
 		"frame": "goal"
 	},

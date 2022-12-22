@@ -4,7 +4,7 @@
             "item": "minecraft:pink_dye"
         },
         "title": {"translate":"Faber-Castell"},
-        "description": {"color":"#75E1FF","translate":"Pinte uma ovelha com todas as Cores"},
+        "description": {"color":"dark_purple","translate":"Pinte uma ovelha com todas as Cores"},
         "announce_to_chat": "true",
 		"frame": "goal"
     },

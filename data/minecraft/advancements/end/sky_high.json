@@ -4,7 +4,7 @@
 			"item": "minecraft:feather"
 		},
 		"title": {"translate":"O Céu é o Limite!"},
-		"description": {"color":"#75E1FF","translate":"Voe acima do Limite de Construção atual!"},
+		"description": {"color":"green","translate":"Voe acima do Limite de Construção atual!"},
 		"announce_to_chat": "true",
 		"frame": "goal"
 	},

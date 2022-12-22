@@ -4,7 +4,7 @@
 			"item": "minecraft:iron_sword"
 		},
 		"title": {"translate":"Arco de Redenção"},
-		"description": {"color":"#75E1FF","translate":"Faça amizade com um Pillager que não tenha uma besta"},
+		"description": {"color":"dark_purple","translate":"Faça amizade com um Pillager que não tenha uma besta"},
 		"announce_to_chat": "true",
 		"frame": "goal"
 	},

@@ -5,7 +5,7 @@
 			"nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
         },
         "title": {"translate":"Ficando Velho"},
-        "description": {"color":"#75E1FF","translate":"Atinja 100 de experiência!"},
+        "description": {"color":"dark_purple","translate":"Atinja 100 de experiência!"},
         "announce_to_chat": "true",
 		"frame": "goal"
     },

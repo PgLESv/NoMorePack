@@ -4,7 +4,7 @@
             "item": "minecraft:obsidian"
         },
         "title": {"translate":"Minerador de obsidian"},
-        "description": {"color":"#75E1FF","translate":"Minere um pack de obsidian (isso vai demorar um pouco...)"},
+        "description": {"color":"green","translate":"Minere um pack de obsidian (isso vai demorar um pouco...)"},
         "announce_to_chat": "true",
 		"frame": "goal"
     },

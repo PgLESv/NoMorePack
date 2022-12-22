@@ -4,7 +4,7 @@
             "item": "minecraft:carrot_on_a_stick"
         },
         "title": {"translate":"Rabicó Simulator"},
-        "description": {"color":"#75E1FF","translate":"Ande 1km em um porco"},
+        "description": {"color":"dark_purple","translate":"Ande 1km em um porco"},
         "announce_to_chat": "true",
 		"frame": "goal"
     },

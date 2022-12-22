@@ -4,7 +4,7 @@
             "item": "minecraft:crying_obsidian"
         },
         "title": {"translate":"Para quê? °-°"},
-        "description": {"color":"#75E1FF","translate":"Crie um pack de Cristais do Fim!"},
+        "description": {"color":"dark_purple","translate":"Crie um pack de Cristais do Fim!"},
         "announce_to_chat": "true",
 		"frame": "goal"
     },

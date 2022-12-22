@@ -3,7 +3,7 @@
 		"icon": {
 			"item": "minecraft:water_bucket"
 		},
-		"title": {"translate":"Estrela cadente"},
+		"title": {"translate":"Dream on"},
 		"description": {"translate":"Sobreviva a uma queda do ponto mais alto do mundo (altura limite) ao mais baixo"},
 		"announce_to_chat": "true",
 		"frame": "challenge"

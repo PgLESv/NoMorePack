@@ -4,7 +4,7 @@
 			"item": "minecraft:sculk_sensor"
 		},
 		"title": {"translate":"Alto e orgulhoso"},
-		"description": {"color":"#75E1FF","translate":"Assopre um Chifre de Cabra no Escuro Profundo"},
+		"description": {"color":"green","translate":"Assopre um Chifre de Cabra no Escuro Profundo"},
 		"announce_to_chat": "true",
 		"frame": "goal"
 	},

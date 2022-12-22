@@ -4,7 +4,7 @@
 			"item": "minecraft:slime_ball"
 		},
 		"title": {"translate":"Acho Que Vou Vomitar"},
-		"description": {"color":"#75E1FF","translate":"Tome todas as Sopas Suspeitas (Exceto a de Morcego, de preferência)"},
+		"description": {"color":"dark_purple","translate":"Tome todas as Sopas Suspeitas (Exceto a de Morcego, de preferência)"},
 		"announce_to_chat": "true",
 		"frame": "goal"
 	},

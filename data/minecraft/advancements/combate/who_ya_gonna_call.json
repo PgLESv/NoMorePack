@@ -4,7 +4,7 @@
 			"item": "minecraft:ghast_tear"
 		},
 		"title": {"translate":"O feitiço se voltou contra o feiticeiro"},
-		"description": {"color":"#75E1FF","translate":"Mate um Ghast usando um foguete"},
+		"description": {"color":"green","translate":"Mate um Ghast usando um foguete"},
 		"announce_to_chat": "true",
 		"frame": "goal"
 	},

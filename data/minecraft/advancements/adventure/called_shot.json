@@ -4,7 +4,7 @@
             "item": "minecraft:exposed_cut_copper"
         },
         "title": {"translate":"Está em chok?"},
-        "description": {"color":"#75E1FF","translate":"Seja atingido por um raio enquanto em cima de um para-raio"},
+        "description": {"color":"green","translate":"Seja atingido por um raio enquanto em cima de um para-raio"},
         "announce_to_chat": "true",
 		"frame": "goal"
     },

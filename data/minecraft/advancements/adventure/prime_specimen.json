@@ -4,7 +4,7 @@
 			"item": "minecraft:large_fern"
 		},
 		"title": {"translate":"Espécime Primário"},
-		"description": {"color":"#75E1FF","translate":"Encontre Grama Alta ou Samambaia Alta em um baú de vila"},
+		"description": {"color":"dark_purple","translate":"Encontre Grama Alta ou Samambaia Alta em um baú de vila"},
 		"announce_to_chat": "true",
 		"frame": "goal"
 	},

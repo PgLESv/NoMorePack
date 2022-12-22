@@ -4,7 +4,7 @@
 			"item": "minecraft:beacon"
 		},
 		"title": {"translate":"Haja luz"},
-		"description": {"color":"#75E1FF","translate":"Construa e posicione um Sinalizador"},
+		"description": {"color":"green","translate":"Construa e posicione um Sinalizador"},
 		"announce_to_chat": "true",
 		"frame": "goal"
 	},

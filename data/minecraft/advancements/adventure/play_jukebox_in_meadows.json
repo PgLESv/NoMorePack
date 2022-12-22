@@ -4,7 +4,7 @@
 			"item": "minecraft:azure_bluet"
 		},
 		"title": {"translate":"Valsa das flores"},
-		"description": {"color":"#75E1FF","translate":"Faça as pradarias ganharem vida ao som de um toca-discos"},
+		"description": {"color":"green","translate":"Faça as pradarias ganharem vida ao som de um toca-discos"},
 		"announce_to_chat": "true",
 		"frame": "goal"
 	},

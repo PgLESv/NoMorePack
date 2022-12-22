@@ -2449,6 +2449,18 @@
 				]
 			}
 		},
+		"dragon_egg": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:dragon_egg"
+						]
+					}
+				]
+			}
+		},
 		"emerald": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {

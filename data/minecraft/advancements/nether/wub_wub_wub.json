@@ -4,7 +4,7 @@
             "item": "minecraft:music_disc_pigstep"
         },
         "title": {"translate":"Summer Eletrohits 2020"},
-        "description": {"color":"#75E1FF","translate":"Consiga Pigstep nos baús de um Bastion"},
+        "description": {"color":"green","translate":"Consiga Pigstep nos baús de um Bastion"},
         "announce_to_chat": "true",
 		"frame": "goal"
     },

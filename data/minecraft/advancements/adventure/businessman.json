@@ -4,7 +4,7 @@
 			"item": "minecraft:fletching_table"
 		},
 		"title": {"translate":"Ah sim, o negociador"},
-		"description": {"color":"#75E1FF","translate":"Negocie com todo os tipos de profissões de aldeão"},
+		"description": {"color":"dark_purple","translate":"Negocie com todo os tipos de profissões de aldeão"},
 		"announce_to_chat": "true",
 		"frame": "goal"
 	},
