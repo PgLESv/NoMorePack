@@ -7,7 +7,7 @@
 		"description": {"color":"green","translate":"Obtenha detritos ancestrais"},
 		"announce_to_chat": "true"
 	},
-	"parent": "blazeandcave:nether/the_descent",
+	"parent": "minecraft:nether/root",
 	"rewards": {
 		"function": "bc_rewards:nether/nether_say_die"
 	},	

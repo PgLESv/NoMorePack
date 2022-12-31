@@ -6,7 +6,7 @@
 		"title": {"translate":"A lore secreta retorna"},
 		"description": {"color":"dark_purple","translate":"Colete fragmentos de disco suficientes para criar outro disco de sons misteriosos"},
 		"announce_to_chat": "true",
-		"frame": "goal"
+		"frame": "challenge"
 	},
 	"parent": "minecraft:mining/death_pointer",
 	"rewards": {
