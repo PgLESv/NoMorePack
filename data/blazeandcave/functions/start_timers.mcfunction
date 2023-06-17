@@ -87,6 +87,8 @@ scoreboard objectives add bac_day_count dummy
 scoreboard objectives add bac_current_time dummy
 scoreboard objectives add bac_underwater dummy
 scoreboard objectives add bac_painting minecraft.used:minecraft.painting
+scoreboard objectives add bac_stat_loot_chest dummy
+scoreboard objectives add bac_stat_food dummy
 
 # The following are used for other advancements
 scoreboard objectives add bac_castaway dummy
@@ -111,6 +113,8 @@ scoreboard objectives add bac_chorus_reset dummy
 scoreboard objectives add bac_hh_life dummy
 scoreboard objectives add bac_apple_eaten minecraft.used:minecraft.apple
 scoreboard objectives add bac_apple_days dummy
+scoreboard objectives add bac_apple_a_day trigger
+scoreboard objectives add bac_statistics trigger
 scoreboard objectives add bac_pr_tl dummy
 scoreboard objectives add bac_pr_dmgt minecraft.custom:minecraft.damage_taken
 scoreboard objectives add bac_pr_dmga minecraft.custom:minecraft.damage_absorbed
@@ -150,6 +154,14 @@ function blazeandcave:ten_second_timer
 # # This function sets base scoreboards when loading a world for the first time
 scoreboard objectives add bac_created dummy
 execute unless score bac_created bac_created matches 1 run function blazeandcave:new_world
+
+# # These functions are run only if this is an Alpha or Beta Build, and give a warning to players based on the nature
+scoreboard players set alpha_build bac_settings 0
+scoreboard players set beta_build bac_settings 0
+
+execute if score alpha_build bac_settings matches 1 run schedule function blazeandcave:msg_alpha_build 3s replace
+execute if score beta_build bac_settings matches 1 run schedule function blazeandcave:msg_beta_build 3s replace
+
 
 # # This function runs only if the Terralith version is installed, and it sets a certain scoreboard
 function blazeandcave:terralith_check

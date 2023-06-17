@@ -29,7 +29,9 @@
 						"equipment": {
 							"mainhand": {
 								"items": [
-									"minecraft:arrow"
+									"minecraft:arrow",
+									"minecraft:tipped_arrow",
+									"minecraft:spectral_arrow"
 								]
 							}
 						}

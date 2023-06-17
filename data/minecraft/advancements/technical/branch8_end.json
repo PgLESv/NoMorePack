@@ -1,5 +1,5 @@
 {
-	"parent": "minecraft:deasfios/all_effects",	
+	"parent": "minecraft:nether/all_effects",	
 	"criteria": {
 		"root": {
 			"trigger": "minecraft:location",
@@ -8,7 +8,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:deasfios/root": "true"
+							"blazeandcave:challenges/root": "true"
 						}
 					}
 				}

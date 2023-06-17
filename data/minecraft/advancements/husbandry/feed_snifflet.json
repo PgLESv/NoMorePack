@@ -1,0 +1,36 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:sniffer_spawn_egg"
+		},
+		"title": {"translate":"Aromas"},
+		"description": {"color":"green","translate":"Alimente um filhote de farejador"},
+		"announce_to_chat": "true"
+	},
+	"parent": "minecraft:husbandry/obtain_sniffer_egg",
+	"rewards": {
+		"function": "bc_rewards:adventure/little_sniffs"
+	},
+	"criteria": {
+		"feed_snifflet": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"tag": "minecraft:sniffer_food"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:sniffer",
+							"flags": {
+								"is_baby": true
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}

@@ -4,7 +4,7 @@
             "item": "minecraft:lapis_block",
 			"nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
         },
-        "title": {"translate":"Esmeril de XP"},
+        "title": {"translate":"This is sparta"},
         "description": {"color":"dark_purple","translate":"Atinja 300 de experiência!"},
         "announce_to_chat": "true",
 		"frame": "challenge"

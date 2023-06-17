@@ -3,14 +3,14 @@
 		"icon": {
 			"item": "minecraft:diamond_hoe"
 		},
-		"title": {"translate":"Dedicação exclusiva"},
-		"description": {"color":"dark_purple","translate":"Faça uma enxada de netherite"},
+		"title": {"translate":"It's not about the diamonds"},
+		"description": {"color":"dark_purple","translate":"It's about sending a message"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},
 	"parent": "minecraft:husbandry/plant_seed",
 	"rewards": {
-		"function": "bc_rewards:farming/serious_dedication"
+		"function": "bc_rewards:farming/break_diamond_hoe"
 	},	
 	"criteria": {
 		"netherite_hoe": {
@@ -19,7 +19,7 @@
 				"items": [
 					{
 						"items": [
-							"minecraft:netherite_hoe"
+							"minecraft:diamond_hoe"
 						]
 					}
 				]
