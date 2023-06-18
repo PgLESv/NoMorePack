@@ -103,6 +103,58 @@
 					}
 				]
 			}
+		},
+		"bamboo_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:bamboo_block"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"cherry_log": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:cherry_log"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"crimson_stem": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:crimson_stem"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"warped_stem": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:warped_stem"
+						],
+						"count": 64
+					}
+				]
+			}
 		}
 	}		
 }
