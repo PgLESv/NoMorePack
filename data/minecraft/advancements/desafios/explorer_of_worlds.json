@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:netherite_boots"
 		},
-		"title": {"translate":"Explorer of Worlds"},
-		"description": {"color":"#FF2A2A","translate":"Discover every biome in every dimension"},
+		"title": {"translate":"Volta ao mundo em 80 dias"},
+		"description": {"color":"#FF2A2A","translate":"Descubra todos os biomas em todas as dimensões"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},
