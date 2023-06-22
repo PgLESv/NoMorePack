@@ -4,7 +4,7 @@
 			"item": "minecraft:music_disc_relic"
 		},
 		"title": {"translate":"A Chiptune Relic"},
-		"description": {"color":"#75E1FF","translate":"Excavate an ancient record from within the Trail Ruins"},
+		"description": {"color":"green","translate":"Excavate an ancient record from within the Trail Ruins"},
 		"announce_to_chat": "true",
 		"frame": "goal"
 	},

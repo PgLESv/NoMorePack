@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:brush"
 		},
-		"title": {"translate":"Brushed Away"},
-		"description": {"color":"green","translate":"Craft a Brush using a feather, copper and a stick"},
+		"title": {"translate":"Hora da limpeza"},
+		"description": {"color":"green","translate":"Crie um pincel usando uma pena, cobre e um graveto"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:adventure/root",

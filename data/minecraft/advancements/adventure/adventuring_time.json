@@ -4,7 +4,7 @@
 			"item": "minecraft:diamond_boots"
 		},
 		"title": {"translate":"Hora da Aventura"},
-		"description": {"color":"dark_purple","translate":"Descubra todos os biomas do overworld"},
+		"description": {"color":"dark_purple","translate":"Descubra todos os biomas"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},
