@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:wheat"
 		},
-		"title": {"translate":"Farm de carne?"},
-		"description": {"color":"green","translate":"Reproduza duas vacas"},
+		"title": {"translate":"O amor está no ar"},
+		"description": {"color":"green","translate":"Acasale dois animais"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:husbandry/root",
@@ -12,16 +12,9 @@
 		"function": "bc_rewards:animal/repopulation"
 	},		
 	"criteria": {
-		"cow": {
-			"trigger": "minecraft:bred_animals",
-			"conditions": {
-				"parent": {
-					"type": "minecraft:cow"
-				},
-				"partner": {
-					"type": "minecraft:cow"
-				}
-			}
+		"bred": {
+		  "conditions": {},
+		  "trigger": "minecraft:bred_animals"
 		}
 	}
 }

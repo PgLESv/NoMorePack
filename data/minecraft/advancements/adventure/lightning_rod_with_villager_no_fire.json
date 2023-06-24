@@ -5,8 +5,7 @@
 		},
 		"title": {"translate":"Filtro de linha"},
 		"description": {"color":"green","translate":"Proteja um aldeão de uma descarga elétrica sem causar um incêndio"},
-		"announce_to_chat": "true",
-		"frame": "goal"
+		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:adventure/root",
 	"rewards": {

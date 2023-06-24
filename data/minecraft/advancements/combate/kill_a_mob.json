@@ -4,7 +4,7 @@
 			"item": "minecraft:iron_sword"
 		},
 		"title": {"translate":"Caçador de monstros"},
-		"description": {"translate":"Elimine qualquer monstro hostil"},
+		"description": {"translate":"Mate uma criatura hostil"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:combate/root",

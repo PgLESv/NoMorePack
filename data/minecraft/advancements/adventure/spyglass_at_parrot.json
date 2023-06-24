@@ -4,7 +4,7 @@
 			"item": "minecraft:spyglass"
 		},
 		"title": {"translate":"É um pássaro?"},
-		"description": {"translate":"Observe um papagaio através de uma luneta"},
+		"description": {"translate":"Observe um papagaio com uma luneta"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:adventure/root",

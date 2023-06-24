@@ -4,7 +4,7 @@
 			"item": "minecraft:iron_ingot"
 		},
 		"title": {"translate":"A Idade do Ferro"},
-		"description": {"color":"green","translate":"Funda uma barra de ferro"},
+		"description": {"color":"#49DB49","translate":"Funda uma barra de ferro"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:mining/upgrade_tools",

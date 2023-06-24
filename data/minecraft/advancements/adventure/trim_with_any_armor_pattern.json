@@ -4,8 +4,8 @@
 			"item": "minecraft:iron_helmet",
 			"nbt": "{Trim:{material:\"minecraft:lapis\",pattern:\"minecraft:sentry\"}}"
 		},
-		"title": {"translate":"Crafting a New Look"},
-		"description": {"color":"green","translate":"Use a Smithing Template to apply a trim to a piece of armor"},
+		"title": {"translate":"A última moda"},
+		"description": {"color":"green","translate":"Enfeite uma armadura numa bancada de ferraria"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:adventure/good_lookin_treasure",

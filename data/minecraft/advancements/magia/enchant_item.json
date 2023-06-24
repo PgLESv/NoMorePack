@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:enchanting_table"
 		},
-		"title": {"translate":"Encantados"},
-		"description": {"color":"green","translate":"Crie uma mesa de encantamentos"},
+		"title": {"translate":"Aprendiz de feiticeiro"},
+		"description": {"color":"#49DB49","translate":"Encante um item em uma mesa de encantamentos"},
 		"announce_to_chat": "true",
 		"frame": "goal"
 	},

@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:iron_chestplate"
 		},
-		"title": {"translate":"Ferrado... Literalmente"},
-		"description": {"color":"green","translate":"Se proteja com uma armadura de Ferro"},
+		"title": {"translate":"Quem com ferro fere..."},
+		"description": {"color":"#49DB49","translate":"Proteja-se com um pedaço de armadura de ferro"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:combate/root",

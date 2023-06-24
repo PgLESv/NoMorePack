@@ -4,7 +4,7 @@
 			"item": "minecraft:diamond_ore"
 		},
 		"title": {"translate":"Diamantes!"},
-		"description": {"color":"green","translate":"Obtenha diamantes"},
+		"description": {"color":"#49DB49","translate":"Obtenha diamantes"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:mining/iron_tools",

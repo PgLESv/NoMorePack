@@ -4,9 +4,9 @@
 			"item": "minecraft:note_block"
 		},
 		"title": {"translate":"Parabéns para você"},
-		"description": {"color":"green","translate":"Faça um allay soltar um bolo sobre um bloco musical"},
+		"description": {"color":"dark_purple","translate":"Faça um allay soltar um bolo sobre um bloco musical"},
 		"announce_to_chat": "true",
-		"frame": "goal"
+		"frame": "challenge"
 	},
 	"parent": "minecraft:husbandry/allay_deliver_item_to_player",
 	"rewards": {

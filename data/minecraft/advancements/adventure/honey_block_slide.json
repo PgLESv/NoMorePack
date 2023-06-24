@@ -4,7 +4,7 @@
 			"item": "minecraft:honey_block"
 		},
 		"title": {"translate":"Situação melada"},
-		"description": {"translate":"Salte num bloco de mel para amortecer a queda"},
+		"description": {"translate":"Dseslize por um bloco de mel para amortecer a queda"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:adventure/root",

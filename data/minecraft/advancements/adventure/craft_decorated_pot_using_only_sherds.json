@@ -5,9 +5,8 @@
 			"nbt": "{BlockEntityTag:{sherds:[\"minecraft:brick\",\"minecraft:heart_pottery_sherd\",\"minecraft:brick\",\"minecraft:explorer_pottery_sherd\"]}}"
 		},
 		"title": {"translate":"Restauração cuidadosa"},
-		"description": {"color":"#75E1FF","translate":"Crie um vaso decorado com 4 óstracos"},
-		"announce_to_chat": "true",
-		"frame": "goal"
+		"description": {"color":"green","translate":"Crie um vaso decorado com 4 óstracos"},
+		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:adventure/salvage_sherd",
 	"rewards": {

@@ -3,10 +3,9 @@
 		"icon": {
 			"item": "minecraft:nether_star"
 		},
-		"title": {"translate":"Troca nas alturas!"},
-		"description": {"color":"dark_purple","translate":"Troque com um villager na altura máxima de construção"},
-		"announce_to_chat": "true",
-		"frame": "goal"
+		"title": {"translate":"Preços nas alturas"},
+		"description": {"translate":"Faça uma troca com um aldeão na altura limite de construção"},
+		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:adventure/trade",
 	"rewards": {

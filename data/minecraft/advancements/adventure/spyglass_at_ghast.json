@@ -4,7 +4,7 @@
 			"item": "minecraft:spyglass"
 		},
 		"title": {"translate":"É um balão?"},
-		"description": {"translate":"Observe um Ghast através de uma luneta"},
+		"description": {"translate":"Observe um ghast com uma luneta"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:adventure/spyglass_at_parrot",

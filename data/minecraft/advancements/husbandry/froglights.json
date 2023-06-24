@@ -3,66 +3,37 @@
 		"icon": {
 			"item": "minecraft:verdant_froglight"
 		},
-		"title": {"translate":"Incandenscente!"},
-		"description": {"color":"#75E1FF","translate":"Ilumine uma area com as três lanternas de sapos, porque isso é possivel aparentemente"},
+		"title": {"translate":"União tricolor!"},
+		"description": {"color":"dark_purple","translate":"Tenha todos os anfibrilhos no inventário"},
 		"announce_to_chat": "true",
-		"frame": "goal"
+		"frame": "challenge"
 	},
 	"parent": "minecraft:husbandry/leash_all_frog_variants",
 	"rewards": {
 		"function": "bc_rewards:building/incandescent"
 	},		
 	"criteria": {
-		"verdant_froglight": {
-			"trigger": "minecraft:placed_block",
-			"conditions": {
-				"location": [
-					{
-						"condition": "minecraft:location_check",
-						"predicate": {
-							"block": {
-								"blocks": [
-									"minecraft:verdant_froglight"
-								]
-							}
-						}
-					}
+		"froglights": {
+		  "conditions": {
+			"items": [
+			  {
+				"items": [
+				  "minecraft:ochre_froglight"
 				]
-			}
-		},
-		"ochre_froglight": {
-			"trigger": "minecraft:placed_block",
-			"conditions": {
-				"location": [
-					{
-						"condition": "minecraft:location_check",
-						"predicate": {
-							"block": {
-								"blocks": [
-									"minecraft:ochre_froglight"
-								]
-							}
-						}
-					}
+			  },
+			  {
+				"items": [
+				  "minecraft:pearlescent_froglight"
 				]
-			}
-		},
-		"pearlescent_froglight": {
-			"trigger": "minecraft:placed_block",
-			"conditions": {
-				"location": [
-					{
-						"condition": "minecraft:location_check",
-						"predicate": {
-							"block": {
-								"blocks": [
-									"minecraft:pearlescent_froglight"
-								]
-							}
-						}
-					}
+			  },
+			  {
+				"items": [
+				  "minecraft:verdant_froglight"
 				]
-			}
+			  }
+			]
+		  },
+		  "trigger": "minecraft:inventory_changed"
 		}
 	}
 }

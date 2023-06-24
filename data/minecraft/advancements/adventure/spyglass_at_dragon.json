@@ -4,7 +4,7 @@
 			"item": "minecraft:spyglass"
 		},
 		"title": {"translate":"É um avião?"},
-		"description": {"translate":"Observe o Ender Dragon através de uma luneta"},
+		"description": {"translate":"Observe o Dragão Ender com uma luneta"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:adventure/spyglass_at_ghast",

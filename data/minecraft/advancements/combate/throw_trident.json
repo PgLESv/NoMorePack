@@ -4,7 +4,7 @@
 			"item": "minecraft:trident"
 		},
 		"title": {"translate":"Jogada de mestre"},
-		"description": {"translate":"Jogue um Tridente em alguma coisa"},
+		"description": {"translate":"Lance um tridente contra algo.\nAviso: jogar fora a sua única arma não é uma boa ideia."},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:combate/because_im_aquaman",

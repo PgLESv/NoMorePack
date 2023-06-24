@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:skeleton_skull"
 		},
-		"title": {"translate":"X1 de sniper"},
-		"description": {"translate":"Mate um Esqueleto com uma flecha com mais de 50 metros de distância"},
+		"title": {"translate":"Duelo de atiradores"},
+		"description": {"color":"dark_purple","translate":"Mate um esqueleto a pelo menos 50 blocos de distância"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

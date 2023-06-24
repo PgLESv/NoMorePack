@@ -4,8 +4,9 @@
 			"item": "minecraft:sculk_catalyst"
 		},
 		"title": {"translate":"Contágio"},
-		"description": {"translate":"Mate uma criatura perto de um catalisador de sculk"},
-		"announce_to_chat": "true"
+		"description": {"color":"dark_purple","translate":"Mate uma criatura perto de um catalisador de sculk"},
+		"announce_to_chat": "true",
+		"frame": "challenge"
 	},
 	"parent": "minecraft:mining/avoid_vibration",
 	"rewards": {

@@ -4,7 +4,7 @@
 			"item": "minecraft:fire_charge"
 		},
 		"title": {"translate":"De volta para você amigo"},
-		"description": {"color":"dark_purple","translate":"Destrua um Ghast com uma bola de fogo"},
+		"description": {"color":"dark_purple","translate":"Mate um Ghast com uma bola de fogo"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

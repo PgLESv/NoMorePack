@@ -4,7 +4,7 @@
 			"item": "minecraft:wooden_pickaxe"
 		},
 		"title": {"translate":"A Idade da Pedra"},
-		"description": {"color":"green","translate":"Minere uma pedra"},
+		"description": {"color":"#49DB49","translate":"Minere pedras com sua nova picareta"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:mining/root",

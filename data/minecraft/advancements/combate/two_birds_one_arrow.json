@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:crossbow"
 		},
-		"title": {"translate":"Promoção! Leve 2 pelo preço de 1"},
-		"description": {"translate":"Mate dois Phantoms com uma flecha perfurante"},
+		"title": {"translate":"Dois coelhos com uma flechada só"},
+		"description": {"color":"dark_purple","translate":"Mate dois phantoms com uma flecha perfurante"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

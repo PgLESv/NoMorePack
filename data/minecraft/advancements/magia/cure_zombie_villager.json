@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:golden_apple"
 		},
-		"title": {"translate":"Frankenstein é o nome do doutor"},
-		"description": {"color":"dark_purple","translate":"Cure um villager zumbi"},
+		"title": {"translate":"Zumbiólogo"},
+		"description": {"color":"#49DB49","translate":"Enfraqueça e depois cure um aldeão zumbi"},
 		"announce_to_chat": "true",
 		"frame": "goal"
 	},

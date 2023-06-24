@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:obsidian"
 		},
-		"title": {"translate":"Agua + Lava = PEDRA PRETA"},
-		"description": {"color":"green","translate":"Pegue um bloco de obsidian"},
+		"title": {"translate":"Entrando numa fria"},
+		"description": {"color":"#49DB49","translate":"Obtenha um bloco de obsidiana"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:mining/lava_bucket",

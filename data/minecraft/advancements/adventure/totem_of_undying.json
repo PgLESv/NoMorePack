@@ -4,8 +4,8 @@
 			"item": "minecraft:totem_of_undying",
 			"nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
 		},
-		"title": {"translate":"EU VOLTEI"},
-		"description": {"color":"green","translate":"Use um totem da imortalidade e engane a morte"},
+		"title": {"translate":"À beira da morte"},
+		"description": {"color":"green","translate":"Use um totem da imortalidade para enganar a morte"},
 		"announce_to_chat": "true",
 		"frame": "goal"
 	},

@@ -3,10 +3,9 @@
 		"icon": {
 			"item": "minecraft:end_portal_frame"
 		},
-		"title": {"translate":"O fim?"},
-		"description": {"color":"dark_purple","translate":"Entre em um portal do end"},
-		"announce_to_chat": "true",
-		"frame": "goal"
+		"title": {"translate":"É o fim?"},
+		"description": {"color":"#49DB49","translate":"Entre no Portal do End"},
+		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:mining/follow_ender_eye",
 	"rewards": {

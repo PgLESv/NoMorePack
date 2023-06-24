@@ -3,7 +3,7 @@
 		"icon": {
 			"item": "minecraft:trident"
 		},
-		"title": {"translate":"A união faz a força e açucar"},
+		"title": {"translate":"A união faz a força"},
 		"description": {"color":"green","translate":"Junte-se a um axolote e ganhe uma batalha"},
 		"announce_to_chat": "true"
 	},

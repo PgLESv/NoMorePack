@@ -4,7 +4,7 @@
 			"item": "minecraft:lava_bucket"
 		},
 		"title": {"translate":"Temperatura máxima"},
-		"description": {"color":"green","translate":"Encha um balde com lava"},
+		"description": {"color":"#49DB49","translate":"Encha um balde com lava"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:mining/smelt_iron",

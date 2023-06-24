@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:diamond_sword"
 		},
-		"title": {"translate":"Serial Killer Do Bem"},
-		"description": {"translate":"Mate um de cada mob hostil"},
+		"title": {"translate":"Sem piedade"},
+		"description": {"translate":"Mate uma criatura hostil de cada tipo"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

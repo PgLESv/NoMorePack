@@ -5,8 +5,7 @@
 		},
 		"title": {"translate":"Liberte o End"},
 		"description": {"color":"dark_purple","translate":"Boa sorte"},
-		"announce_to_chat": "true",
-		"frame": "goal"
+		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:end/root",
 	"rewards": {

@@ -4,7 +4,7 @@
 			"item": "minecraft:bow"
 		},
 		"title": {"translate":"Boa mira"},
-		"description": {"translate":"Atire em algo com um arco e flecha"},
+		"description": {"translate":"Acerte algo com uma flecha"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:combate/deflect_arrow",

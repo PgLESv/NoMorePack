@@ -3,10 +3,9 @@
 		"icon": {
 			"item": "minecraft:dragon_breath"
 		},
-		"title": {"translate":"Estou em choque com esses preços"},
-		"description": {"translate":"Acerte um Villager com um raio"},
-		"announce_to_chat": "true",
-		"frame": "challenge"
+		"title": {"translate":"Choque do trovão"},
+		"description": {"translate":"Acerte um aldeão com um raio"},
+		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:combate/throw_trident",
 	"rewards": {
