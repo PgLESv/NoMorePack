@@ -6,7 +6,7 @@
 		"title": {"translate":"Duro de matar"},
 		"description": {"color":"dark_purple","translate":"Obtenha uma armadura completa de netherita"},
 		"announce_to_chat": "true",
-		"frame": "goal"
+		"frame": "challenge"
 	},
 	"parent": "minecraft:nether/diamonds_are_not_forever",
 	"rewards": {

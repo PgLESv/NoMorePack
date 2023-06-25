@@ -4,9 +4,8 @@
 			"item": "minecraft:lava_bucket"
 		},
 		"title": {"translate":"Lava, doce lava"},
-		"description": {"color":"dark_purple","translate":"Leve um lavagante para um loooongo passeio num lago de lava na Superfície"},
-		"announce_to_chat": "true",
-		"frame": "goal"
+		"description": {"color":"green","translate":"Leve um lavagante para um loooongo passeio num lago de lava na Superfície"},
+		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:nether/ride_strider",
 	"rewards": {

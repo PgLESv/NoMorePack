@@ -5,25 +5,16 @@
 		},
 		"title": {"translate":"Aprendiz de feiticeiro"},
 		"description": {"color":"#49DB49","translate":"Encante um item em uma mesa de encantamentos"},
-		"announce_to_chat": "true",
-		"frame": "goal"
+		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:magia/root",
 	"rewards": {
 		"function": "bc_rewards:mining/enchanter"
 	},		
 	"criteria": {
-		"enchanting_table": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"items": [ 
-							"minecraft:enchanting_table"
-						]
-					}
-				]
-			}
+		"enchanted_item": {
+		  "conditions": {},
+		  "trigger": "minecraft:enchanted_item"
 		}
-	}
+	  }
 }

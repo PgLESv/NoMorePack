@@ -5,8 +5,7 @@
 		},
 		"title": {"translate":"O poderoso chefão"},
 		"description": {"color":"dark_purple","translate":"Invoque o Wither"},
-		"announce_to_chat": "true",
-		"frame": "goal"
+		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:nether/get_wither_skull",
 	"rewards": {

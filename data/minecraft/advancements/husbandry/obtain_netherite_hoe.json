@@ -4,7 +4,7 @@
 			"item": "minecraft:netherite_hoe"
 		},
 		"title": {"translate":"Dedicação exclusiva"},
-		"description": {"color":"dark_purple","translate":"Faça uma enxada de netherite"},
+		"description": {"color":"dark_purple","translate":"Use uma barra de netherita para melhorar uma enxada e reflita sobre as suas escolhas de vida"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

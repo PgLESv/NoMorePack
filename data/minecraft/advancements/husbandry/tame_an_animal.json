@@ -1,10 +1,10 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:bone"
+			"item": "minecraft:lead"
 		},
-		"title": {"translate":"Lider da matilha"},
-		"description": {"color":"green","translate":"Dome um Lobo"},
+		"title": {"translate":"Amigos para sempre"},
+		"description": {"color":"green","translate":"Domestique um animal"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:husbandry/root",
@@ -13,12 +13,8 @@
 	},		
 	"criteria": {
 		"tamed_animal": {
-			"trigger": "minecraft:tame_animal",
-			"conditions": {
-				"entity": {
-					"type": "minecraft:wolf"
-				}
-			}
+		  "conditions": {},
+		  "trigger": "minecraft:tame_animal"
 		}
-	}
+	  }
 }

@@ -4,7 +4,7 @@
 			"item": "minecraft:golden_apple"
 		},
 		"title": {"translate":"Zumbiólogo"},
-		"description": {"color":"#49DB49","translate":"Enfraqueça e depois cure um aldeão zumbi"},
+		"description": {"color":"#49DB49","translate":"Enfraqueça e cure um aldeão zumbi"},
 		"announce_to_chat": "true",
 		"frame": "goal"
 	},

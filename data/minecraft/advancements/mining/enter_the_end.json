@@ -4,7 +4,7 @@
 			"item": "minecraft:end_portal_frame"
 		},
 		"title": {"translate":"É o fim?"},
-		"description": {"color":"#49DB49","translate":"Entre no Portal do End"},
+		"description": {"color":"#49DB49","translate":"Atravesse o portal do End"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:mining/follow_ender_eye",

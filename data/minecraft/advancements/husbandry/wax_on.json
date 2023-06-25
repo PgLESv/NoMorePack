@@ -4,7 +4,7 @@
 			"item": "minecraft:honeycomb"
 		},
 		"title": {"translate":"Bota cera"},
-		"description": {"color":"green","translate":"Aplique um favo de mel a um bloco de cobre"},
+		"description": {"color":"green","translate":"Encere um bloco de cobre com um favo de mel!"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:husbandry/safely_harvest_honey",

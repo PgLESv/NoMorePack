@@ -4,7 +4,7 @@
 			"item": "minecraft:milk_bucket"
 		},
 		"title": {"translate":"Mistura explosiva"},
-		"description": {"color":"dark_purple","translate":"Tenha todos os efeitos de poções ao mesmo tempo"},
+		"description": {"color":"dark_purple","translate":"Obtenha todos os efeitos de poções ao mesmo tempo"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},
@@ -17,19 +17,19 @@
 			"trigger": "minecraft:effects_changed",
 			"conditions": {
 				"effects": {
-					"minecraft:speed": {},
-					"minecraft:slowness": {},
-					"minecraft:strength": {},
-					"minecraft:jump_boost": {},
-					"minecraft:regeneration": {},
 					"minecraft:fire_resistance": {},
-					"minecraft:water_breathing": {},
 					"minecraft:invisibility": {},
+					"minecraft:jump_boost": {},
 					"minecraft:night_vision": {},
-					"minecraft:weakness": {},
 					"minecraft:poison": {},
+					"minecraft:regeneration": {},
+					"minecraft:resistance": {},
 					"minecraft:slow_falling": {},
-					"minecraft:resistance": {}
+					"minecraft:slowness": {},
+					"minecraft:speed": {},
+					"minecraft:strength": {},
+					"minecraft:water_breathing": {},
+					"minecraft:weakness": {}
 				}
 			}
 		}

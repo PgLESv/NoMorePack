@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:brewing_stand"
+			"item": "minecraft:potion"
 		},
 		"title": {"translate":"Aprendiz de químico"},
 		"description": {"color":"green","translate":"Prepare uma poção"},
@@ -12,17 +12,9 @@
 		"function": "bc_rewards:nether/local_brewery"
 	},	
 	"criteria": {
-		"brewing_stand": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"items": [
-							"minecraft:brewing_stand"
-						]
-					}
-				]
-			}
+		"potion": {
+		  "conditions": {},
+		  "trigger": "minecraft:brewed_potion"
 		}
-	}
+	  }
 }
