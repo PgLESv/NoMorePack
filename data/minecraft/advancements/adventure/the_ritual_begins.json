@@ -4,7 +4,7 @@
             "item": "minecraft:black_candle"
         },
         "title": {"translate":"O Ritual do Feliper Começa"},
-        "description": {"color":"##000000","translate":"Pegue um pack de velas pretas"},
+        "description": {"color":"#000000","translate":"Pegue um pack de velas pretas"},
         "announce_to_chat": "true",
 		"frame": "goal"
     },

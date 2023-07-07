@@ -1,4 +1,4 @@
-execute if score challenge bac_settings maexecutetches 1 run function bc_rewards:msg/adventure/pottery_exhibition
+execute if score challenge bac_settings matches 1 run function bc_rewards:msg/adventure/pottery_exhibition
 execute if score challenge bac_settings matches -1 unless score minecraft:adventure/pottery_exhibition bac_obtained matches 1.. run function bc_rewards:msg/adventure/pottery_exhibition
 execute if score challenge bac_settings matches -2 if entity @s[team=bac_team_black] unless score minecraft:adventure/pottery_exhibition bac_obtained_black matches 1.. run function bc_rewards:msg/adventure/pottery_exhibition
 execute if score challenge bac_settings matches -2 if entity @s[team=bac_team_dark_blue] unless score minecraft:adventure/pottery_exhibition bac_obtained_dark_blue matches 1.. run function bc_rewards:msg/adventure/pottery_exhibition
