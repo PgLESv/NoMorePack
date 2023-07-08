@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:netherite_upgrade_smithing_template"
 		},
-		"title": {"translate":"Time to Upgrade!"},
-		"description": {"color":"#75E1FF","translate":"Find a Netherite Upgrade Smithing Template in a Bastion Remnant"},
+		"title": {"translate":"Subindo De Nivel!"},
+		"description": {"color":"green","translate":"Encontre um molde de ferraria para aprimoramento de Netherita em um bastião remanescente"},
 		"announce_to_chat": "true",
 		"frame": "goal"
 	},

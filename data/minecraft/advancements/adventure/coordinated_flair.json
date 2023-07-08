@@ -4,8 +4,8 @@
 			"item": "minecraft:diamond_boots",
 			"nbt": "{Trim:{material:\"minecraft:redstone\",pattern:\"minecraft:sentry\"}}"
 		},
-		"title": {"translate":"Coordinated Flair"},
-		"description": {"color":"#75E1FF","translate":"Wear a suit of armor with all four pieces trimmed with the same material"},
+		"title": {"translate":"Combinando"},
+		"description": {"color":"green","translate":"Usar uma armadura com todas as quatro peças enfeitadas com o mesmo material"},
 		"announce_to_chat": "true",
 		"frame": "goal"
 	},

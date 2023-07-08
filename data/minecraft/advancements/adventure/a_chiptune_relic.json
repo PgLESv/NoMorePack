@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:music_disc_relic"
 		},
-		"title": {"translate":"A Chiptune Relic"},
-		"description": {"color":"green","translate":"Excavate an ancient record from within the Trail Ruins"},
+		"title": {"translate":"Summer Eletrohits 1960"},
+		"description": {"color":"green","translate":"Escave um registro antigo de dentro das Ruínas da Trilha"},
 		"announce_to_chat": "true",
 		"frame": "goal"
 	},

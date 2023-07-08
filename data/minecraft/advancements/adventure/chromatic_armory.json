@@ -4,8 +4,8 @@
 			"item": "minecraft:netherite_chestplate",
 			"nbt": "{Trim:{material:\"minecraft:gold\",pattern:\"minecraft:sentry\"}}"
 		},
-		"title": {"translate":"Chromatic Armory"},
-		"description": {"color":"#75E1FF","translate":"Trim pieces of armor with all types of materials"},
+		"title": {"translate":"Os Super Sayajins"},
+		"description": {"color":"green","translate":"Enfeite peças de armadura com todos os tipos de materiais"},
 		"announce_to_chat": "true",
 		"frame": "goal"
 	},

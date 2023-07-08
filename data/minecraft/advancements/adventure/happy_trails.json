@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:white_glazed_terracotta"
 		},
-		"title": {"translate":"Happy Trails!"},
-		"description": {"color":"green","translate":"Discover the Trail Ruins"},
+		"title": {"translate":"Indiano Jonas e o Templo da Perdição"},
+		"description": {"color":"green","translate":"Descubra as trilhas em ruínas"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:adventure/brushed_away",

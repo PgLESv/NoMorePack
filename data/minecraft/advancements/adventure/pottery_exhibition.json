@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:prize_pottery_sherd"
 		},
-		"title": {"translate":"Pottery Exhibition"},
-		"description": {"color":"dark_purple","translate":"Find one of each type of Pottery Sherd throughout your archaeology expeditions"},
+		"title": {"translate":"Depois de todos esses anos. Finalmente, tenho todos eles"},
+		"description": {"color":"dark_purple","translate":"Encontre um de cada tipo de óstracos em suas expedições arqueológicas"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

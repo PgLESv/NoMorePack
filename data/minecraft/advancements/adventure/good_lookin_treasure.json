@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:sentry_armor_trim_smithing_template"
 		},
-		"title": {"translate":"Good-Lookin’ Treasure"},
-		"description": {"color":"green","translate":"Find a Smithing Template"},
+		"title": {"translate":"Upgrades, people. Upgrades."},
+		"description": {"color":"green","translate":"Encontre um molde de ferraria"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:adventure/root",

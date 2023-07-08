@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:pitcher_pod"
 		},
-		"title": {"translate":"Truffle Worm"},
-		"description": {"color":"green","translate":"Have a Sniffer dig up seeds"},
+		"title": {"translate":"Quase um porco procurando trufa"},
+		"description": {"color":"green","translate":"Faça com que um farejador desenterre sementes"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:husbandry/obtain_sniffer_egg",
