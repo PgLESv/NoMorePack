@@ -3,7 +3,7 @@
 		"icon": {
 			"item": "minecraft:trapped_chest"
 		},
-		"title": {"translate":"Bau trollador"},
+		"title": {"translate":"IT'S A TRAP"},
 		"description": {"color":"green","translate":"Acione um baú trap. Bom para trollar seus amigos!"},
 		"announce_to_chat": "true"
 	},
