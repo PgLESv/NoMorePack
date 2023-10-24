@@ -14,67 +14,83 @@
 		"function": "bc_rewards:enchanting/master_miner"
     },		
     "criteria": {
-        "perfect_pickaxe_fortune": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
+		"perfect_pickaxe_fortune": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
 				"items": [
-                    {
-                        "tag": "blazeandcave:master_pickaxes",
+					{
+						"tag": "blazeandcave:master_pickaxes",
 						"enchantments": [
 							{
 								"enchantment": "minecraft:efficiency",
-								"levels": 5
+								"levels": {
+									"min": 5
+								}
 							},
 							{
 								"enchantment": "minecraft:fortune",
-								"levels": 3
+								"levels": {
+									"min": 3
+								}
 							},
 							{
 								"enchantment": "minecraft:unbreaking",
-								"levels": 3
+								"levels": {
+									"min": 3
+								}
 							},
 							{
 								"enchantment": "minecraft:mending",
-								"levels": 1
+								"levels": {
+									"min": 1
+								}
 							}	
 						]
-                    }
-                ]
-            }
-        },
-        "perfect_pickaxe_silk_touch": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
+					}
+				]
+			}
+		},
+		"perfect_pickaxe_silk_touch": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
 				"items": [
-                    {
-                        "tag": "blazeandcave:master_pickaxes",
+					{
+						"tag": "blazeandcave:master_pickaxes",
 						"enchantments": [
 							{
 								"enchantment": "minecraft:efficiency",
-								"levels": 5
+								"levels": {
+									"min": 5
+								}
 							},
 							{
 								"enchantment": "minecraft:silk_touch",
-								"levels": 1
+								"levels": {
+									"min": 1
+								}
 							},
 							{
 								"enchantment": "minecraft:unbreaking",
-								"levels": 3
+								"levels": {
+									"min": 3
+								}
 							},
 							{
 								"enchantment": "minecraft:mending",
-								"levels": 1
+								"levels": {
+									"min": 1
+								}
 							}	
 						]
-                    }
-                ]
-            }
-        }
-    },	
-    "requirements": [
-        [
-            "perfect_pickaxe_fortune",
-            "perfect_pickaxe_silk_touch"
-        ]
-    ]
+					}
+				]
+			}
+		}
+	},	
+	"requirements": [
+		[
+			"perfect_pickaxe_fortune",
+			"perfect_pickaxe_silk_touch"
+		]
+	]
 }

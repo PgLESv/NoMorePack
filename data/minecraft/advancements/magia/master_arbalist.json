@@ -14,71 +14,87 @@
 		"function": "bc_rewards:enchanting/master_arbalist"
     },		
     "criteria": {
-        "perfect_bow_multishot": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
+		"perfect_bow_multishot": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
 				"items": [
-                    {
+					{
 						"items": [
 							"minecraft:crossbow"
 						],
 						"enchantments": [
 							{
 								"enchantment": "minecraft:quick_charge",
-								"levels": 3
+								"levels": {
+									"min": 3
+								}
 							},
 							{
 								"enchantment": "minecraft:multishot",
-								"levels": 1
+								"levels": {
+									"min": 1
+								}
 							},
 							{
 								"enchantment": "minecraft:mending",
-								"levels": 1
+								"levels": {
+									"min": 1
+								}
 							},
 							{
 								"enchantment": "minecraft:unbreaking",
-								"levels": 3
+								"levels": {
+									"min": 3
+								}
 							}	
 						]
-                    }
-                ]
-            }
-        },
-        "perfect_bow_piercing": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
+					}
+				]
+			}
+		},
+		"perfect_bow_piercing": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
 				"items": [
-                    {
+					{
 						"items": [
 							"minecraft:crossbow"
 						],
 						"enchantments": [
 							{
 								"enchantment": "minecraft:quick_charge",
-								"levels": 3
+								"levels": {
+									"min": 3
+								}
 							},						
 							{
 								"enchantment": "minecraft:piercing",
-								"levels": 4
+								"levels": {
+									"min": 4
+								}
 							},
 							{
 								"enchantment": "minecraft:mending",
-								"levels": 1
+								"levels": {
+									"min": 1
+								}
 							},
 							{
 								"enchantment": "minecraft:unbreaking",
-								"levels": 3
+								"levels": {
+									"min": 3
+								}
 							}	
 						]
-                    }
-                ]
-            }
-        }
-    },
-    "requirements": [
-        [
-            "perfect_bow_multishot",
-            "perfect_bow_piercing"
-        ]
-    ]
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"perfect_bow_multishot",
+			"perfect_bow_piercing"
+		]
+	]
 }

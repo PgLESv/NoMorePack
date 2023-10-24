@@ -14,23 +14,25 @@
 		"function": "bc_rewards:enchanting/a_rather_pointy_fence_post"
     },		
     "criteria": {
-        "rather_pointy_fence_post": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
+		"rather_pointy_fence_post": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
 				"items": [
-                    {
+					{
 						"items": [
 							"minecraft:wooden_sword"
 						],
 						"enchantments": [
 							{
 								"enchantment": "minecraft:sharpness",
-								"levels": 5
+								"levels": {
+									"min": 5
+								}
 							}	
 						]
-                    }
-                ]
-            }
-        }
-    }
+					}
+				]
+			}
+		}
+	}
 }
