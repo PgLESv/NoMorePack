@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Manicômio"},
 		"description": {"color":"green","translate":"Encontre uma mansão na floresta"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:adventure/war_is_coming",
 	"rewards": {

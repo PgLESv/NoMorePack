@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Hora de Aventura"},
 		"description": {"color":"dark_purple","translate":"Descubra todos os biomas"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "minecraft:adventure/titanic",	

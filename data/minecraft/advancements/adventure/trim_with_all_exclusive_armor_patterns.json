@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Roupa nova"},
 		"description": {"color":"dark_purple","translate":"Aplique os moldes de ferraria de: espiral, focinho, costelas, profundezas, silêncio, vex, marés e navegador ao menos uma vez"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "minecraft:adventure/trim_with_any_armor_pattern",

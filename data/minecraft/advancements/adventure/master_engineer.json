@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Engenheiro de Redstone"},
 		"description": {"color":"dark_purple","translate":"Crie um pack de todos os componentes de redstone"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "minecraft:adventure/master_logger",

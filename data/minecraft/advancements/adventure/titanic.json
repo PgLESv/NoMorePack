@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Titanic"},
 		"description": {"color":"dark_purple","translate":"Ache um naufragio no bioma de iceberg"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "minecraft:adventure/mooshroom_kingdom",

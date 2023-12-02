@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"Exílio voluntário"},
 		"description": {"translate":"Mate um capitão invasor.\nTalvez seja melhor passar um tempo longe das vilas..."},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 
 	},
 	"parent": "minecraft:adventure/root",

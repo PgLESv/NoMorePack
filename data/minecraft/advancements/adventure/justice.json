@@ -6,7 +6,7 @@
         },
         "title": {"translate":"Justiça"},
         "description": {"translate":"Mate todos os tipos de Illager com uma única flecha"},
-        "announce_to_chat": "true",
+        "announce_to_chat": true,
 		"frame": "challenge"
     },
     "parent": "minecraft:adventure/veteran_of_the_village",

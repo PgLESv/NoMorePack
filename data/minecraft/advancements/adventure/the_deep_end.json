@@ -5,7 +5,7 @@
         },
         "title": {"translate":"No Mar Profundo"},
         "description": {"color":"green","translate":"Mate um Elder Guardian"},
-        "announce_to_chat": "true",
+        "announce_to_chat": true,
         "frame": "goal"
     },
     "parent": "minecraft:adventure/titanic",

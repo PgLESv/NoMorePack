@@ -5,7 +5,7 @@
         },
         "title": {"translate":"Slenderman"},
         "description": {"translate":"Mate esse monstro tenebroso"},
-        "announce_to_chat": "true",
+        "announce_to_chat": true,
 		"frame": "goal"
     },
     "parent": "minecraft:adventure/the_one_and_true_johnny",

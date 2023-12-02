@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"Leve como a lebre"},
 		"description": {"translate":"Ande sobre a neve fofa sem afundar"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:adventure/sleep_in_bed",
 	"rewards": {

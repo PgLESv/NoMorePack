@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Bons sonhos"},
 		"description": {"translate":"Durma numa cama para alterar o seu ponto de renascimento"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:adventure/root",
 	"rewards": {

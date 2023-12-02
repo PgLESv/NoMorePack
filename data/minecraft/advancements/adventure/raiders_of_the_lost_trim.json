@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Tomb Raider"},
 		"description": {"color":"green","translate":"Escave cuidadosamente um molde de ferraria nas trilhas em ruínas"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "minecraft:adventure/happy_trails",

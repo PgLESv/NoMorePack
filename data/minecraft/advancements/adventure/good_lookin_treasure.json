@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Upgrades, people. Upgrades."},
 		"description": {"color":"green","translate":"Encontre um molde de ferraria"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:adventure/root",
 	"rewards": {

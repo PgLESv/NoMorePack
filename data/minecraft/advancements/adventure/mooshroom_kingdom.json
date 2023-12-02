@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Filme do mario"},
 		"description": {"color":"green","translate":"Encontre uma Ilha de Cogumelos"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:adventure/sleep_in_bed",	
 	"rewards": {

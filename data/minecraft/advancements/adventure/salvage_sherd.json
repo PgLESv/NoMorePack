@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Seu lugar é no museu"},
 		"description": {"color":"green","translate":"Escove um bloco suspeito e obtenha um óstraco"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:adventure/brushed_away",
 	"rewards": {

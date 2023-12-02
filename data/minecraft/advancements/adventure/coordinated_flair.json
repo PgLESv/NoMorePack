@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"Combinando"},
 		"description": {"color":"green","translate":"Usar uma armadura com todas as quatro peças enfeitadas com o mesmo material"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "minecraft:adventure/trim_with_any_armor_pattern",

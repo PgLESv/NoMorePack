@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"É um avião?"},
 		"description": {"translate":"Observe o Dragão Ender com uma luneta"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:adventure/spyglass_at_ghast",
 	"rewards": {

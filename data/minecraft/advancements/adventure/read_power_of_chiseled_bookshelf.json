@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Saber é poder"},
 		"description": {"color":"green","translate":"Capte o sinal de redstone de um porta-livros com um comparador"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:adventure/root",
 	"rewards": {

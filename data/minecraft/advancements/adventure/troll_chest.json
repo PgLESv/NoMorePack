@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"IT'S A TRAP"},
 		"description": {"color":"green","translate":"Acione um baú trap. Bom para trollar seus amigos!"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:adventure/master_engineer",
 	"rewards": {

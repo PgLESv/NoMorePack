@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Estrela cadente"},
 		"description": {"translate":"Sobreviva a uma queda do ponto mais alto do mundo (altura-limite) ao mais baixo"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "task"
 	},
 	"parent": "minecraft:mining/rock_bottom",

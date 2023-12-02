@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Ah sim, o negociador"},
 		"description": {"color":"dark_purple","translate":"Negocie com todo os tipos de profissões de aldeão"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "minecraft:adventure/hero_of_the_village",

@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Parabains"},
 		"description": {"color":"green","translate":"Coloque uma vela em um bolo"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:adventure/root",
 	"rewards": {

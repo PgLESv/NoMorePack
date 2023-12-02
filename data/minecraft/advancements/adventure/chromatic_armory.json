@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"Os Super Sayajins"},
 		"description": {"color":"green","translate":"Enfeite peças de armadura com todos os tipos de materiais"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "minecraft:adventure/trim_with_all_exclusive_armor_patterns",

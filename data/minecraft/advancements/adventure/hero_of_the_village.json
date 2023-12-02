@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"Herói da vila"},
 		"description": {"color":"#C900C7","translate":"Defenda uma vila de uma invasão"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "minecraft:adventure/were_being_attacked",

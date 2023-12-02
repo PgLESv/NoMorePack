@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Museu do Louvre"},
 		"description": {"color":"green","translate":"Consiga todos os tipos de quadros"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "minecraft:adventure/fruit_of_the_looms",

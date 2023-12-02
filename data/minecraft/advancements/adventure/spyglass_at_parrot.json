@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"É um pássaro?"},
 		"description": {"translate":"Observe um papagaio com uma luneta"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:adventure/root",
 	"rewards": {

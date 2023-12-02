@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Situação melada"},
 		"description": {"translate":"Dseslize por um bloco de mel para amortecer a queda"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:adventure/root",
 	"rewards": {

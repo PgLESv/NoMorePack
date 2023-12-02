@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Valsa das flores"},
 		"description": {"color":"green","translate":"Faça as pradarias ganharem vida ao som de um toca-discos"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:adventure/sleep_in_bed",
 	"rewards": {

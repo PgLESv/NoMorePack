@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Copyright Strike"},
 		"description": {"color":"dark_purple","translate":"Escute todos os discos de música"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "minecraft:adventure/play_jukebox_in_meadows",	

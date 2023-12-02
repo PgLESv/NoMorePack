@@ -1,4 +1,4 @@
-tellraw @s {"color":"gray","italic":"true","translate":"Ninth line complete…"}
+tellraw @s {"color":"gray","italic":true,"translate":"Ninth line complete…"}
 
 tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Tenth Parchment"}]}
 

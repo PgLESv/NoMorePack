@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Veterano da Vila"},
 		"description": {"color":"dark_purple","translate":"Consiga o nivel mais alto de herói da vila"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "minecraft:adventure/war_is_coming",

@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Indiano Jonas e o Templo da Perdição"},
 		"description": {"color":"green","translate":"Descubra as trilhas em ruínas"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:adventure/brushed_away",
 	"rewards": {

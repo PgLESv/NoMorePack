@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Aliança"},
 		"description": {"color":"green","translate":"Resgate um Allay de um Pillager Outpost ou Woodland Mansion e dê a ele algo para brincar"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:adventure/house_of_psychos",
 	"rewards": {

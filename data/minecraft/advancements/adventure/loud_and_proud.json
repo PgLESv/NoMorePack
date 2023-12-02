@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Alto e orgulhoso"},
 		"description": {"color":"green","translate":"Assopre um Chifre de Cabra no Escuro Profundo"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "minecraft:adventure/battle_of_the_bands",

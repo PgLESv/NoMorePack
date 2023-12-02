@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Churras do Admin"},
 		"description": {"color":"green","translate":"Coloque todas as comidas possiveis numa fogueira"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "minecraft:adventure/root",

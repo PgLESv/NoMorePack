@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"A última moda"},
 		"description": {"color":"green","translate":"Enfeite uma armadura numa bancada de ferraria"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:adventure/good_lookin_treasure",
 	"rewards": {

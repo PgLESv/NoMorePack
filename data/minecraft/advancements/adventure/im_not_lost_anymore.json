@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"GPS"},
 		"description": {"color":"green","translate":"Clique com o botão direito do mouse em um banner com um mapa"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:adventure/root",
 	"rewards": {

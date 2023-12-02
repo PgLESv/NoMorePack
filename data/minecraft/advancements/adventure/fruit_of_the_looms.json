@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Bruce Banner"},
 		"description": {"color":"dark_purple","translate":"Consiga todos os padrões de banner"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "minecraft:adventure/master_logger",
