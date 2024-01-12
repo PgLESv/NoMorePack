@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Quem com ferro fere..."},
 		"description": {"color":"#49DB49","translate":"Proteja-se com uma peça de armadura de ferro"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:combate/root",
 	"rewards": {

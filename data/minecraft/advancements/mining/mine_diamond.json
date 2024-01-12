@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Diamantes!"},
 		"description": {"color":"#49DB49","translate":"Obtenha diamantes"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:mining/iron_tools",
 	"rewards": {

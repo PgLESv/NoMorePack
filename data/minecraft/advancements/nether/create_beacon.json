@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Haja luz"},
 		"description": {"color":"green","translate":"Construa e posicione um Sinalizador"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "minecraft:nether/summon_wither",

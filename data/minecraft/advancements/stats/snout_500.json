@@ -5,7 +5,7 @@
         },
         "title": {"translate":"Rabicó Simulator"},
         "description": {"color":"dark_purple","translate":"Ande 1km em um porco"},
-        "announce_to_chat": "true",
+        "announce_to_chat": true,
 		"frame": "goal"
     },
     "parent": "minecraft:stats/scourge_of_the_west",

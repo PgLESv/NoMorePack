@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Aromas"},
 		"description": {"color":"green","translate":"Alimente um filhote de farejador"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:husbandry/obtain_sniffer_egg",
 	"rewards": {

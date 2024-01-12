@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Zoologico"},
 		"description": {"color":"dark_purple","translate":"Traga um de cada tipo de animal para um lugar (tenha todos eles dentro de 32 blocos de você)"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "minecraft:husbandry/bred_all_animals",

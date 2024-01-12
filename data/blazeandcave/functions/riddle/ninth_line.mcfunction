@@ -1,5 +1,5 @@
-tellraw @s {"color":"gray","italic":true,"translate":"Ninth line complete…"}
+tellraw @s {"color":"gray","italic":true,"translate":"Nona linha completa…"}
 
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Tenth Parchment"}]}
+tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Décimo pergaminho"}]}
 
-give @s paper{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],HideFlags:1,display:{Name:"{\"color\":\"white\",\"translate\":\"Tenth Parchment\"}",Lore:["{\"color\":\"gray\",\"italic\":\"true\",\"translate\":\"Place Warped Buttons to number a thousand\"}","{\"color\":\"gray\",\"italic\":\"true\",\"translate\":\"For this was the thousandth item added to the game\"}","{\"color\":\"gray\",\"italic\":\"true\",\"translate\":\"Like how this is the thousandth advancement added to the pack\"}"]}}
+give @s paper{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],HideFlags:1,display:{Name:"{\"color\":\"white\",\"translate\":\"Décimo pergaminho\"}",Lore:["{\"color\":\"gray\",\"italic\":true,\"translate\":\"Coloque os botões distorcidos em um número de mil\"}","{\"color\":\"gray\",\"italic\":true,\"translate\":\"Pois esse foi o milésimo item adicionado ao jogo\"}","{\"color\":\"gray\",\"italic\":true,\"translate\":\"Como o fato de este ser a milésima conquista adicionada ao pacote\"}"]}}

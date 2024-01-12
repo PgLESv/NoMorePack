@@ -5,7 +5,7 @@
         },
         "title": {"translate":"A segunda melhor"},
         "description": {"color":"green","translate":"Crie uma picareta do (antigo) maior calibre!"},
-        "announce_to_chat": "true"
+        "announce_to_chat": true
     },
     "parent": "minecraft:mining/mine_diamond",
     "rewards": {

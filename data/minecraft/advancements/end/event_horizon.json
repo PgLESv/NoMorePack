@@ -5,7 +5,7 @@
         },
         "title": {"translate":"O RETORNO!"},
         "description": {"color":"dark_purple","translate":"Sobreviva ao Void!"},
-        "announce_to_chat": "true",
+        "announce_to_chat": true,
 		"frame": "challenge"
     },
     "parent": "minecraft:end/the_point_of_no_return",

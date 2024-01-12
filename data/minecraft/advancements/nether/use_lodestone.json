@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"Um caminho com volta"},
 		"description": {"color":"green","translate":"Use uma bússola numa magnetita"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:nether/diamonds_are_not_forever",
 	"rewards": {

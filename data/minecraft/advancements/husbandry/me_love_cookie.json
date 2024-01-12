@@ -5,7 +5,7 @@
         },
         "title": {"translate":"Tem Mais Cookies?"},
         "description": {"color":"green","translate":"Coma Cookies (Roube Cookies da Bella)"},
-        "announce_to_chat": "true"
+        "announce_to_chat": true
     },
     "parent": "minecraft:husbandry/plant_seed",
 	"rewards": {

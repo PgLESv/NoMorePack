@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"Hoje não, valeu"},
 		"description": {"color":"#49DB49","translate":"Desvie um projétil com um escudo"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:combate/kill_a_mob",
 	"rewards": {

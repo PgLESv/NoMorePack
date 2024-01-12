@@ -5,7 +5,7 @@
         },
         "title": {"translate":"Diamante? Cringe"},
         "description": {"color":"green","translate":"Use Ouro e Fragmentos de Netherite para fazer uma Barra de Netherite"},
-        "announce_to_chat": "true"
+        "announce_to_chat": true
     },
     "parent": "minecraft:nether/obtain_ancient_debris",
 	"rewards": {

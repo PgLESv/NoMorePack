@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Dogfight"},
 		"description": {"color":"dark_purple","translate":"Mate um Skeleton ou Stray enquanto você e ele tiverem levitação"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "minecraft:combate/sniper_duel",

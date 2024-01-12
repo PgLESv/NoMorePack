@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Boa mira"},
 		"description": {"translate":"Acerte algo com uma flecha"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:combate/deflect_arrow",
 	"rewards": {

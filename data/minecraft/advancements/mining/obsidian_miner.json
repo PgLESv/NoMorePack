@@ -5,7 +5,7 @@
         },
         "title": {"translate":"Minerador de obsidian"},
         "description": {"color":"green","translate":"Minere um pack de obsidian (isso vai demorar um pouco...)"},
-        "announce_to_chat": "true",
+        "announce_to_chat": true,
 		"frame": "goal"
     },
     "parent": "minecraft:mining/bulldozer",

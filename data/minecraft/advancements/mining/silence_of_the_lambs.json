@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Silêncio dos Inocentes"},
 		"description": {"color":"dark_purple","translate":"Traga uma ovelha para uma cidade antiga e silencie-a"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "minecraft:mining/fallen_kingdom",

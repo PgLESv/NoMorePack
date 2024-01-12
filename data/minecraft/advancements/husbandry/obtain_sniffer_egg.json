@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Cheirim bão"},
 		"description": {"color":"green","translate":"Obtenha um ovo de farejador"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:husbandry/root",
 	"rewards": {

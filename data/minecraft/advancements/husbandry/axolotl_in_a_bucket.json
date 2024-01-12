@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Fofos e furiosos"},
 		"description": {"color":"green","translate":"Capture um axolote com um balde"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:husbandry/tactical_fishing",
 	"rewards": {

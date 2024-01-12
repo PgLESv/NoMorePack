@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Como matar o seu Dragão"},
 		"description": {"color":"dark_purple","translate":"Mate o Ender Dragon 20 vezes!"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "minecraft:end/what_for",

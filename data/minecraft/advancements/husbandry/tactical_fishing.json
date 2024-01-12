@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Pesca Tática"},
 		"description": {"color":"green","translate":"Capture um peixe, sem uma vara de pesca!"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:husbandry/fishy_business",
 	"rewards": {

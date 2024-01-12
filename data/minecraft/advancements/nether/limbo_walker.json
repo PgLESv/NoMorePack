@@ -5,7 +5,7 @@
         },
         "title": {"translate":"I have the high ground"},
         "description": {"color":"dark_purple","translate":"Suba no teto do Nether"},
-        "announce_to_chat": "true"
+        "announce_to_chat": true
 
     },
     "parent": "minecraft:nether/root",

@@ -5,7 +5,7 @@
         },
         "title": {"translate":"Olhe para cima"},
         "description": {"translate":"Obtenha estalactites de uma caverna de espeleotemas"},
-        "announce_to_chat": "true"
+        "announce_to_chat": true
     },
     "parent": "minecraft:mining/deep_slate_nine",
     "rewards": {

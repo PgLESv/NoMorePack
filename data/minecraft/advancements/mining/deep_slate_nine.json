@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"A velha bedrock"},
 		"description": {"color":"green","translate":"Minere fundo o suficiente para a rocha se tornar escura"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:mining/spelunker",
 	"rewards": {

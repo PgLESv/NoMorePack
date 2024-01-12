@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"A Idade da Pedra"},
 		"description": {"color":"#49DB49","translate":"Minere pedras com sua nova picareta"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:mining/root",
 	"rewards": {

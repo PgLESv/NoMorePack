@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Seja mel convidado"},
 		"description": {"color":"green","translate":"Faça uma fogueira para coletar mel de uma colmeia com um frasco, sem irritar as abelhas"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:husbandry/root",
 	"rewards": {

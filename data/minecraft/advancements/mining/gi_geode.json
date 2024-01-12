@@ -5,7 +5,7 @@
         },
         "title": {"translate":"Sabedoria, equilibrio e proteção"},
         "description": {"translate":"Ache um geodo de ametista e minere um aglomerado de ametista"},
-        "announce_to_chat": "true"
+        "announce_to_chat": true
     },
     "parent": "minecraft:mining/rock_bottom",
     "rewards": {

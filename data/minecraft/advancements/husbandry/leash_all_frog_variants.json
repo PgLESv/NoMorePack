@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Os três mosqueteiros"},
 		"description": {"color":"green","translate":"Capture todos os tipos de sapo com um laço"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:husbandry/tadpole_in_a_bucket",
 	"rewards": {

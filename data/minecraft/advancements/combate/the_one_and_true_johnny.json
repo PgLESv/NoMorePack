@@ -5,15 +5,20 @@
 		},
 		"title": {"translate":"O único e verdadeiro Johnny"},
 		"description": {"color":"dark_purple","translate":"Derrote Johnny"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
-	},
-	"parent": "minecraft:combate/whos_the_pillager_now",
-	"rewards": {
-		"function": "bc_rewards:adventure/the_one_and_true_johnny"
 	},		
 	"criteria": {
 		"johnny": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "vindicator",
+					"nbt": "{CustomName:\'\"Johnny\"\'}"
+				}
+			}
+		},
+		"johnny_old": {
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
@@ -22,5 +27,11 @@
 				}
 			}
 		}
-	}
+	},
+	"requirements": [
+		[
+			"johnny",
+			"johnny_old"
+		]
+	]
 }

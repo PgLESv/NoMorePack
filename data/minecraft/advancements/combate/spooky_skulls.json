@@ -5,7 +5,7 @@
         },
         "title": {"translate":"Cranios Assustadores"},
         "description": {"color":"dark_purple","translate":"Exploda um esqueleto com um Creeper Carregado para conseguir uma cabeça"},
-        "announce_to_chat": "true",
+        "announce_to_chat": true,
 		"frame": "challenge"
     },
     "parent": "minecraft:combate/bone_to_party",

@@ -5,7 +5,7 @@
         },
         "title": {"translate":"De dois em dois em dois..."},
         "description": {"color":"dark_purple","translate":"Faça 2500 animais filhotes"},
-        "announce_to_chat": "true",
+        "announce_to_chat": true,
 		"frame": "challenge"
     },
     "parent": "minecraft:stats/root",

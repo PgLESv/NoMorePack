@@ -5,9 +5,9 @@
 		},
 		"title": {"bold":"true","translate":"65","extra":[{"text":" "},{"bold":"false","translate":"horas de caminhada"}]},
 		"description": {"color":"light_purple","translate":"Caminhe 1000km."},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge",
-		"hidden": "true"
+		"hidden": true
 	},
 	"parent": "minecraft:stats/i_enjoy_long_walks_and_playing_minecraft",
 	"rewards": {

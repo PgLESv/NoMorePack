@@ -5,7 +5,7 @@
         },
         "title": {"translate":"Lampião e Suas Façanhas"},
         "description": {"color":"dark_purple","translate":"Ande 50km em um cavalo"},
-        "announce_to_chat": "true",
+        "announce_to_chat": true,
 		"frame": "challenge"
     },
     "parent": "minecraft:stats/sheriff_firearm",

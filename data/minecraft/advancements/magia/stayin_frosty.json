@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Fica frio aí"},
 		"description": {"translate":"Nade na lava com Resistencia ao Fogo"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:magia/failed_concoctions",
 	"rewards": {

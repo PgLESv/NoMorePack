@@ -140,21 +140,22 @@ execute unless score milestone bac_settings matches ..1000 run scoreboard player
 
 
 # If a setting is set to anything other than off, /gamerule announceAdvancements is set to false
+# (This is done in all dimensions because on some kinds of servers this is required)
 execute unless score task bac_settings matches 0 run execute in the_end run gamerule announceAdvancements false
-execute in overworld run gamerule announceAdvancements false 
-execute in the_nether run gamerule announceAdvancements false
+execute unless score task bac_settings matches 0 run execute in overworld run gamerule announceAdvancements false 
+execute unless score task bac_settings matches 0 run execute in the_nether run gamerule announceAdvancements false
 execute unless score goal bac_settings matches 0 run execute in the_end run gamerule announceAdvancements false
-execute in overworld run gamerule announceAdvancements false 
-execute in the_nether run gamerule announceAdvancements false
+execute unless score goal bac_settings matches 0 run execute in overworld run gamerule announceAdvancements false 
+execute unless score goal bac_settings matches 0 run execute in the_nether run gamerule announceAdvancements false
 execute unless score challenge bac_settings matches 0 run execute in the_end run gamerule announceAdvancements false
-execute in overworld run gamerule announceAdvancements false 
-execute in the_nether run gamerule announceAdvancements false
+execute unless score challenge bac_settings matches 0 run execute in overworld run gamerule announceAdvancements false 
+execute unless score challenge bac_settings matches 0 run execute in the_nether run gamerule announceAdvancements false
 execute unless score super_challenge bac_settings matches 0 run execute in the_end run gamerule announceAdvancements false
-execute in overworld run gamerule announceAdvancements false 
-execute in the_nether run gamerule announceAdvancements false
+execute unless score super_challenge bac_settings matches 0 run execute in overworld run gamerule announceAdvancements false 
+execute unless score super_challenge bac_settings matches 0 run execute in the_nether run gamerule announceAdvancements false
 execute unless score milestone bac_settings matches 0 run execute in the_end run gamerule announceAdvancements false
-execute in overworld run gamerule announceAdvancements false 
-execute in the_nether run gamerule announceAdvancements false
+execute unless score milestone bac_settings matches 0 run execute in overworld run gamerule announceAdvancements false 
+execute unless score milestone bac_settings matches 0 run execute in the_nether run gamerule announceAdvancements false
 
 
 # # Starts timers

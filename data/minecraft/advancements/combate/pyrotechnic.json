@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"Pirotecnia"},
 		"description": {"color":"dark_purple","translate":"Faça um foguete de todos os formatos e efeitos adicionais"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "minecraft:combate/who_ya_gonna_call",

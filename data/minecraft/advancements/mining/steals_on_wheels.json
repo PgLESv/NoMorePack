@@ -5,7 +5,7 @@
         },
         "title": {"translate":"Correios!"},
         "description": {"color":"green","translate":"Abra um Minecart de uma Mina Abandonada!"},
-        "announce_to_chat": "true"
+        "announce_to_chat": true
     },
     "parent": "minecraft:mining/dungeons_and_spawners",
     "rewards": {

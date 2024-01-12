@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Salto de qualidade"},
 		"description": {"color":"#49DB49","translate":"Faça uma picareta melhor"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:mining/mine_stone",
 	"rewards": {

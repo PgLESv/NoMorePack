@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Raid no Fim"},
 		"description": {"color":"#FF2A2A","translate":"Como os Pillagers chegaram aqui?"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "minecraft:desafios/dragon_vs_dragon_ii_electric_boogaloo",

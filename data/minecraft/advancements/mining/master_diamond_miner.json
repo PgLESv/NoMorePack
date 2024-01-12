@@ -5,7 +5,7 @@
         },
         "title": {"translate":"Degustador de Diamantes"},
         "description": {"translate":"Minere Diamantes suficientes para fazer um pack de blocos!"},
-        "announce_to_chat": "true",
+        "announce_to_chat": true,
 		"frame": "challenge"
     },
     "parent": "minecraft:mining/master_iron_miner",

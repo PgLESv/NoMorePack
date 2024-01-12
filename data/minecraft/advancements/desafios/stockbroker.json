@@ -5,7 +5,7 @@
         },
         "title": {"translate":"Rota da Seda"},
         "description": {"color":"#FF2A2A","translate":"Troque com todas as profissões de Villager... de todos os Biomas"},
-        "announce_to_chat": "true",
+        "announce_to_chat": true,
 		"frame": "challenge"
     },
     "parent": "minecraft:desafios/root",

@@ -5,7 +5,7 @@
         },
         "title": {"translate":"Faber-Castell"},
         "description": {"color":"dark_purple","translate":"Pinte uma ovelha com todas as Cores"},
-        "announce_to_chat": "true",
+        "announce_to_chat": true,
 		"frame": "goal"
     },
     "parent": "minecraft:husbandry/breed_an_animal",

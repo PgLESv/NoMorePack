@@ -5,7 +5,7 @@
         },
         "title": {"translate":"SHAZAM!"},
         "description": {"color":"#FF2A2A","translate":"Acerte todos os Mobs que se transformam com Raios de uma vez só!"},
-        "announce_to_chat": "true",
+        "announce_to_chat": true,
 		"frame": "challenge"
     },
     "parent": "minecraft:desafios/root",

@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"Homem de... Netherite?"},
 		"description": {"color":"dark_purple","translate":"Crie um set completo de armadura com todos os encantamentos no nível máximo"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "minecraft:magia/enchant_item",

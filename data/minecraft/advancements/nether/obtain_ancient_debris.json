@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Adeus, diamantes!"},
 		"description": {"color":"green","translate":"Obtenha detritos ancestrais"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:nether/root",
 	"rewards": {

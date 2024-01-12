@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Cubra-me de diamantes"},
 		"description": {"color":"#49DB49","translate":"Armaduras de Diamantes salvam vidas"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:combate/obtain_armor",
 	"rewards": {

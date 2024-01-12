@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Um lugar silencioso"},
 		"description": {"translate":"Ande furtivamente perto de um sensor de sculk ou defensor para evitar a detecção"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:mining/fallen_kingdom",
 	"rewards": {

@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Reabelhitação total"},
 		"description": {"color":"green","translate":"Mova uma colmeia com 3 abelhas dentro usando o Toque suave"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:husbandry/safely_harvest_honey",
 	"rewards": {

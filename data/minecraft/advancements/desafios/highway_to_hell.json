@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"O inferno é só o começo"},
 		"description": {"color":"#FF2A2A","translate":"Mande Todos os Monstros Para o Inferno... E Mate-os"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "minecraft:desafios/nuclear_fusion",

@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Coaxa d'água"},
 		"description": {"color":"green","translate":"Capture um girino com um balde"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:husbandry/root",
 	"rewards": {

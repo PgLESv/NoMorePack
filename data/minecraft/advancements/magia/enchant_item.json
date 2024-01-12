@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Aprendiz de feiticeiro"},
 		"description": {"color":"#49DB49","translate":"Encante um item em uma mesa de encantamentos"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:magia/root",
 	"rewards": {

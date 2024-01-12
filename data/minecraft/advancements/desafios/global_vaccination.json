@@ -5,7 +5,7 @@
         },
         "title": {"translate":"CoronaVac"},
         "description": {"color":"#FF2A2A","translate":"Cure Villagers Zumbis de Todas as Profissões... de Todos os Biomas!"},
-        "announce_to_chat": "true",
+        "announce_to_chat": true,
         "frame": "challenge"
     },
     "parent": "minecraft:desafios/stockbroker",

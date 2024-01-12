@@ -6,7 +6,7 @@
         },
         "title": {"translate":"Então essa é a Água 2?"},
         "description": {"color":"green","translate":"Fermente uma poção mundana e uma grossa"},
-        "announce_to_chat": "true"
+        "announce_to_chat": true
     },
     "parent": "minecraft:magia/potions",
 	"rewards": {

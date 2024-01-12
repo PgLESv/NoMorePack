@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Temperatura máxima"},
 		"description": {"color":"#49DB49","translate":"Encha um balde com lava"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:mining/smelt_iron",
 	"rewards": {

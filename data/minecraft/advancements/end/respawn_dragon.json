@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"A volta dos que não foram"},
 		"description": {"color":"green","translate":"Invoque novamente o Dragão Ender"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "minecraft:end/kill_dragon",

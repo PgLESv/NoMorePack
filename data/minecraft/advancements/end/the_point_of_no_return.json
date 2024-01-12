@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"O ponto sem retorno...?"},
 		"description": {"translate":"Caia no Void"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:end/elytra",
 	"rewards": {

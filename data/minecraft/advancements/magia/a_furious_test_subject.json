@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"A cobaia se revoltou"},
 		"description": {"color":"dark_purple","translate":"Seja atacado por uma criatura com todos os efeitos de poção"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "minecraft:magia/all_potions",

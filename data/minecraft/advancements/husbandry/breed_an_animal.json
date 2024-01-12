@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"O amor está no ar"},
 		"description": {"color":"green","translate":"Acasale dois animais"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:husbandry/root",
 	"rewards": {

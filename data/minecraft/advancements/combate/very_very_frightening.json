@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Choque do trovão"},
 		"description": {"translate":"Acerte um aldeão com um raio"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:combate/throw_trident",
 	"rewards": {

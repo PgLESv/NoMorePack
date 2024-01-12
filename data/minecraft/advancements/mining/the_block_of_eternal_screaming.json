@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"O Bloco do Grito Eterno"},
 		"description": {"color":"green","translate":"Use Silk Touch para pegar um Sculk Shrieker"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "minecraft:mining/fallen_kingdom",

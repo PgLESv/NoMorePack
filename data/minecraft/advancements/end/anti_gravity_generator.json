@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Gerador Anti-Gravidade"},
 		"description": {"color":"dark_purple","translate":"Traga um shulker para o mundo e deixe-o lhe dar antigravidade"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "minecraft:end/a_wizards_breakfast",

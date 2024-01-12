@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Paleobotânico"},
 		"description": {"color":"green","translate":"Plante uma semente de um farejador"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:husbandry/feed_snifflet",
 	"rewards": {

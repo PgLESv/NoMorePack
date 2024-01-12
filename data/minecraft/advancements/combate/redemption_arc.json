@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Arco de Redenção"},
 		"description": {"color":"dark_purple","translate":"Faça amizade com um Pillager que não tenha uma besta"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "minecraft:combate/whos_the_pillager_now",

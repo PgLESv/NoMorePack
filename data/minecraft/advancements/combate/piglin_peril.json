@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Technoblade Reference"},
 		"description": {"color":"dark_purple","translate":"Obtenha uma Cabeça de Piglin explodindo um Piglin com um Creeper carregado"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "minecraft:combate/still_talking",

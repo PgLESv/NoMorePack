@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"O feitiço se voltou contra o feiticeiro"},
 		"description": {"color":"green","translate":"Mate um Ghast usando um foguete"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "minecraft:combate/ol_betsy",

@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"POV: Você é a TeKel"},
 		"description": {"translate":"Morra duas vezes em menos de dez segundos"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 
 	},
 	"parent": "minecraft:combate/kill_a_mob",

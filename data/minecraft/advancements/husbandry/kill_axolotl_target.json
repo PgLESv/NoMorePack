@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"A união faz a força"},
 		"description": {"color":"green","translate":"Junte-se a um axolote e ganhe uma batalha"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:husbandry/axolotl_in_a_bucket",
 	"rewards": {

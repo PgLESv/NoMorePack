@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Elas crescem tão rápido..."},
 		"description": {"color":"green","translate":"Plante uma semente e veja ela crescer"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:husbandry/root",
 	"rewards": {

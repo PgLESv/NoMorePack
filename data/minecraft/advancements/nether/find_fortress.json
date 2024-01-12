@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Uma terrível fortaleza"},
 		"description": {"color":"green","translate":"Adentre uma fortaleza do Nether"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:nether/root",
 	"rewards": {

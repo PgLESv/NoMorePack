@@ -5,7 +5,7 @@
         },
         "title": {"translate":"Vim em busca de Prata..."},
         "description": {"color":"green","translate":"Ache uma Mina de Ouro na superficie de um bioma de Mesa"},
-        "announce_to_chat": "true"
+        "announce_to_chat": true
     },
     "parent": "minecraft:mining/steals_on_wheels",
     "rewards": {

@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"pula-pula da pracinha"},
 		"description": {"color":"dark_purple","translate":"pule 10000 vezes"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "minecraft:stats/root",

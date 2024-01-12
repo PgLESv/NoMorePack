@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Jogada de mestre"},
 		"description": {"translate":"Lance um tridente contra algo.\nAviso: jogar fora a sua única arma não é uma boa ideia."},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:combate/because_im_aquaman",
 	"rewards": {

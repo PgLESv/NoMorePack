@@ -5,7 +5,7 @@
         },
         "title": {"translate":"Duas Horas Depois..."},
         "description": {"translate":"Colete a Carapaça de Uma Tartaruga Bebê Quando Ela Crescer"},
-        "announce_to_chat": "true"
+        "announce_to_chat": true
     },
     "parent": "minecraft:husbandry/live_and_let_dye",
 	"rewards": {

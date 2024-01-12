@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Que daora, um Arbusto Seco"},
 		"description": {"color":"green","translate":"Consiga um Arbusto Seco, que serve pra... decoração? ou para invocar o corpo seco..."},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:husbandry/plant_seed",
 	"rewards": {

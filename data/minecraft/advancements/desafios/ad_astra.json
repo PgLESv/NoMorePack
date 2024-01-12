@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Yuri Gagarin"},
 		"description": {"color":"#FF2A2A","translate":"Voe a uma altitude de 10.000 Blocos!"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "minecraft:desafios/root",

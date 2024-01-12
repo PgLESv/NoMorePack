@@ -5,7 +5,7 @@
         },
         "title": {"translate":"Apreciador de Ferro"},
         "description": {"translate":"Minere Ferro suficiente para fazer um pack de blocos!"},
-        "announce_to_chat": "true",
+        "announce_to_chat": true,
 		"frame": "challenge"
     },
     "parent": "minecraft:mining/master_gold_miner",

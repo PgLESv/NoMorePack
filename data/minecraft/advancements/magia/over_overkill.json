@@ -6,7 +6,7 @@
         },
         "title": {"translate":"Legítima defesa"},
         "description": {"color":"dark_purple","translate":"Aplique um dano de 16 corações em um inimigo com um único ataque"},
-        "announce_to_chat": "true",
+        "announce_to_chat": true,
 		"frame": "challenge"
     },
     "parent": "minecraft:magia/a_rather_pointy_fence_post",

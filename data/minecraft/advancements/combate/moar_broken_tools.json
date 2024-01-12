@@ -5,7 +5,7 @@
         },
         "title": {"translate":"Mau usuário"},
         "description": {"translate":"Quebre toda ferramenta e arma do jogo"},
-        "announce_to_chat": "true",
+        "announce_to_chat": true,
         "frame": "challenge"
     },
     "parent": "minecraft:combate/stabcraft",

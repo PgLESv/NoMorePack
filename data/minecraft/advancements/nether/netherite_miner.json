@@ -5,7 +5,7 @@
         },
         "title": {"translate":"Fã de Detritos Ancestrais"},
         "description": {"color":"dark_purple","translate":"Minere um pack de Detritos Ancestrais!"},
-        "announce_to_chat": "true",
+        "announce_to_chat": true,
 		"frame": "challenge"
     },
     "parent": "minecraft:nether/diamonds_are_not_forever",

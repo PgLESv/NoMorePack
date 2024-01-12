@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Battletoads VS o Void"},
 		"description": {"color":"dark_purple","translate":"Abaixe um sapo no void usando uma poção de queda lenta e, em seguida, mate-o para que ele se torne um com o void"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "minecraft:end/root",

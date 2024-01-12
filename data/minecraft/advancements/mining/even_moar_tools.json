@@ -5,7 +5,7 @@
         },
         "title": {"translate":"Kit completo"},
         "description": {"color":"green","translate":"Faça todas as ferramentas de diamante"},
-        "announce_to_chat": "true"
+        "announce_to_chat": true
     },
     "parent": "minecraft:mining/iconic_merchandising_prop",
     "rewards": {

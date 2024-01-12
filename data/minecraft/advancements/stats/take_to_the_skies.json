@@ -5,7 +5,7 @@
         },
         "title": {"translate":"14-Bis"},
         "description": {"color":"green","translate":"Voe 10km com a Elytra!"},
-        "announce_to_chat": "true"
+        "announce_to_chat": true
     },
     "parent": "minecraft:stats/root",
 	"rewards": {

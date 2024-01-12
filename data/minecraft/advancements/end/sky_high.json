@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"O Céu é o Limite!"},
 		"description": {"color":"green","translate":"Voe acima do Limite de Construção atual!"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "minecraft:end/elytra",

@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Fallen Kingdom"},
 		"description": {"color":"green","translate":"Encontre e entre em uma Cidade Antiga no subsolo"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:mining/root",
 	"rewards": {

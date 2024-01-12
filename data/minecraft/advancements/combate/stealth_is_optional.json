@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Furtividade é opcional"},
 		"description": {"color":"dark_purple","translate":"Mate um Warden nas cavernas mais profundas e escuras"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "minecraft:mining/fallen_kingdom",

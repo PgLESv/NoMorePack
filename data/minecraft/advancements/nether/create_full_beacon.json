@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"E houve luz!"},
 		"description": {"color":"green","translate":"Carregue um sinalizador à potência máxima"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "minecraft:nether/create_beacon",

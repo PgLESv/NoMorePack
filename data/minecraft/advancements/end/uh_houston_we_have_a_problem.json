@@ -5,7 +5,7 @@
         },
         "title": {"translate":"Uh, Houston? Temos um Problema"},
         "description": {"color":"dark_purple","translate":"Voe a uma Altitude de 1.000 blocos!"},
-        "announce_to_chat": "true",
+        "announce_to_chat": true,
         "frame": "challenge"
     },
     "parent": "minecraft:end/sky_high",

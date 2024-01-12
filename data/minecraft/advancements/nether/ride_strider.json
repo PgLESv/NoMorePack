@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Um bote com pernas"},
 		"description": {"color":"green","translate":"Monte num lavagante usando uma vara com fungo distorcido"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:nether/root",
 	"rewards": {

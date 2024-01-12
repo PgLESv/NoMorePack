@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Falsa aliança"},
 		"description": {"color":"dark_purple","translate":"Resgate um Ghast do Nether, traga-o são e salvo a Superficie... e depois mate-o."},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "minecraft:nether/return_to_sender",

@@ -5,7 +5,7 @@
         },
         "title": {"translate":"Batman?"},
         "description": {"color":"green","translate":"Entre em todas as cavernas"},
-        "announce_to_chat": "true"
+        "announce_to_chat": true
     },
     "parent": "minecraft:mining/root",
 	"rewards": {

@@ -5,7 +5,7 @@
         },
         "title": {"translate": "Cortem a Cabeça!"},
         "description": {"color":"green","translate": "Colete a Cabeça de Dragão na ponta de um Navio do Fim"},
-        "announce_to_chat": "true"
+        "announce_to_chat": true
     },
     "parent": "minecraft:end/find_end_city",
     "rewards": {

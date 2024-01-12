@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Tira cera"},
 		"description": {"color":"green","translate":"Remova a cera de um bloco de cobre"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:husbandry/wax_on",
 	"rewards": {

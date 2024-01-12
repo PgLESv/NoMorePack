@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Cortem-lhe a cabeça!"},
 		"description": {"color":"green","translate":"Obtenha o crânio de esqueleto Wither"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:nether/find_fortress",
 	"rewards": {

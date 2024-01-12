@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Entrando numa fria"},
 		"description": {"color":"#49DB49","translate":"Obtenha um bloco de obsidiana"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:mining/lava_bucket",
 	"rewards": {

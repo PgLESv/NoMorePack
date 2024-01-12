@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"O olho que o fim vê"},
 		"description": {"color":"#49DB49","translate":"Siga um Olho de ender."},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:mining/enter_the_nether",
 	"rewards": {

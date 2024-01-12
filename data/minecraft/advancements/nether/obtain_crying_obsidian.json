@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Quem tá cortando cebola?"},
 		"description": {"color":"green","translate":"Obtenha uma obsidiana chorona"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:nether/root",
 	"rewards": {

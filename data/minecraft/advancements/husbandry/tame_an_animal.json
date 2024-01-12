@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Amigos para sempre"},
 		"description": {"color":"green","translate":"Domestique um animal"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:husbandry/root",
 	"rewards": {

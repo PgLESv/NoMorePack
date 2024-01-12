@@ -5,7 +5,7 @@
         },
         "title": {"translate":"Dwayne Johnson (O Rocha)"},
         "description": {"translate":"Colete todos os tipos de pedras"},
-        "announce_to_chat": "true"
+        "announce_to_chat": true
     },
     "parent": "minecraft:mining/deep_slate_nine",
     "rewards": {

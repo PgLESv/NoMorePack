@@ -5,7 +5,7 @@
         },
         "title": {"translate":"Dragão vs Dragão"},
         "description": {"color":"#FF2A2A","translate":"Mate o Ender Dragon Usando Uma Cabeça de Dragão... Sem Tocar O Chão!"},
-        "announce_to_chat": "true",
+        "announce_to_chat": true,
 		"frame": "challenge"
     },
     "parent": "minecraft:desafios/root",

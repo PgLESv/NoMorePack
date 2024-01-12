@@ -6,7 +6,7 @@
         },
         "title": {"translate":"Cientista Louco"},
         "description": {"color":"dark_purple","translate":"Cure um villager zumbi de cada profissão"},
-        "announce_to_chat": "true",
+        "announce_to_chat": true,
         "frame": "challenge"
     },
     "parent": "minecraft:magia/cure_zombie_villager",

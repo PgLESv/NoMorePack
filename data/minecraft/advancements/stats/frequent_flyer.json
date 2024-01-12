@@ -5,7 +5,7 @@
         },
         "title": {"translate":"Bem-te-vi"},
         "description": {"color":"dark_purple","translate":"Voe 1000km com uma Elytra!"},
-        "announce_to_chat": "true",
+        "announce_to_chat": true,
 		"frame": "challenge"
     },
     "parent": "minecraft:stats/supersonic",

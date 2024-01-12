@@ -5,7 +5,7 @@
         },
         "title": {"translate":"Eramos amigos até que..."},
         "description": {"translate":"Morra Por Uma Cabra"},
-        "announce_to_chat": "true"
+        "announce_to_chat": true
 
     },
     "parent": "minecraft:husbandry/ride_a_boat_with_a_goat",

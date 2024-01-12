@@ -5,8 +5,8 @@
 		},
 		"title": {"translate":"O vazio existencial"},
 		"description": {"color":"dark_purple","translate":"Chegue nas coordenadas do fim de tudo pela BR-101 e contemple a sua existencia"},
-		"announce_to_chat": "true",
-        "hidden": "true",
+		"announce_to_chat": true,
+        "hidden": true,
 		"frame": "challenge"
 	},
 	"parent": "minecraft:end/im_coming_back_murph",

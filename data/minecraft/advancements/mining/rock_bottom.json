@@ -5,7 +5,7 @@
         },
         "title": {"translate":"Fundo do poço"},
         "description": {"color":"green","translate":"Minere até o fundo do mundo"},
-        "announce_to_chat": "true",
+        "announce_to_chat": true,
         "frame": "goal"
     },
     "parent": "minecraft:mining/deep_slate_nine",

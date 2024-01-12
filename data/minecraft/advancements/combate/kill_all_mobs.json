@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Sem piedade"},
 		"description": {"translate":"Mate uma criatura hostil de cada tipo"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "minecraft:combate/demolitions_expert",

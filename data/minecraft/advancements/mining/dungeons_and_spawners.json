@@ -5,7 +5,7 @@
         },
         "title": {"translate":"Cuidado com o mímico"},
         "description": {"color":"green","translate":"Abra um baú em uma dungeon subterranea"},
-        "announce_to_chat": "true"
+        "announce_to_chat": true
     },
     "parent": "minecraft:mining/rock_bottom",
     "rewards": {

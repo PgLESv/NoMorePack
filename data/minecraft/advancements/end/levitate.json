@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Ótima vista daqui de cima"},
 		"description": {"color":"dark_purple","translate":"Levite até 50 blocos de altura com os ataques de um shulker"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "minecraft:end/find_end_city",

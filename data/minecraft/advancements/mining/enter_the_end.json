@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"É o fim?"},
 		"description": {"color":"#49DB49","translate":"Atravesse o portal do End"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:mining/follow_ender_eye",
 	"rewards": {

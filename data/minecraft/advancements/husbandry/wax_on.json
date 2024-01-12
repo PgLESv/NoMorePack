@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Bota cera"},
 		"description": {"color":"green","translate":"Encere um bloco de cobre com um favo de mel!"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:husbandry/safely_harvest_honey",
 	"rewards": {

@@ -5,7 +5,7 @@
         },
         "title": {"translate":"Dark Repulser"},
         "description": {"color":"green","translate":"Você gosta da minha espada?"},
-        "announce_to_chat": "true"
+        "announce_to_chat": true
     },
     "parent": "minecraft:combate/obtain_armor",
     "rewards": {

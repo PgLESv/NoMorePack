@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"Ladrão que rouba ladrão"},
 		"description": {"translate":"Faça um saqueador provar do próprio veneno"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:combate/ol_betsy",
 	"rewards": {

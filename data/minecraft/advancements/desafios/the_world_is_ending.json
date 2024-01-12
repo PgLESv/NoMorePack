@@ -6,7 +6,7 @@
         },
         "title": {"translate":"L'manberg"},
         "description": {"color":"#FF2A2A","translate":"Sumone 10 Withers ao mesmo tempo"},
-        "announce_to_chat": "true",
+        "announce_to_chat": true,
 		"frame": "challenge"
     },
     "parent": "minecraft:desafios/were_in_the_endgame_now",

@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"União tricolor!"},
 		"description": {"color":"dark_purple","translate":"Tenha todos os anfibrilhos no inventário"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "minecraft:husbandry/leash_all_frog_variants",

@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Achado não é roubado"},
 		"description": {"color":"green","translate":"Saqueie um baú nos bastiões em ruínas"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:nether/find_bastion",
 	"rewards": {
