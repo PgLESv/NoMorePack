@@ -12,4 +12,4 @@ scoreboard players set extra_trophy bac_settings 0
 
 scoreboard players set bac_created bac_created 1
 
-gamerule announceAdvancements false
+gamerule announceAdvancements true
