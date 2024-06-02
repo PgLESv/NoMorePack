@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:crossbow"
+        },
+        "title": {"translate":"Estamos Sendo Atacados!"},
+        "description": {"color":"green","translate":"Ative uma invasão de Illagers"},
+        "announce_to_chat": true
+    },
+    "parent": "minecraft:adventure/voluntary_exile",
+	"rewards": {
+		"function": "bc_rewards:adventure/were_being_attacked"
+    },
+    "criteria": {
+        "triggered_raid": {
+            "trigger": "minecraft:voluntary_exile"
+        }
+    }
+}

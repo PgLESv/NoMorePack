@@ -1,0 +1,2 @@
+execute if score challenge bac_settings matches 1 run function bc_rewards:msg/statistics/65_hours_of_walking
+execute if score challenge bac_settings matches -1 unless score minecraft:stats/65_hours_of_walking bac_obtained matches 1.. run function bc_rewards:msg/statistics/65_hours_of_walking

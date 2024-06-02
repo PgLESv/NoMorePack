@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:iron_sword"
+        },
+        "title": {"translate":"Guerra? º_º"},
+        "description": {"color":"dark_purple","translate":"Mate líderes de Patrulhas de Illager o suficiente para alcançar o maior nível de Mal Presságio"},
+        "announce_to_chat": true,
+		"frame": "challenge"
+    },
+    "parent": "minecraft:adventure/hero_of_the_village",
+    "rewards": {
+		"function": "bc_rewards:adventure/war_is_coming"
+    },		
+    "criteria": {
+        "bad_omen": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:bad_omen": {
+						"amplifier": {
+							"min": 4
+						}
+					}
+                }
+            }
+        }
+    }
+}

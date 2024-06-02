@@ -1,0 +1,28 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:ancient_debris"
+		},
+		"title": {"translate":"Adeus, diamantes!"},
+		"description": {"color":"green","translate":"Obtenha detritos ancestrais"},
+		"announce_to_chat": true
+	},
+	"parent": "minecraft:nether/root",
+	"rewards": {
+		"function": "bc_rewards:nether/nether_say_die"
+	},	
+	"criteria": {
+		"ancient_debris": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [ 
+							"minecraft:ancient_debris"
+						]
+					}
+				]
+			}
+		}
+	}
+}

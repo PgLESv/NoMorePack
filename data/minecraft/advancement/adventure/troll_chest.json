@@ -1,0 +1,33 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:trapped_chest"
+		},
+		"title": {"translate":"IT'S A TRAP"},
+		"description": {"color":"green","translate":"Acione um baú trap. Bom para trollar seus amigos!"},
+		"announce_to_chat": true
+	},
+	"parent": "minecraft:adventure/master_engineer",
+	"rewards": {
+		"function": "bc_rewards:redstone/troll_chest"
+	},
+	"criteria": {
+		"trapped_chest": {
+			"trigger": "minecraft:default_block_use",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:trapped_chest"
+								]
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}

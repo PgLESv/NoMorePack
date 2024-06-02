@@ -1,0 +1,56 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:white_banner",
+			"components": {
+				"minecraft:banner_patterns": [
+					{
+						"color": "cyan", 
+						"pattern": "minecraft:rhombus"
+					},
+					{
+						"color": "light_gray", 
+						"pattern": "minecraft:stripe_bottom"
+					},
+					{
+						"color": "gray", 
+						"pattern": "minecraft:stripe_center"
+					},
+					{
+						"color": "light_gray", 
+						"pattern": "minecraft:border"
+					},
+					{
+						"color": "black", 
+						"pattern": "minecraft:stripe_middle"
+					},
+					{
+						"color": "light_gray", 
+						"pattern": "minecraft:half_horizontal"
+					},
+					{
+						"color": "light_gray", 
+						"pattern": "minecraft:circle"
+					},
+					{
+						"color": "black", 
+						"pattern": "minecraft:border"
+					}
+				]
+			}
+		},
+		"title": {"translate":"Batalha das bandas"},
+		"description": {"color":"green","translate":"Sopre em um Chifre de Cabra durante uma raid pillager"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "minecraft:adventure/were_being_attacked",
+	"rewards": {
+		"function": "bc_rewards:animal/battle_of_the_bands"
+	},		
+	"criteria": {
+		"battle_of_the_bands": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

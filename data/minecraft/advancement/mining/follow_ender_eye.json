@@ -1,0 +1,45 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:ender_eye"
+		},
+		"title": {"translate":"O olho que o fim vê"},
+		"description": {"color":"green","translate":"Siga um Olho de ender."},
+		"announce_to_chat": true
+	},
+	"parent": "minecraft:mining/enter_the_nether",
+	"rewards": {
+		"function": "bc_rewards:nether/eye_spy"
+	},	
+	"criteria": {
+		"in_stronghold": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"location": {
+								"structures": "stronghold"
+							}
+						}
+					},
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"type_specific": {
+									"type": "player",
+									"gamemode": ["spectator"]
+								}
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}

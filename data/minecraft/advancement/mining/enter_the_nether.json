@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:flint_and_steel"
+		},
+		"title": {"translate":"O buraco é mais embaixo"},
+		"description": {"color":"#49DB49","translate":"Construa, ative e atravesse um portal para o Nether"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "minecraft:mining/form_obsidian",
+	"rewards": {
+		"function": "bc_rewards:mining/we_need_to_go_deeper"
+	},
+	"criteria": {
+		"entered_nether_portal": {
+			"trigger": "minecraft:enter_block",
+			"conditions": {
+				"block": "minecraft:nether_portal"
+			}
+		}
+	}
+}

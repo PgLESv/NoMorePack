@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:cobblestone"
+        },
+        "title": {"translate":"Mining Away"},
+        "description": {"color":"green","translate":"I don't know what to mine. I'll mine this anyway"},
+		"background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+	"rewards": {
+		"function": "bc_rewards:mining/root"
+    },
+    "criteria": {
+        "pickaxe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"tag": "minecraft:pickaxes"
+					}
+                ]
+            }
+        }
+    }
+}

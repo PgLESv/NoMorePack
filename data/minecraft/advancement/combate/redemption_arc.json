@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:pillager_spawn_egg"
+		},
+		"title": {"translate":"Arco de Redenção"},
+		"description": {"color":"dark_purple","translate":"Faça amizade com um Pillager que não tenha uma besta"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "minecraft:combate/whos_the_pillager_now",
+	"rewards": {
+		"function": "bc_rewards:adventure/redemption_arc"
+	},
+	"criteria": {
+		"redemption_arc": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

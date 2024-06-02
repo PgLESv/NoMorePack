@@ -1,0 +1,36 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:elytra"
+        },
+        "title": {"translate":"SR-71"},
+        "description": {"color":"dark_purple","translate":"Voe 100km com uma Elytra!"},
+        "announce_to_chat": true,
+		"frame": "goal"
+    },
+    "parent": "minecraft:stats/take_to_the_skies",
+	"rewards": {
+		"function": "minecraft:function/stats/supersonic"
+    },		
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"stats": [
+							{
+								"type": "minecraft:custom",
+								"stat": "minecraft:aviate_one_cm",
+								"value": {
+									"min": 10000000
+								}
+							}
+						]
+					}
+				}
+			}
+        }
+    }
+}

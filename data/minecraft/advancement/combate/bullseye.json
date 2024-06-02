@@ -1,0 +1,36 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:arrow"
+		},
+		"title": {"translate":"Na mosca!"},
+		"description": {"translate":"Acerte o centro de um alvo a pelo menos 30 blocos de distância"},
+		"announce_to_chat": true
+	},
+	"parent": "minecraft:combate/sniper_duel",
+	"rewards": {
+		"function": "bc_rewards:redstone/bullseye"
+	},	
+	"criteria": {
+		"bullseye": {
+			"trigger": "minecraft:target_hit",
+			"conditions": {
+				"signal_strength": 15,
+				"projectile": [
+					{
+						"type": "minecraft:arrow",
+						"entity": "this",
+						"condition": "minecraft:entity_properties",
+							"predicate": {
+								"distance": {
+									"horizontal": {
+									"min": 30.0
+								}
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}

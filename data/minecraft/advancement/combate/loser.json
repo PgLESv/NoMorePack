@@ -1,0 +1,40 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:black_banner",
+			"components": {
+				"minecraft:banner_patterns": [
+					{
+						"color": "white",
+						"pattern": "minecraft:stripe_left"
+					},
+					{
+						"color": "white",
+						"pattern": "minecraft:stripe_top"
+					},
+					{
+						"color": "white",
+						"pattern": "minecraft:stripe_middle"
+					},
+					{
+						"color": "black",
+						"pattern": "minecraft:border"
+					}
+				]
+			}
+		},
+		"title": {"translate":"POV: Você é a TeKel"},
+		"description": {"translate":"Morra duas vezes em menos de dez segundos"},
+		"announce_to_chat": true
+
+	},
+	"parent": "minecraft:combate/kill_a_mob",
+	"rewards": {
+		"function": "bc_rewards:weaponry/loser"
+	},		
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

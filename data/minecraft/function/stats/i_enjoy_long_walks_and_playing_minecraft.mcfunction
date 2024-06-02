@@ -1,0 +1,2 @@
+execute if score challenge bac_settings matches 1 run function bc_rewards:msg/statistics/i_enjoy_long_walks_and_playing_minecraft
+execute if score challenge bac_settings matches -1 unless score minecraft:stats/i_enjoy_long_walks_and_playing_minecraft bac_obtained matches 1.. run function bc_rewards:msg/statistics/i_enjoy_long_walks_and_playing_minecraft

@@ -1,0 +1,44 @@
+{
+    "display": {
+        "icon": {
+			"id": "minecraft:tipped_arrow",
+			"components": {
+				"minecraft:potion_contents": {
+					"potion": "minecraft:leaping"
+				}
+			}
+		},
+        "title": {"translate":"Justiça"},
+        "description": {"translate":"Mate todos os tipos de Illager com uma única flecha"},
+        "announce_to_chat": true,
+		"frame": "challenge"
+    },
+    "parent": "minecraft:adventure/veteran_of_the_village",
+    "rewards": {
+        "function": "bc_rewards:adventure/justice"
+    },	
+	"criteria": {
+		"arbalistic": {
+			"trigger": "minecraft:killed_by_crossbow",
+			"conditions": {
+				"victims": [
+					{
+						"type": "minecraft:pillager"
+					},
+					{
+						"type": "minecraft:vindicator"
+					},
+					{
+						"type": "minecraft:evoker"
+					},
+					{
+						"type": "minecraft:ravager"
+					},
+					{
+						"type": "minecraft:witch"
+					}
+				]
+			}
+		}
+	}
+}

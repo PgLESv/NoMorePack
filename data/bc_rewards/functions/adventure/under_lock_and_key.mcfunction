@@ -1,0 +1,2 @@
+execute if score challenge bac_settings matches 1 run function bc_rewards:msg/adventure/under_lock_and_key
+execute if score challenge bac_settings matches -1 unless score minecraft:adventure/under_lock_and_key bac_obtained matches 1.. run function bc_rewards:msg/adventure/under_lock_and_key

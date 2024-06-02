@@ -1,0 +1,37 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:bee_nest"
+		},
+		"title": {"translate":"Reabelhitação total"},
+		"description": {"color":"green","translate":"Mova uma colmeia com 3 abelhas dentro usando o Toque suave"},
+		"announce_to_chat": true
+	},
+	"parent": "minecraft:husbandry/safely_harvest_honey",
+	"rewards": {
+		"function": "bc_rewards:animal/total_beelocation"
+	},		
+	"criteria": {
+		"silk_touch_nest": {
+			"trigger": "minecraft:bee_nest_destroyed",
+			"conditions": {
+				"blocks": [
+					"minecraft:bee_nest"
+				],
+				"num_bees_inside": 3,
+				"item": {
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "minecraft:silk_touch",
+								"levels": {
+									"min": 1
+								}
+							}
+						]
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,98 @@
+{
+    "display": {
+        "icon": {
+			"id": "minecraft:diamond_pickaxe",
+			"components": {
+				"minecraft:enchantment_glint_override": true
+			}
+		},
+        "title": {"translate":"Mineiro supremo"},
+        "description": {"translate":"Crie um pão de queijo com todos os encantamentos no nível máximo"},
+        "announce_to_chat": true,
+		"frame": "challenge"
+    },
+    "parent": "minecraft:magia/enchant_item",
+    "rewards": {
+		"function": "bc_rewards:enchanting/master_miner"
+    },		
+    "criteria": {
+		"perfect_pickaxe_fortune": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"tag": "blazeandcave:master_pickaxes",
+						"enchantments": [
+							{
+								"enchantment": "minecraft:efficiency",
+								"levels": {
+									"min": 5
+								}
+							},
+							{
+								"enchantment": "minecraft:fortune",
+								"levels": {
+									"min": 3
+								}
+							},
+							{
+								"enchantment": "minecraft:unbreaking",
+								"levels": {
+									"min": 3
+								}
+							},
+							{
+								"enchantment": "minecraft:mending",
+								"levels": {
+									"min": 1
+								}
+							}	
+						]
+					}
+				]
+			}
+		},
+		"perfect_pickaxe_silk_touch": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"tag": "blazeandcave:master_pickaxes",
+						"enchantments": [
+							{
+								"enchantment": "minecraft:efficiency",
+								"levels": {
+									"min": 5
+								}
+							},
+							{
+								"enchantment": "minecraft:silk_touch",
+								"levels": {
+									"min": 1
+								}
+							},
+							{
+								"enchantment": "minecraft:unbreaking",
+								"levels": {
+									"min": 3
+								}
+							},
+							{
+								"enchantment": "minecraft:mending",
+								"levels": {
+									"min": 1
+								}
+							}	
+						]
+					}
+				]
+			}
+		}
+	},	
+	"requirements": [
+		[
+			"perfect_pickaxe_fortune",
+			"perfect_pickaxe_silk_touch"
+		]
+	]
+}

@@ -1,0 +1,2 @@
+execute if score goal bac_settings matches 1 run function bc_rewards:msg/statistics/boing_boing
+execute if score goal bac_settings matches -1 unless score minecraft:stats/boing_boing bac_obtained matches 1.. run function bc_rewards:msg/statistics/boing_boing

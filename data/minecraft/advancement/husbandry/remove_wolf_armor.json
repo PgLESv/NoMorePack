@@ -1,0 +1,33 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:shears"
+		},
+		"title": {"translate":"Em pele de lobo"},
+		"description": {"color":"green","translate":"Remova a armadura de um lobo com uma tesoura"},
+		"announce_to_chat": true
+	},
+	"parent": "minecraft:husbandry/repair_wolf_armor",
+	"rewards": {
+		"function": "bc_rewards:animal/shear_brilliance"
+	},
+	"criteria": {
+		"remove_wolf_armor": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:wolf"
+						}
+					}
+				],
+				"item": {
+					"items": "minecraft:shears"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,34 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:trident"
+		},
+		"title": {"translate":"Jogada de mestre"},
+		"description": {"translate":"Lance um tridente contra algo.\nAviso: jogar fora a sua única arma não é uma boa ideia."},
+		"announce_to_chat": true
+	},
+	"parent": "minecraft:combate/because_im_aquaman",
+	"rewards": {
+		"function": "bc_rewards:weaponry/a_throwaway_joke"
+	},
+	"criteria": {
+		"shot_trident": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"type": {
+						"tags": [
+							{
+								"id": "minecraft:is_projectile",
+								"expected": true
+							}
+						],
+						"direct_entity": {
+							"type": "minecraft:trident"
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:emerald"
+		},
+		"title": {"translate":"Negócio fechado!"},
+		"description": {"translate":"Faça uma troca com um aldeão"},
+		"announce_to_chat": true
+	},
+	"parent": "minecraft:adventure/root",
+	"rewards": {
+		"function": "bc_rewards:adventure/what_a_deal"
+	},		
+	"criteria": {
+		"trade": {
+			"trigger": "minecraft:villager_trade",
+			"conditions": {
+				"villager": {
+					"type": "villager"
+				}
+			}
+		}
+	}
+}

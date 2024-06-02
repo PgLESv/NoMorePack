@@ -1,0 +1,85 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:lead"
+		},
+		"title": {"translate":"Os três mosqueteiros"},
+		"description": {"color":"green","translate":"Capture todos os tipos de sapo com um laço"},
+		"announce_to_chat": true
+	},
+	"parent": "minecraft:husbandry/tadpole_in_a_bucket",
+	"rewards": {
+		"function": "bc_rewards:animal/when_the_squad_hops_into_town"
+	},
+	"criteria": {
+		"minecraft:temperate": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:lead"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:frog",
+							"type_specific": {
+								"type": "frog",
+								"variant": "minecraft:temperate"
+							}
+						}
+					}
+				]
+			}
+		},
+		"minecraft:warm": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:lead"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:frog",
+							"type_specific": {
+								"type": "frog",
+								"variant": "minecraft:warm"
+							}
+						}
+					}
+				]
+			}
+		},
+		"minecraft:cold": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:lead"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:frog",
+							"type_specific": {
+								"type": "frog",
+								"variant": "minecraft:cold"
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}

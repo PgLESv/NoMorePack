@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:wheat"
+		},
+		"title": {"translate":"O amor está no ar"},
+		"description": {"color":"green","translate":"Acasale dois animais"},
+		"announce_to_chat": true
+	},
+	"parent": "minecraft:husbandry/root",
+	"rewards": {
+		"function": "bc_rewards:animal/repopulation"
+	},		
+	"criteria": {
+		"bred": {
+		  "conditions": {},
+		  "trigger": "minecraft:bred_animals"
+		}
+	}
+}

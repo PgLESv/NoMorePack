@@ -1,0 +1,49 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:glowstone"
+		},
+		"title": {"translate":"Quase sete vidas"},
+		"description": {"color":"green","translate":"Carregue uma âncora de renascimento ao nível máximo"},
+		"announce_to_chat": true
+	},
+	"parent": "minecraft:nether/obtain_crying_obsidian",
+	"rewards": {
+		"function": "bc_rewards:nether/not_quite_nine_lives"
+	},
+	"criteria": {
+		"charge_respawn_anchor": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:respawn_anchor"
+								],
+								"state": {
+									"charges": "4"
+								}
+							}
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": [
+								"minecraft:glowstone"
+							]
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"charge_respawn_anchor"
+		]
+	]
+}

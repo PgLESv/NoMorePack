@@ -1,0 +1,40 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:spyglass"
+		},
+		"title": {"translate":"É um balão?"},
+		"description": {"translate":"Observe um ghast com uma luneta"},
+		"announce_to_chat": true
+	},
+	"parent": "minecraft:adventure/spyglass_at_parrot",
+	"rewards": {
+		"function": "bc_rewards:nether/is_it_a_balloon"
+	},		
+	"criteria": {
+		"spyglass_at_ghast": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"type_specific": {
+								"type": "player",
+								"looking_at": {
+									"type": "minecraft:ghast"
+								}
+							}
+						},
+						"entity": "this"
+					}
+				],
+				"item": {
+					"items": [
+						"minecraft:spyglass"
+					]
+				}
+			}
+		}
+	}
+}

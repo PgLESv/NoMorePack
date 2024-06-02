@@ -1,0 +1,28 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:wither_skeleton_skull"
+		},
+		"title": {"translate":"Cortem-lhe a cabeça!"},
+		"description": {"color":"green","translate":"Obtenha o crânio de esqueleto Wither"},
+		"announce_to_chat": true
+	},
+	"parent": "minecraft:nether/find_fortress",
+	"rewards": {
+		"function": "bc_rewards:nether/spooky_scary_skeleton"
+	},	
+	"criteria": {
+		"wither_skull": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:wither_skeleton_skull"
+						]
+					}
+				]
+			}
+		}
+	}
+}

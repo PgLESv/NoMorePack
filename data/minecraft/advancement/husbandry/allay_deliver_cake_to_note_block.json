@@ -1,0 +1,42 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:note_block"
+		},
+		"title": {"translate":"Parabéns para você"},
+		"description": {"color":"dark_purple","translate":"Faça um allay soltar um bolo sobre um bloco musical"},
+		"announce_to_chat": true,
+		"frame": "challenge"
+	},
+	"parent": "minecraft:husbandry/allay_deliver_item_to_player",
+	"rewards": {
+		"function": "bc_rewards:adventure/birthday_song"
+	},		
+	"criteria": {
+		"allay_deliver_cake_to_note_block": {
+			"trigger": "minecraft:allay_drop_item_on_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": [
+								"minecraft:cake"
+							]
+						}
+					},
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:note_block"
+								]
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,40 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:spyglass"
+		},
+		"title": {"translate":"Ele não me vê mas eu vejo ele"},
+		"description": {"color":"green","translate":"Olhe para um Warden com uma luneta"},
+		"announce_to_chat": "true"
+	},
+	"parent": "minecraft:mining/fallen_kingdom",
+	"rewards": {
+		"function": "bc_rewards:monsters/blind_stare"
+	},		
+	"criteria": {
+		"spyglass_at_warden": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"type_specific": {
+								"type": "player",
+								"looking_at": {
+									"type": "minecraft:warden"
+								}
+							}
+						},
+						"entity": "this"
+					}
+				],
+				"item": {
+					"items": [
+						"minecraft:spyglass"
+					]
+				}
+			}
+		}
+	}
+}

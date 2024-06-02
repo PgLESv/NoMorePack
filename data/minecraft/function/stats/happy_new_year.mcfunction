@@ -1,0 +1,2 @@
+execute if score challenge bac_settings matches 1 run function bc_rewards:msg/statistics/happy_new_year
+execute if score challenge bac_settings matches -1 unless score minecraft:stats/happy_new_year bac_obtained matches 1.. run function bc_rewards:msg/statistics/happy_new_year

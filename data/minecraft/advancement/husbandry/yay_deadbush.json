@@ -1,0 +1,28 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:dead_bush"
+		},
+		"title": {"translate":"Que daora, um Arbusto Seco"},
+		"description": {"color":"green","translate":"Consiga um Arbusto Seco, que serve pra... decoração? ou para invocar o corpo seco..."},
+		"announce_to_chat": true
+	},
+	"parent": "minecraft:husbandry/plant_seed",
+	"rewards": {
+		"function": "bc_rewards:farming/yay_deadbush"
+	},		
+	"criteria": {
+		"dead_bush": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:dead_bush"
+						]
+					}
+				]
+			}
+		}
+	}
+}

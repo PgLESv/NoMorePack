@@ -1,1 +1,1 @@
-tellraw @s {"color":"gray","italic":true,"translate":"Sétima linha completa…"}
+tellraw @s {"color":"gray","italic":true,"translate":"Seventh line complete…"}

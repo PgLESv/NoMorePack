@@ -1,0 +1,71 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:nether_star"
+		},
+		"title": {"translate":"Preços nas alturas"},
+		"description": {"translate":"Faça uma troca com um aldeão na altura limite de construção"},
+		"announce_to_chat": true
+	},
+	"parent": "minecraft:adventure/trade",
+	"rewards": {
+		"function": "bc_rewards:adventure/star_trader"
+	},		
+	"criteria": {
+		"trade_at_world_height": {
+			"trigger": "minecraft:villager_trade",
+			"conditions": {
+				"villager": {
+					"type": "villager",
+					"location": {
+						"position": {
+							"y": {
+								"min": 319
+							}
+						},
+						"dimension": "minecraft:overworld"
+					}
+				}
+			}
+		},
+		"trade_nether": {
+			"trigger": "minecraft:villager_trade",
+			"conditions": {
+				"villager": {
+					"type": "villager",
+					"location": {
+						"position": {
+							"y": {
+								"min": 255
+							}
+						},
+						"dimension": "minecraft:the_nether"
+					}
+				}
+			}
+		},
+		"trade_end": {
+			"trigger": "minecraft:villager_trade",
+			"conditions": {
+				"villager": {
+					"type": "villager",
+					"location": {
+						"position": {
+							"y": {
+								"min": 255
+							}
+						},
+						"dimension": "minecraft:the_end"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"trade_at_world_height",
+			"trade_nether",
+			"trade_end"
+		]
+	]
+}

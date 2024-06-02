@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:skeleton_skull"
+        },
+        "title": {"translate":"Cranios Assustadores"},
+        "description": {"color":"dark_purple","translate":"Exploda um esqueleto com um Creeper Carregado para conseguir uma cabeça"},
+        "announce_to_chat": true,
+		"frame": "challenge"
+    },
+    "parent": "minecraft:combate/bone_to_party",
+    "rewards": {
+        "function": "bc_rewards:monsters/spooky_skulls"
+    },		
+    "criteria": {
+        "skeleton_skull": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"items": [
+							"minecraft:skeleton_skull"
+						]
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:stone_pickaxe"
+		},
+		"title": {"translate":"Salto de qualidade"},
+		"description": {"color":"#49DB49","translate":"Faça uma picareta melhor"},
+		"announce_to_chat": true
+	},
+	"parent": "minecraft:mining/mine_stone",
+	"rewards": {
+		"function": "bc_rewards:mining/getting_an_upgrade"
+	},			
+	"criteria": {
+		"stone_pickaxe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [ 
+							"minecraft:stone_pickaxe"
+						]
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,37 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:stone_axe"
+		},
+		"title": {"translate":"Tira cera"},
+		"description": {"color":"green","translate":"Remova a cera de um bloco de cobre"},
+		"announce_to_chat": true
+	},
+	"parent": "minecraft:husbandry/wax_on",
+	"rewards": {
+		"function": "bc_rewards:mining/wax_off"
+	},		
+	"criteria": {
+		"wax_off": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"tag": "#blazeandcave:waxed_copper_blocks"
+							}
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"tag": "#blazeandcave:axes"
+						}
+					}
+				]
+			}
+		}
+	}
+}

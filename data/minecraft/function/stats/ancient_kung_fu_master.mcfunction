@@ -1,0 +1,2 @@
+execute if score challenge bac_settings matches 1 run function bc_rewards:msg/statistics/ancient_kung_fu_master
+execute if score challenge bac_settings matches -1 unless score minecraft:stats/ancient_kung_fu_master bac_obtained matches 1.. run function bc_rewards:msg/statistics/ancient_kung_fu_master
