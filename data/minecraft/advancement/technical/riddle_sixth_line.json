@@ -8,7 +8,9 @@
 			"conditions": {
 				"entity": {
 					"type": "chicken",
-					"nbt": "{OnGround:0b}"
+					"flags": {
+						"is_on_ground": true
+					}
 				},
 				"damage": {
 					"type": {

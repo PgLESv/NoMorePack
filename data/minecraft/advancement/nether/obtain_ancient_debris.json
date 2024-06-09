@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:nether/root",
 	"rewards": {
-		"function": "bc_rewards:nether/nether_say_die"
+		"function": "minecraft:function/nether/nether_say_die"
 	},	
 	"criteria": {
 		"ancient_debris": {

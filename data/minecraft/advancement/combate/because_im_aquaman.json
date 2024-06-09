@@ -10,7 +10,7 @@
     },
     "parent": "minecraft:combate/kill_a_mob",
     "rewards": {
-        "function": "bc_rewards:monsters/because_im_aquaman"
+        "function": "minecraft:function/combate/because_im_aquaman"
     },		
     "criteria": {
         "trident": {

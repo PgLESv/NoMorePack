@@ -11,7 +11,7 @@
     },
     "parent": "minecraft:desafios/were_in_the_endgame_now",
 	"rewards": {
-		"function": "bc_rewards:challenges/the_world_is_ending"
+		"function": "minecraft:function/desafios/the_world_is_ending"
     },		
     "criteria": {
         "ten_withers": {

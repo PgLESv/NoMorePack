@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:husbandry/leash_all_frog_variants",
 	"rewards": {
-		"function": "bc_rewards:building/incandescent"
+		"function": "minecraft:function/husbandry/incandescent"
 	},		
 	"criteria": {
 		"froglights": {

@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:adventure/root",
 	"rewards": {
-		"function": "bc_rewards:building/sweet_dreams"
+		"function": "minecraft:function/adventure/sweet_dreams"
 	},		
 	"criteria": {
 		"slept_in_bed": {

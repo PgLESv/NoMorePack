@@ -13,7 +13,7 @@
     },
     "parent": "minecraft:magia/master_miner",
     "rewards": {
-		"function": "bc_rewards:enchanting/master_digger"
+		"function": "minecraft:function/magia/master_digger"
     },		
     "criteria": {
 		"perfect_shovel_fortune": {
@@ -21,7 +21,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "#blazeandcave:master_shovels",
+						"items": "#minecraft:master_shovels",
 						"predicates": {
 							"enchantments": [
 								{
@@ -59,7 +59,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "#blazeandcave:master_shovels",
+						"items": "#minecraft:master_shovels",
 						"predicates": {
 							"enchantments": [
 								{

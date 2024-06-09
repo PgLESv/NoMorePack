@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:nether/root",
 	"rewards": {
-		"function": "bc_rewards:nether/this_boat_has_legs"
+		"function": "minecraft:function/nether/this_boat_has_legs"
 	},	
 	"criteria": {
 		"used_warped_fungus_on_a_stick": {

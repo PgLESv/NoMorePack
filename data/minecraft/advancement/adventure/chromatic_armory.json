@@ -16,7 +16,7 @@
 	},
 	"parent": "minecraft:adventure/trim_with_all_exclusive_armor_patterns",
 	"rewards": {
-		"function": "bc_rewards:adventure/chromatic_armory"
+		"function": "minecraft:function/adventure/chromatic_armory"
 	},
 	"criteria": {
 		"amethyst": {

@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:adventure/root",
 	"rewards": {
-		"function": "bc_rewards:mining/surge_protector"
+		"function": "minecraft:function/adventure/surge_protector"
 	},		
 	"criteria": {
 		"lightning_rod_with_villager_no_fire": {

@@ -13,7 +13,7 @@
     },
     "parent": "minecraft:magia/enchant_item",
     "rewards": {
-		"function": "bc_rewards:enchanting/master_miner"
+		"function": "minecraft:function/magia/master_miner"
     },		
     "criteria": {
 		"perfect_pickaxe_fortune": {
@@ -21,33 +21,35 @@
 			"conditions": {
 				"items": [
 					{
-						"tag": "blazeandcave:master_pickaxes",
-						"enchantments": [
-							{
-								"enchantment": "minecraft:efficiency",
-								"levels": {
-									"min": 5
-								}
-							},
-							{
-								"enchantment": "minecraft:fortune",
-								"levels": {
-									"min": 3
-								}
-							},
-							{
-								"enchantment": "minecraft:unbreaking",
-								"levels": {
-									"min": 3
-								}
-							},
-							{
-								"enchantment": "minecraft:mending",
-								"levels": {
-									"min": 1
-								}
-							}	
-						]
+						"items": "#blazeandcave:master_pickaxes",
+						"predicates": {
+							"enchantments": [
+								{
+									"enchantments": "minecraft:efficiency",
+									"levels": {
+										"min": 5
+									}
+								},
+								{
+									"enchantments": "minecraft:fortune",
+									"levels": {
+										"min": 3
+									}
+								},
+								{
+									"enchantments": "minecraft:unbreaking",
+									"levels": {
+										"min": 3
+									}
+								},
+								{
+									"enchantments": "minecraft:mending",
+									"levels": {
+										"min": 1
+									}
+								}	
+							]
+						}
 					}
 				]
 			}
@@ -57,33 +59,35 @@
 			"conditions": {
 				"items": [
 					{
-						"tag": "blazeandcave:master_pickaxes",
-						"enchantments": [
-							{
-								"enchantment": "minecraft:efficiency",
-								"levels": {
-									"min": 5
-								}
-							},
-							{
-								"enchantment": "minecraft:silk_touch",
-								"levels": {
-									"min": 1
-								}
-							},
-							{
-								"enchantment": "minecraft:unbreaking",
-								"levels": {
-									"min": 3
-								}
-							},
-							{
-								"enchantment": "minecraft:mending",
-								"levels": {
-									"min": 1
-								}
-							}	
-						]
+						"items": "#blazeandcave:master_pickaxes",
+						"predicates": {
+							"enchantments": [
+								{
+									"enchantments": "minecraft:efficiency",
+									"levels": {
+										"min": 5
+									}
+								},
+								{
+									"enchantments": "minecraft:silk_touch",
+									"levels": {
+										"min": 1
+									}
+								},
+								{
+									"enchantments": "minecraft:unbreaking",
+									"levels": {
+										"min": 3
+									}
+								},
+								{
+									"enchantments": "minecraft:mending",
+									"levels": {
+										"min": 1
+									}
+								}	
+							]
+						}
 					}
 				]
 			}

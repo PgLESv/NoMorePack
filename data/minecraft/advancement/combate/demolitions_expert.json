@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:combate/kill_a_mob",
 	"rewards": {
-		"function": "bc_rewards:weaponry/demolitions_expert"
+		"function": "minecraft:function/combate/demolitions_expert"
 	},		
 	"criteria": {
 		"cave_spider": {

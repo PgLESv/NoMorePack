@@ -10,7 +10,7 @@
     },
     "parent": "minecraft:end/the_point_of_no_return",
 	"rewards": {
-		"function": "bc_rewards:end/event_horizon"
+		"function": "minecraft:function/end/event_horizon"
     },		
     "criteria": {
         "event_horizon": {

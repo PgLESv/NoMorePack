@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:adventure/brushed_away",
 	"rewards": {
-		"function": "bc_rewards:adventure/respecting_the_remnants"
+		"function": "minecraft:function/adventure/respecting_the_remnants"
 	},	
 	"criteria": {
 		"has_sherd": {
@@ -17,7 +17,7 @@
 			"conditions": {
 				"items": [
 					{
-						"tag": "#minecraft:decorated_pot_sherds"
+						"items": "#minecraft:decorated_pot_sherds"
 					}
 				]
 			}

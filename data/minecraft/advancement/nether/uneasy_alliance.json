@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:nether/return_to_sender",
 	"rewards": {
-		"function": "bc_rewards:nether/uneasy_alliance"
+		"function": "minecraft:function/nether/uneasy_alliance"
 	},	
 	"criteria": {
 		"killed_ghast": {

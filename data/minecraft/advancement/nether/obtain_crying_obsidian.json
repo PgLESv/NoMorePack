@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:nether/root",
 	"rewards": {
-		"function": "bc_rewards:nether/who_is_cutting_onions"
+		"function": "minecraft:function/nether/who_is_cutting_onions"
 	},		
 	"criteria": {
 		"crying_obsidian": {

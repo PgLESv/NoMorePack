@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:end/find_end_city",
 	"rewards": {
-		"function": "bc_rewards:end/great_view_from_up_here"
+		"function": "minecraft:function/end/great_view_from_up_here"
 	},	
 	"criteria": {
 		"levitated": {

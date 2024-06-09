@@ -11,7 +11,7 @@
 	},
 	"parent": "minecraft:end/im_coming_back_murph",
 	"rewards": {
-		"function": "bc_rewards:end/contemplar_existencia"
+		"function": "minecraft:function/end/contemplar_existencia"
 	},		
 	"criteria": {
 		"outer_pos_x": {
@@ -40,7 +40,7 @@
 							"predicate": {
 								"type_specific": {
 									"type": "player",
-									"gamemode": "spectator"
+									"gamemode": ["spectator"]
 								}
 							}
 						}
@@ -74,7 +74,7 @@
 							"predicate": {
 								"type_specific": {
 									"type": "player",
-									"gamemode": "spectator"
+									"gamemode": ["spectator"]
 								}
 							}
 						}
@@ -108,7 +108,7 @@
 							"predicate": {
 								"type_specific": {
 									"type": "player",
-									"gamemode": "spectator"
+									"gamemode": ["spectator"]
 								}
 							}
 						}
@@ -142,7 +142,7 @@
 							"predicate": {
 								"type_specific": {
 									"type": "player",
-									"gamemode": "spectator"
+									"gamemode": ["spectator"]
 								}
 							}
 						}

@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:gold_ore"
+            "id": "minecraft:gold_ore"
         },
         "title": {"translate":"Vim em busca de Prata..."},
         "description": {"color":"green","translate":"Ache uma Mina de Ouro na superficie de um bioma de Mesa"},
@@ -9,7 +9,7 @@
     },
     "parent": "minecraft:mining/steals_on_wheels",
     "rewards": {
-        "function": "bc_rewards:mining/gold_mine"
+        "function": "minecraft:function/mining/gold_mine"
     },		
     "criteria": {
 		"mineshaft_mesa": {
@@ -21,7 +21,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"structure": "mineshaft_mesa"
+								"structures": "mineshaft_mesa"
 							}
 						}
 					},
@@ -33,7 +33,7 @@
 							"predicate": {
 								"type_specific": {
 									"type": "player",
-									"gamemode": "spectator"
+									"gamemode": ["spectator"]
 								}
 							}
 						}

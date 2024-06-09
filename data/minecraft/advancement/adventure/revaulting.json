@@ -3,14 +3,14 @@
 		"icon": {
 			"id": "minecraft:ominous_trial_key"
 		},
-		"title": {"translate":"Revaulting"},
-		"description": {"color":"#75E1FF","translate":"Unlock an Ominous Vault with an Ominous Trial Key"},
+		"title": {"translate":"Caixa-forte"},
+		"description": {"color":"#75E1FF","translate":"Abra um cofre sombrio com uma chave sombria do desafio"},
 		"announce_to_chat": true,
 		"frame": "goal"
 	},
-	"parent": "blazeandcave:adventure/hard_mode_activated",
+	"parent": "minecraft:adventure/under_lock_and_key",
 	"rewards": {
-		"function": "bc_rewards:adventure/revaulting"
+		"function": "minecraft:function/adventure/revaulting"
 	},
 	"criteria": {
 		"revaulting": {

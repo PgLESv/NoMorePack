@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:adventure/master_engineer",
 	"rewards": {
-		"function": "bc_rewards:redstone/troll_chest"
+		"function": "minecraft:function/adventure/troll_chest"
 	},
 	"criteria": {
 		"trapped_chest": {

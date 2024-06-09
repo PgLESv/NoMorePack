@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:adventure/allayance",
 	"rewards": {
-		"function": "bc_rewards:adventure/budget_vex"
+		"function": "minecraft:function/adventure/budget_vex"
 	},		
 	"criteria": {
 		"iron_sword": {

@@ -13,7 +13,7 @@
     },
     "parent": "minecraft:magia/master_armorer",
     "rewards": {
-		"function": "bc_rewards:enchanting/master_knight"
+		"function": "minecraft:function/magia/master_knight"
     },		
     "criteria": {
 		"perfect_sword": {
@@ -21,7 +21,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "#blazeandcave:master_swords",
+						"items": "#minecraft:master_swords",
 						"predicates": {
 							"enchantments": [
 								{
@@ -77,7 +77,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "#blazeandcave:master_swords",
+						"items": "#minecraft:master_swords",
 						"predicates": {
 							"enchantments": [
 								{
@@ -133,7 +133,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "#blazeandcave:master_swords",
+						"items": "#minecraft:master_swords",
 						"predicates": {
 							"enchantments": [
 								{

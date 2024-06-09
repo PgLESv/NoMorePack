@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:nether/root",
 	"rewards": {
-		"function": "bc_rewards:nether/those_were_the_days"
+		"function": "minecraft:function/nether/those_were_the_days"
 	},		
 	"criteria": {
 		"bastion_remnant": {

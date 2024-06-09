@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:adventure/root",
 	"rewards": {
-		"function": "bc_rewards:redstone/the_power_of_books"
+		"function": "minecraft:function/adventure/the_power_of_books"
 	},
 	"criteria": {
 		"chiseled_bookshelf": {

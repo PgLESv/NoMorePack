@@ -10,7 +10,7 @@
     },
     "parent": "minecraft:end/void_walker",
 	"rewards": {
-		"function": "bc_rewards:end/a_wizards_breakfast"
+		"function": "minecraft:function/end/a_wizards_breakfast"
     },		
     "criteria": {
         "event_horizon": {

@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:husbandry/cephalight",
 	"rewards": {
-		"function": "bc_rewards:animal/glow_and_behold"
+		"function": "minecraft:function/husbandry/glow_and_behold"
 	},		
 	"criteria": {
 		"glow_ink_sac": {

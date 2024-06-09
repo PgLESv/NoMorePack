@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:husbandry/im_gonna_be_sick",
 	"rewards": {
-		"function": "bc_rewards:farming/a_balanced_diet"
+		"function": "minecraft:function/husbandry/a_balanced_diet"
 	},		
 	"criteria": {
 		"apple": {

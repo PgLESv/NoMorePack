@@ -11,7 +11,7 @@
     },
     "parent": "minecraft:combate/root",
 	"rewards": {
-		"function": "bc_rewards:monsters/bone_to_party"
+		"function": "minecraft:function/combate/bone_to_party"
     },
     "criteria": {
         "bone_to_party": {

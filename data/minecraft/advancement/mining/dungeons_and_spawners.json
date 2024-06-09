@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:mossy_cobblestone"
+            "id": "minecraft:mossy_cobblestone"
         },
         "title": {"translate":"Cuidado com o mímico"},
         "description": {"color":"green","translate":"Abra um baú em uma dungeon subterranea"},
@@ -9,7 +9,7 @@
     },
     "parent": "minecraft:mining/rock_bottom",
     "rewards": {
-        "function": "bc_rewards:mining/dungeons_and_spawners"
+        "function": "minecraft:function/mining/dungeons_and_spawners"
     },		
     "criteria": {
 		"dungeon": {

@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:adventure/mooshroom_kingdom",
 	"rewards": {
-		"function": "bc_rewards:biomes/titanic"
+		"function": "minecraft:function/adventure/titanic"
 	},		
 	"criteria": {
 		"iceberg_deep": {
@@ -50,7 +50,7 @@
 							"predicate": {
 								"type_specific": {
 									"type": "player",
-									"gamemode": "spectator"
+									"gamemode": ["spectator"]
 								}
 							}
 						}
@@ -95,7 +95,7 @@
 							"predicate": {
 								"type_specific": {
 									"type": "player",
-									"gamemode": "spectator"
+									"gamemode": ["spectator"]
 								}
 							}
 						}

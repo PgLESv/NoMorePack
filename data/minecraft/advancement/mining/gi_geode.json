@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:amethyst_cluster"
+            "id": "minecraft:amethyst_cluster"
         },
         "title": {"translate":"Sabedoria, equilibrio e proteção"},
         "description": {"translate":"Ache um geodo de ametista e minere um aglomerado de ametista"},
@@ -9,20 +9,20 @@
     },
     "parent": "minecraft:mining/rock_bottom",
     "rewards": {
-		"function": "bc_rewards:mining/gi_geode"
+		"function": "minecraft:function/mining/gi_geode"
     },		
     "criteria": {
-        "amethyst_shard": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
+		"amethyst_shard": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
 						"items": [
 							"minecraft:amethyst_shard"
 						]
-                    }
-                ]
-            }
-        }
-    }
+					}
+				]
+			}
+		}
+	}
 }

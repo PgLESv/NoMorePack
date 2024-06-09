@@ -17,7 +17,7 @@
 	},
 	"parent": "minecraft:desafios/the_world_is_ending",
 	"rewards": {
-		"function": "bc_rewards:challenges/the_perfect_run"
+		"function": "minecraft:function/desafios/the_perfect_run"
 	},		
 	"criteria": {
 		"dragon": {
@@ -30,7 +30,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:technical/spawn_perfect_one": true
+							"minecraft:technical/spawn_perfect_one": true
 						}
 					}
 				}
@@ -46,7 +46,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:technical/spawn_perfect_one": true
+							"minecraft:technical/spawn_perfect_one": true
 						}
 					}
 				}
@@ -59,7 +59,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:technical/spawn_perfect_one": true
+							"minecraft:technical/spawn_perfect_one": true
 						}
 					}
 				}

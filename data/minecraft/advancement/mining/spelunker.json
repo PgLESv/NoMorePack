@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:chainmail_helmet"
+            "id": "minecraft:chainmail_helmet"
         },
         "title": {"translate":"Batman?"},
         "description": {"color":"green","translate":"Entre em todas as cavernas"},
@@ -9,7 +9,7 @@
     },
     "parent": "minecraft:mining/root",
 	"rewards": {
-		"function": "bc_rewards:mining/spelunker"
+		"function": "minecraft:function/mining/spelunker"
     },
 	"criteria": {
 		"lush_caves": {
@@ -21,7 +21,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:lush_caves"
+								"biomes": "minecraft:lush_caves"
 							}
 						}
 					},
@@ -33,7 +33,7 @@
 							"predicate": {
 								"type_specific": {
 									"type": "player",
-									"gamemode": "spectator"
+									"gamemode": ["spectator"]
 								}
 							}
 						}
@@ -50,7 +50,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:dripstone_caves"
+								"biomes": "minecraft:dripstone_caves"
 							}
 						}
 					},
@@ -62,7 +62,7 @@
 							"predicate": {
 								"type_specific": {
 									"type": "player",
-									"gamemode": "spectator"
+									"gamemode": ["spectator"]
 								}
 							}
 						}
@@ -79,7 +79,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:deep_dark"
+								"biomes": "minecraft:deep_dark"
 							}
 						}
 					},
@@ -91,7 +91,7 @@
 							"predicate": {
 								"type_specific": {
 									"type": "player",
-									"gamemode": "spectator"
+									"gamemode": ["spectator"]
 								}
 							}
 						}

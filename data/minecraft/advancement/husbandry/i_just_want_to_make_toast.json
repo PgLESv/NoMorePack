@@ -9,7 +9,7 @@
     },
     "parent": "minecraft:husbandry/tame_an_animal",
 	"rewards": {
-		"function": "bc_rewards:adventure/i_just_want_to_make_toast"
+		"function": "minecraft:function/husbandry/i_just_want_to_make_toast"
     },		
     "criteria": {
 		"name_tag": {

@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:granite"
+            "id": "minecraft:granite"
         },
         "title": {"translate":"Dwayne Johnson (O Rocha)"},
         "description": {"translate":"Colete todos os tipos de pedras"},
@@ -9,116 +9,116 @@
     },
     "parent": "minecraft:mining/deep_slate_nine",
     "rewards": {
-        "function": "bc_rewards:building/rock_collection"
+        "function": "minecraft:function/mining/rock_collection"
     },		
     "criteria": {
-        "cobblestone": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
+		"cobblestone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
 						"items": [
 							"minecraft:cobblestone"
 						]
-                    }
-                ]
-            }
-        },
-        "granite": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
+					}
+				]
+			}
+		},
+		"granite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
 						"items": [
 							"minecraft:granite"
 						]
-                    }
-                ]
-            }
-        },
-        "diorite": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
+					}
+				]
+			}
+		},
+		"diorite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
 						"items": [
 							"minecraft:diorite"
 						]
-                    }
-                ]
-            }
-        },
-        "andesite": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
+					}
+				]
+			}
+		},
+		"andesite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
 						"items": [
 							"minecraft:andesite"
 						]
-                    }
-                ]
-            }
-        },
-        "calcite": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
+					}
+				]
+			}
+		},
+		"calcite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
 						"items": [
 							"minecraft:calcite"
 						]
-                    }
-                ]
-            }
-        },
-        "tuff": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
+					}
+				]
+			}
+		},
+		"tuff": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
 						"items": [
 							"minecraft:tuff"
 						]
-                    }
-                ]
-            }
-        },
-        "dripstone_block": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
+					}
+				]
+			}
+		},
+		"dripstone_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
 						"items": [
 							"minecraft:dripstone_block"
 						]
-                    }
-                ]
-            }
-        },
-        "cobbled_deepslate": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
+					}
+				]
+			}
+		},
+		"cobbled_deepslate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
 						"items": [
 							"minecraft:cobbled_deepslate"
 						]
-                    }
-                ]
-            }
-        },
-        "smooth_basalt": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
+					}
+				]
+			}
+		},
+		"smooth_basalt": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
 						"items": [
 							"minecraft:smooth_basalt"
 						]
-                    }
-                ]
-            }
-        }
+					}
+				]
+			}
+		}
 	}		
 }

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:netherite_upgrade_smithing_template"
+			"id": "minecraft:netherite_upgrade_smithing_template"
 		},
 		"title": {"translate":"Subindo De Nivel!"},
 		"description": {"color":"green","translate":"Encontre um molde de ferraria para aprimoramento de Netherita em um bastião remanescente"},
@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:nether/loot_bastion",
 	"rewards": {
-		"function": "bc_rewards:nether/time_to_upgrade"
+		"function": "minecraft:function/nether/time_to_upgrade"
 	},	
 	"criteria": {
 		"netherite_upgrade_smithing_template": {

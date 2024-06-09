@@ -46,7 +46,7 @@
 	},
 	"parent": "minecraft:adventure/were_being_attacked",
 	"rewards": {
-		"function": "bc_rewards:animal/battle_of_the_bands"
+		"function": "minecraft:function/adventure/battle_of_the_bands"
 	},		
 	"criteria": {
 		"battle_of_the_bands": {

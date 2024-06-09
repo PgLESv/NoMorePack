@@ -1,2 +1,1 @@
-execute if score task bac_settings matches 1 run function bc_rewards:msg/statistics/take_to_the_skies
-execute if score task bac_settings matches -1 unless score minecraft:stats/take_to_the_skies bac_obtained matches 1.. run function bc_rewards:msg/statistics/take_to_the_skies
+tellraw @a {"translate":"%1$s conquistou o progresso %2$s%3$s%4$s","with":[{"selector":"@s"},{"color":"green","text":"["},{"color":"green","translate":"14-Bis","hoverEvent":{"action":"show_text","contents":{"color":"green","translate":"14-Bis","extra":[{"text":"\n"},{"color":"#49DB49","translate":"Voe 10km com a Elytra!"},{"text":"\n\n"},{"color":"gray","italic":true,"translate":"%1$s tab","with":[{"translate":"Stats"}]}]}}},{"color":"green","text":"]"}]}

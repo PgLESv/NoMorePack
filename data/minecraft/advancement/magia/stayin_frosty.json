@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:magia/failed_concoctions",
 	"rewards": {
-		"function": "bc_rewards:potion/stayin_frosty"
+		"function": "minecraft:function/magia/stayin_frosty"
 	},	
 	"criteria": {
 		"fire_resistance": {
@@ -51,7 +51,7 @@
 							"predicate": {
 								"type_specific": {
 									"type": "player",
-									"gamemode": "spectator"
+									"gamemode": ["spectator"]
 								}
 							}
 						}

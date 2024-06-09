@@ -1,2 +1,1 @@
-execute if score goal bac_settings matches 1 run function bc_rewards:msg/statistics/boing_boing
-execute if score goal bac_settings matches -1 unless score minecraft:stats/boing_boing bac_obtained matches 1.. run function bc_rewards:msg/statistics/boing_boing
+tellraw @a {"translate":"%1$s concluiu o desafio %2$s%3$s%4$s","with":[{"selector":"@s"},{"color":"dark_purple","text":"["},{"color":"dark_purple","translate":"pula-pula da pracinha","hoverEvent":{"action":"show_text","contents":{"color":"dark_purple","translate":"pula-pula da pracinha","extra":[{"text":"\n"},{"color":"#C900C7","translate":"pule 10000 vezes"},{"text":"\n\n"},{"color":"gray","italic":true,"translate":"%1$s tab","with":[{"translate":"Stats"}]}]}}},{"color":"dark_purple","text":"]"}]}

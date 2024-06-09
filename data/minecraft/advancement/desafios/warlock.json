@@ -10,7 +10,7 @@
     },
     "parent": "minecraft:desafios/root",
 	"rewards": {
-		"function": "bc_rewards:challenges/warlock"
+		"function": "minecraft:function/desafios/warlock"
     },		
     "criteria": {
         "beacon": {

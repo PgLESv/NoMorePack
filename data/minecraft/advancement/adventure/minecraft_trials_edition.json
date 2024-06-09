@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:adventure/root",
 	"rewards": {
-		"function": "bc_rewards:adventure/minecraft_trials_edition"
+		"function": "minecraft:function/adventure/minecraft_trials_edition"
 	},
 	"criteria": {
 		"minecraft_trials_edition": {

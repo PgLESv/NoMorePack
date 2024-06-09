@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:husbandry/obtain_sniffer_egg",
 	"rewards": {
-		"function": "bc_rewards:adventure/little_sniffs"
+		"function": "minecraft:function/husbandry/little_sniffs"
 	},
 	"criteria": {
 		"feed_snifflet": {

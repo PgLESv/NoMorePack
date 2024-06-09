@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:adventure/root",
 	"rewards": {
-		"function": "bc_rewards:building/happy_birthday"
+		"function": "minecraft:function/adventure/happy_birthday"
 	},		
 	"criteria": {
 		"candle_cake": {

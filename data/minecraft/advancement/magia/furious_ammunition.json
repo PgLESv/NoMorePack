@@ -15,7 +15,7 @@
     },
     "parent": "minecraft:magia/failed_concoctions",
 	"rewards": {
-		"function": "bc_rewards:potion/furious_ammunition"
+		"function": "minecraft:function/magia/furious_ammunition"
     },	
 	"criteria": {
 		"water": {

@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:magia/potions",
 	"rewards": {
-		"function": "bc_rewards:potion/a_furious_cocktail"
+		"function": "minecraft:function/magia/a_furious_cocktail"
 	},		
 	"criteria": {
 		"all_effects": {

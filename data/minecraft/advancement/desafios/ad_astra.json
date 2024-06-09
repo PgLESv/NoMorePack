@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:desafios/root",
 	"rewards": {
-		"function": "bc_rewards:challenges/ad_astra"
+		"function": "minecraft:function/desafios/ad_astra"
 	},		
 	"criteria": {
 		"world_height": {
@@ -38,7 +38,7 @@
 							"predicate": {
 								"type_specific": {
 									"type": "player",
-									"gamemode": "spectator"
+									"gamemode": ["spectator"]
 								}
 							}
 						}

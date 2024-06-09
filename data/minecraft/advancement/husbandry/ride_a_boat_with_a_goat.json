@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:husbandry/root",
 	"rewards": {
-		"function": "bc_rewards:animal/whatever_floats_your_goat"
+		"function": "minecraft:function/husbandry/whatever_floats_your_goat"
 	},		
 	"criteria": {
 		"ride_a_boat_with_a_goat": {

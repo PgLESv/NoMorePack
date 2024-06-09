@@ -16,7 +16,7 @@
 	},
 	"parent": "minecraft:combate/who_ya_gonna_call",
 	"rewards": {
-		"function": "bc_rewards:weaponry/pyrotechnic"
+		"function": "minecraft:function/combate/pyrotechnic"
 	},		
 	"criteria": {
 		"small_ball": {

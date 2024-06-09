@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:bedrock"
+            "id": "minecraft:bedrock"
         },
         "title": {"translate":"Fundo do poço"},
         "description": {"color":"green","translate":"Minere até o fundo do mundo"},
@@ -10,7 +10,7 @@
     },
     "parent": "minecraft:mining/deep_slate_nine",
     "rewards": {
-        "function": "bc_rewards:mining/rock_bottom"
+        "function": "minecraft:function/mining/rock_bottom"
     },		
 	"criteria": {
 		"bedrock_level": {
@@ -58,7 +58,7 @@
 							"predicate": {
 								"type_specific": {
 									"type": "player",
-									"gamemode": "spectator"
+									"gamemode": ["spectator"]
 								}
 							}
 						}

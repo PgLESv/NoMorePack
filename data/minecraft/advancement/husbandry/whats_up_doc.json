@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:husbandry/i_just_want_to_make_toast",
 	"rewards": {
-		"function": "bc_rewards:adventure/whats_up_doc"
+		"function": "minecraft:function/husbandry/whats_up_doc"
 	},		
 	"criteria": {
 		"name_tag": {

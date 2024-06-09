@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:combate/demolitions_expert",
 	"rewards": {
-		"function": "bc_rewards:monsters/monsters_hunted"
+		"function": "minecraft:function/combate/monsters_hunted"
 	},	
 	"criteria": {
 	"minecraft:cave_spider": {

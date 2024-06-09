@@ -1,16 +1,16 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:gray_wool"
+			"id": "minecraft:gray_wool"
 		},
 		"title": {"translate":"Silêncio dos Inocentes"},
 		"description": {"color":"dark_purple","translate":"Traga uma ovelha para uma cidade antiga e silencie-a"},
 		"announce_to_chat": true,
-		"frame": "goal"
+		"frame": "challenge"
 	},
 	"parent": "minecraft:mining/fallen_kingdom",
 	"rewards": {
-		"function": "bc_rewards:animal/silence_of_the_lambs"
+		"function": "minecraft:function/mining/silence_of_the_lambs"
 	},		
 	"criteria": {
 		"rabbit": {
@@ -19,7 +19,7 @@
 				"entity": {
 					"type": "sheep",
 					"location": {
-						"structure": "ancient_city"
+						"structures": "ancient_city"
 					}
 				}
 			}

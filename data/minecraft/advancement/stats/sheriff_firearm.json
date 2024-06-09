@@ -1,12 +1,12 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:golden_horse_armor"
+            "id": "minecraft:golden_horse_armor"
         },
         "title": {"translate":"Pra que Elytra?"},
         "description": {"color":"dark_purple","translate":"Ande 10km em cavalo"},
         "announce_to_chat": true,
-		"frame": "goal"
+		"frame": "challenge"
     },
     "parent": "minecraft:stats/root",
 	"rewards": {

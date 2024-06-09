@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:nether/obtain_crying_obsidian",
 	"rewards": {
-		"function": "bc_rewards:nether/not_quite_nine_lives"
+		"function": "minecraft:function/nether/not_quite_nine_lives"
 	},
 	"criteria": {
 		"charge_respawn_anchor": {

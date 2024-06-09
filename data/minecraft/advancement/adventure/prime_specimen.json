@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:adventure/trade",
 	"rewards": {
-		"function": "bc_rewards:adventure/prime_specimen"
+		"function": "minecraft:function/adventure/prime_specimen"
 	},		
 	"criteria": {
 		"tall_grass": {

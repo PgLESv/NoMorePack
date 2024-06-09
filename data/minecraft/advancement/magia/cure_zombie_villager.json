@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:magia/potions",
 	"rewards": {
-		"function": "bc_rewards:potion/zombie_doctor"
+		"function": "minecraft:function/magia/zombie_doctor"
 	},		
 	"criteria": {
 		"cured_zombie": {

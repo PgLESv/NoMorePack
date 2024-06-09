@@ -30,7 +30,7 @@
 	},
 	"parent": "minecraft:combate/kill_a_mob",
 	"rewards": {
-		"function": "bc_rewards:weaponry/loser"
+		"function": "minecraft:function/combate/loser"
 	},		
 	"criteria": {
 		"trigger": {

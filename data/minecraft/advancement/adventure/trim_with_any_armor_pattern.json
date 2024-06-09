@@ -15,7 +15,7 @@
 	},
 	"parent": "minecraft:adventure/good_lookin_treasure",
 	"rewards": {
-		"function": "bc_rewards:adventure/crafting_a_new_look"
+		"function": "minecraft:function/adventure/crafting_a_new_look"
 	},
 	"criteria": {
 		"armor_trimmed_minecraft:coast_armor_trim_smithing_template_smithing_trim": {

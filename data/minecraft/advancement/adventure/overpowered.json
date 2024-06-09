@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:adventure/totem_of_undying",
 	"rewards": {
-		"function": "bc_rewards:adventure/overpowered"
+		"function": "minecraft:function/adventure/overpowered"
 	},		
 	"criteria": {
 		"golden_apple": {

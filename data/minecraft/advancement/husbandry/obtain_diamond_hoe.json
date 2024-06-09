@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:husbandry/plant_seed",
 	"rewards": {
-		"function": "bc_rewards:farming/break_diamond_hoe"
+		"function": "minecraft:function/husbandry/break_diamond_hoe"
 	},	
 	"criteria": {
 		"netherite_hoe": {

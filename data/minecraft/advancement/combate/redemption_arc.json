@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:combate/whos_the_pillager_now",
 	"rewards": {
-		"function": "bc_rewards:adventure/redemption_arc"
+		"function": "minecraft:function/combate/redemption_arc"
 	},
 	"criteria": {
 		"redemption_arc": {

@@ -3,13 +3,13 @@
 		"icon": {
 			"id": "minecraft:wind_charge"
 		},
-		"title": {"translate":"Who Needs Rockets?"},
-		"description": {"color":"green","translate":"Use a Wind Charge to launch yourself upward at least 8 blocks"},
+		"title": {"translate":"Voar, voar, subir, subir..."},
+		"description": {"color":"green","translate":"Use um projétil de vento para se lançar 8 blocos no ar"},
 		"announce_to_chat": true
 	},
-	"parent": "blazeandcave:adventure/break_wind",
+	"parent": "minecraft:adventure/break_wind",
 	"rewards": {
-		"function": "bc_rewards:adventure/who_needs_rockets"
+		"function": "minecraft:function/adventure/who_needs_rockets"
 	},
 	"criteria": {
 		"who_needs_rockets": {

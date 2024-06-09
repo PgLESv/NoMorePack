@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:firework_rocket"
+            "id": "minecraft:firework_rocket"
         },
         "title": {"translate":"Bem-te-vi"},
         "description": {"color":"dark_purple","translate":"Voe 1000km com uma Elytra!"},

@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:mining/fallen_kingdom",
 	"rewards": {
-		"function": "bc_rewards:mining/sneak_100"
+		"function": "minecraft:function/mining/sneak_100"
 	},
 	"criteria": {
 		"avoid_vibration": {

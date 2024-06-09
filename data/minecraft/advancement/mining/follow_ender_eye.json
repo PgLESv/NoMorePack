@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:mining/enter_the_nether",
 	"rewards": {
-		"function": "bc_rewards:nether/eye_spy"
+		"function": "minecraft:function/mining/eye_spy"
 	},	
 	"criteria": {
 		"in_stronghold": {

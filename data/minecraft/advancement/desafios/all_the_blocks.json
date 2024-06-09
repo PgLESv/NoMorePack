@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:desafios/root",
 	"rewards": {
-		"function": "bc_rewards:challenges/all_the_blocks"
+		"function": "minecraft:function/desafios/all_the_blocks"
 	},		
 	"criteria": {
 		"acacia_button": {

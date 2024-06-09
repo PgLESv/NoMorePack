@@ -33,7 +33,7 @@
 	},
 	"parent": "minecraft:combate/kill_a_mob",
 	"rewards": {
-		"function": "bc_rewards:monsters/not_today_thank_you"
+		"function": "minecraft:function/combate/not_today_thank_you"
 	},
 	"criteria": {
 		"deflected_skeleton": {

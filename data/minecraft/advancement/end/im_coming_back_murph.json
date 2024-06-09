@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:end/elytra",
 	"rewards": {
-		"function": "bc_rewards:end/im_coming_back_murph"
+		"function": "minecraft:function/end/im_coming_back_murph"
 	},		
 	"criteria": {
 		"outer_pos_x": {
@@ -39,7 +39,7 @@
 							"predicate": {
 								"type_specific": {
 									"type": "player",
-									"gamemode": "spectator"
+									"gamemode": ["spectator"]
 								}
 							}
 						}
@@ -73,7 +73,7 @@
 							"predicate": {
 								"type_specific": {
 									"type": "player",
-									"gamemode": "spectator"
+									"gamemode": ["spectator"]
 								}
 							}
 						}
@@ -107,7 +107,7 @@
 							"predicate": {
 								"type_specific": {
 									"type": "player",
-									"gamemode": "spectator"
+									"gamemode": ["spectator"]
 								}
 							}
 						}
@@ -141,7 +141,7 @@
 							"predicate": {
 								"type_specific": {
 									"type": "player",
-									"gamemode": "spectator"
+									"gamemode": ["spectator"]
 								}
 							}
 						}

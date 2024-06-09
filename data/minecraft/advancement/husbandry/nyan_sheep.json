@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:husbandry/live_and_let_dye",
 	"rewards": {
-		"function": "bc_rewards:adventure/nyan_sheep"
+		"function": "minecraft:function/husbandry/nyan_sheep"
 	},		
 	"criteria": {
 		"name_tag": {

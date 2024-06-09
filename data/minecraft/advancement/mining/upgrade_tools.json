@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:mining/mine_stone",
 	"rewards": {
-		"function": "bc_rewards:mining/getting_an_upgrade"
+		"function": "minecraft:function/mining/getting_an_upgrade"
 	},			
 	"criteria": {
 		"stone_pickaxe": {

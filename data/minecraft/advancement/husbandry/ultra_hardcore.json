@@ -9,7 +9,7 @@
     },
     "parent": "minecraft:husbandry/plant_seed",
 	"rewards": {
-		"function": "bc_rewards:farming/ultra_hardcore"
+		"function": "minecraft:function/husbandry/ultra_hardcore"
     },		
     "criteria": {
         "golden_apple": {

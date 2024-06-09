@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:husbandry/allay_deliver_item_to_player",
 	"rewards": {
-		"function": "bc_rewards:adventure/birthday_song"
+		"function": "minecraft:function/husbandry/birthday_song"
 	},		
 	"criteria": {
 		"allay_deliver_cake_to_note_block": {

@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:mining/death_pointer",
 	"rewards": {
-		"function": "bc_rewards:mining/9_to_5"
+		"function": "minecraft:function/mining/9_to_5"
 	},		
 	"criteria": {
 		"music_disc_5": {

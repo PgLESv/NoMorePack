@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:adventure/spyglass_at_parrot",
 	"rewards": {
-		"function": "bc_rewards:nether/is_it_a_balloon"
+		"function": "minecraft:function/adventure/is_it_a_balloon"
 	},		
 	"criteria": {
 		"spyglass_at_ghast": {

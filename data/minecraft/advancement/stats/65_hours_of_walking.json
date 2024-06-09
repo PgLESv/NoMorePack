@@ -1,9 +1,9 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:netherite_boots"
+			"id": "minecraft:netherite_boots"
 		},
-		"title": {"bold":"true","translate":"65","extra":[{"text":" "},{"bold":"false","translate":"horas de caminhada"}]},
+		"title": {"bold":true,"translate":"65","extra":[{"text":" "},{"bold":false,"translate":"horas de caminhada"}]},
 		"description": {"color":"light_purple","translate":"Caminhe 1000km."},
 		"announce_to_chat": true,
 		"frame": "challenge",

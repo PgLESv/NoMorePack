@@ -10,7 +10,7 @@
     },
     "parent": "minecraft:adventure/hero_of_the_village",
     "rewards": {
-		"function": "bc_rewards:adventure/war_is_coming"
+		"function": "minecraft:function/adventure/war_is_coming"
     },		
     "criteria": {
         "bad_omen": {

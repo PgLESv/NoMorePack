@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:adventure/sleep_in_bed",
 	"rewards": {
-		"function": "bc_rewards:adventure/the_sound_of_music"
+		"function": "minecraft:function/adventure/the_sound_of_music"
 	},
 	"criteria": {
 		"play_jukebox_in_meadows": {

@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:combate/throw_trident",
 	"rewards": {
-		"function": "bc_rewards:enchanting/very_very_frightening"
+		"function": "minecraft:function/combate/very_very_frightening"
 	},
 	"criteria": {
 		"struck_villager": {

@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:husbandry/root",
 	"rewards": {
-		"function": "bc_rewards:farming/a_seedy_place"
+		"function": "minecraft:function/husbandry/a_seedy_place"
 	},		
 	"criteria": {
 		"wheat": {

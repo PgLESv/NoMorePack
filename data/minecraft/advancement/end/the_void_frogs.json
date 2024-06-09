@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:end/root",
 	"rewards": {
-		"function": "bc_rewards:end/the_void_frogs"
+		"function": "minecraft:function/end/the_void_frogs"
 	},		
 	"criteria": {
 		"the_void_frogs": {

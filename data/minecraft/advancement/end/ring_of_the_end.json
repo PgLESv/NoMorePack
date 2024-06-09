@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:end/what_for",
 	"rewards": {
-		"function": "bc_rewards:end/ring_of_the_end"
+		"function": "minecraft:function/end/ring_of_the_end"
 	},		
 	"criteria": {
 		"ring_of_the_end": {

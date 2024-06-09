@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:mining/the_block_of_eternal_screaming",
 	"rewards": {
-		"function": "bc_rewards:mining/cataclyst"
+		"function": "minecraft:function/mining/cataclyst"
 	},
 	"criteria": {
 		"kill_mob_near_sculk_catalyst": {

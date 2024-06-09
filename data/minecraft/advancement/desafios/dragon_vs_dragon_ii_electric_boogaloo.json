@@ -10,7 +10,7 @@
     },
     "parent": "minecraft:desafios/root",
 	"rewards": {
-		"function": "bc_rewards:challenges/dragon_vs_dragon_ii_electric_boogaloo"
+		"function": "minecraft:function/desafios/dragon_vs_dragon_ii_electric_boogaloo"
     },		
     "criteria": {
         "ten_withers": {

@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:husbandry/make_a_sign_glow",
 	"rewards": {
-		"function": "bc_rewards:animal/iceologer_shouldve_won"
+		"function": "minecraft:function/husbandry/iceologer_shouldve_won"
 	},		
 	"criteria": {
 		"kill_100_glow_squids": {

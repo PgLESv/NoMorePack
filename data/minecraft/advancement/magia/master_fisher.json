@@ -13,7 +13,7 @@
     },
     "parent": "minecraft:magia/master_farmer",
     "rewards": {
-		"function": "bc_rewards:enchanting/master_fisher"
+		"function": "minecraft:function/magia/master_fisher"
     },		
     "criteria": {
 		"perfect_rod": {

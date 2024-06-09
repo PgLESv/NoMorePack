@@ -10,7 +10,7 @@
     },
     "parent": "minecraft:adventure/titanic",
     "rewards": {
-        "function": "bc_rewards:adventure/the_deep_end"
+        "function": "minecraft:function/adventure/the_deep_end"
     },	
     "criteria": {
         "elder_guardian": {

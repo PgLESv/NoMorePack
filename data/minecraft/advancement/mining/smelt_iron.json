@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:mining/upgrade_tools",
 	"rewards": {
-		"function": "bc_rewards:mining/acquire_hardware"
+		"function": "minecraft:function/mining/acquire_hardware"
 	},		
 	"criteria": {
 		"iron": {

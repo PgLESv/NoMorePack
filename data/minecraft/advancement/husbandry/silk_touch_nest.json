@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:husbandry/safely_harvest_honey",
 	"rewards": {
-		"function": "bc_rewards:animal/total_beelocation"
+		"function": "minecraft:function/husbandry/total_beelocation"
 	},		
 	"criteria": {
 		"silk_touch_nest": {

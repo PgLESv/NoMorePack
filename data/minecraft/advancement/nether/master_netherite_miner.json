@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:netherite_ingot"
+            "id": "minecraft:netherite_ingot"
         },
         "title": {"translate":"Apreciador de Netherite"},
         "description": {"color":"dark_purple","translate":"Minere Detritos suficientes para fazer um pack de Barras de Netherite!"},
@@ -10,21 +10,21 @@
     },
     "parent": "minecraft:nether/netherite_miner",
 	"rewards": {
-		"function": "bc_rewards:nether/master_netherite_miner"
+		"function": "minecraft:function/nether/master_netherite_miner"
     },	
     "criteria": {
-        "netherite_ingot": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
+		"netherite_ingot": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
 						"items": [
 							"minecraft:netherite_ingot"
 						],
 						"count": 64
-                    }
-                ]
-            }
-        }
-    }
+					}
+				]
+			}
+		}
+	}
 }

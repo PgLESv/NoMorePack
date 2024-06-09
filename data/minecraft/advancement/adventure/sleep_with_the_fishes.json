@@ -10,7 +10,7 @@
     },
     "parent": "minecraft:adventure/sleep_in_bed",
 	"rewards": {
-		"function": "bc_rewards:biomes/sleep_with_the_fishes"
+		"function": "minecraft:function/adventure/sleep_with_the_fishes"
     },		
     "criteria": {
         "trigger": {

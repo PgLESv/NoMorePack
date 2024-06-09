@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:nether/find_bastion",
 	"rewards": {
-		"function": "bc_rewards:nether/war_pigs"
+		"function": "minecraft:function/nether/war_pigs"
 	},
 	"criteria": {
 		"loot_bastion_other": {

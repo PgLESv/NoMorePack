@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:mining/form_obsidian",
 	"rewards": {
-		"function": "bc_rewards:mining/we_need_to_go_deeper"
+		"function": "minecraft:function/mining/we_need_to_go_deeper"
 	},
 	"criteria": {
 		"entered_nether_portal": {

@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:husbandry/root",
 	"rewards": {
-		"function": "bc_rewards:animal/fishy_business"
+		"function": "minecraft:function/husbandry/fishy_business"
 	},		
 	"criteria": {
 		"cod": {

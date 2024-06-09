@@ -10,7 +10,7 @@
 		"announce_to_chat": false
 	},
 	"rewards": {
-		"function": "bc_rewards:end/root"
+		"function": "minecraft:function/end/root"
 	},	
 	"criteria": {
 		"entered_end": {

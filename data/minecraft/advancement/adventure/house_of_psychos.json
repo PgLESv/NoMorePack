@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:adventure/war_is_coming",
 	"rewards": {
-		"function": "bc_rewards:adventure/house_of_psychos"
+		"function": "minecraft:function/adventure/house_of_psychos"
 	},		
 	"criteria": {
 		"mansion": {
@@ -33,7 +33,7 @@
 							"predicate": {
 								"type_specific": {
 									"type": "player",
-									"gamemode": "spectator"
+									"gamemode": ["spectator"]
 								}
 							}
 						}

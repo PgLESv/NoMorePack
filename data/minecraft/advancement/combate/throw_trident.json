@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:combate/because_im_aquaman",
 	"rewards": {
-		"function": "bc_rewards:weaponry/a_throwaway_joke"
+		"function": "minecraft:function/combate/a_throwaway_joke"
 	},
 	"criteria": {
 		"shot_trident": {

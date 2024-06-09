@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:magia/root",
 	"rewards": {
-		"function": "bc_rewards:nether/local_brewery"
+		"function": "minecraft:function/magia/local_brewery"
 	},	
 	"criteria": {
 		"potion": {

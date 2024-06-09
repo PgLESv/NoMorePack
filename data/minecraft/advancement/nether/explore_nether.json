@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:nether/ride_strider",	
 	"rewards": {
-		"function": "bc_rewards:nether/hot_tourist_destination"
+		"function": "minecraft:function/nether/hot_tourist_destination"
 	},	
 	"criteria": {
 		"nether_wastes": {

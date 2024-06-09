@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:end/find_end_city",
 	"rewards": {
-		"function": "bc_rewards:end/skys_the_limit"
+		"function": "minecraft:function/end/skys_the_limit"
 	},	
 	"criteria": {
 		"elytra": {

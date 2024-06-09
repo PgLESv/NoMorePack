@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:animal/root",
 	"rewards": {
-		"function": "bc_rewards:animal/isnt_it_scute"
+		"function": "minecraft:function/husbandry/isnt_it_scute"
 	},
 	"criteria": {
 		"brush_armadillo": {

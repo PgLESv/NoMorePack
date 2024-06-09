@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:adventure/battle_of_the_bands",
 	"rewards": {
-		"function": "bc_rewards:animal/loud_and_proud"
+		"function": "minecraft:function/adventure/loud_and_proud"
 	},			
 	"criteria": {
 		"goat_horn": {

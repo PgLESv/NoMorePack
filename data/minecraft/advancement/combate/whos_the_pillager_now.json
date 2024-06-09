@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:combate/ol_betsy",
 	"rewards": {
-		"function": "bc_rewards:weaponry/whos_the_pillager_now"
+		"function": "minecraft:function/combate/whos_the_pillager_now"
 	},
 	"criteria": {
 		"kill_pillager": {

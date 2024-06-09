@@ -10,18 +10,18 @@
         "announce_to_chat": true
     },
 	"rewards": {
-		"function": "bc_rewards:mining/root"
+		"function": "minecraft:function/mining/root"
     },
     "criteria": {
-        "pickaxe": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-						"tag": "minecraft:pickaxes"
+		"pickaxe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "#minecraft:pickaxes"
 					}
-                ]
-            }
-        }
-    }
+				]
+			}
+		}
+	}
 }

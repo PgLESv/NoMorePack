@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:mining/rock_collection",
 	"rewards": {
-		"function": "bc_rewards:mining/bulldozer"
+		"function": "minecraft:function/mining/bulldozer"
 	},		
 	"criteria": {
 		"mine_nether_gold_ore": {

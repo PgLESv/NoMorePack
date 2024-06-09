@@ -10,7 +10,7 @@
     },
     "parent": "minecraft:end/enter_end_gateway",	
     "rewards": {
-		"function": "bc_rewards:end/void_walker"
+		"function": "minecraft:function/end/void_walker"
     },	
 	"criteria": {
 		"the_end": {
@@ -34,7 +34,7 @@
 							"predicate": {
 								"type_specific": {
 									"type": "player",
-									"gamemode": "spectator"
+									"gamemode": ["spectator"]
 								}
 							}
 						}
@@ -63,7 +63,7 @@
 							"predicate": {
 								"type_specific": {
 									"type": "player",
-									"gamemode": "spectator"
+									"gamemode": ["spectator"]
 								}
 							}
 						}
@@ -92,7 +92,7 @@
 							"predicate": {
 								"type_specific": {
 									"type": "player",
-									"gamemode": "spectator"
+									"gamemode": ["spectator"]
 								}
 							}
 						}
@@ -109,7 +109,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biomes": "minecraft:end_midlands"
+								"biomes": "#blazeandcave:end_midlands"
 							}
 						}
 					},
@@ -121,7 +121,7 @@
 							"predicate": {
 								"type_specific": {
 									"type": "player",
-									"gamemode": "spectator"
+									"gamemode": ["spectator"]
 								}
 							}
 						}
@@ -138,7 +138,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biomes": "minecraft:end_barrens"
+								"biomes": "#blazeandcave:end_barrens"
 							}
 						}
 					},
@@ -150,7 +150,7 @@
 							"predicate": {
 								"type_specific": {
 									"type": "player",
-									"gamemode": "spectator"
+									"gamemode": ["spectator"]
 								}
 							}
 						}

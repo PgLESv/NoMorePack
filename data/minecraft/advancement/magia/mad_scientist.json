@@ -11,7 +11,7 @@
     },
     "parent": "minecraft:magia/cure_zombie_villager",
 	"rewards": {
-		"function": "bc_rewards:potion/mad_scientist"
+		"function": "minecraft:function/magia/mad_scientist"
     },		
     "criteria": {
 		"farmer": {

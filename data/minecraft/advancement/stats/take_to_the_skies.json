@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:phantom_membrane"
+            "id": "minecraft:phantom_membrane"
         },
         "title": {"translate":"14-Bis"},
         "description": {"color":"green","translate":"Voe 10km com a Elytra!"},
@@ -12,8 +12,8 @@
 		"function": "minecraft:function/stats/take_to_the_skies"
     },		
     "criteria": {
-        "trigger": {
-            "trigger": "minecraft:location",
+		"trigger": {
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
 					"type_specific": {
@@ -30,6 +30,6 @@
 					}
 				}
 			}
-        }
-    }
+		}
+	}
 }

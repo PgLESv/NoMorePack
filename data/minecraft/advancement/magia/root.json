@@ -1,70 +1,31 @@
 {
     "display": {
-        "title": {
-            "text": "Poções e Encantamentos",
-            "color": "white",
-            "bold": false,
-            "italic": false,
-            "underlined": false,
-            "strikethrough": false,
-            "obfuscated": false
-        },
-        "description": {
-            "text": "Bem auto explicativo",
-            "color": "green",
-            "bold": false
-        },
-        "icon": {
-            "id": "minecraft:blaze_powder"
-        },
-        "frame": "task",
-        "show_toast": false,
-        "announce_to_chat": false,
-        "hidden": false,
-        "background": "minecraft:textures/block/purple_concrete_powder.png"
-    },
+		"icon": {
+			"id": "minecraft:blaze_powder",
+			"components": {
+				"minecraft:potion_contents": {
+					"custom_color": 16056565
+				}
+			}
+		},
+		"title": {"translate":"Poções e Encantamentos"},
+		"description": {"color":"green","translate":"Bem auto explicativo"},
+		"background": "minecraft:textures/block/glowstone.png",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
     "criteria": {
-        "obsidian": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:obsidian",
-                        "durability": {
-                            "min": 1,
-                            "max": 64
-                        }
-                    }
-                ]
-            }
-        },
-        "nether": {
-            "trigger": "minecraft:changed_dimension",
-            "conditions": {
-                "from": "overworld",
-                "to": "the_nether"
-            }
-        },
-        "efeitos": {
-            "trigger": "minecraft:effects_changed"
-        },
-        "potion": {
-            "trigger": "minecraft:brewed_potion",
-            "conditions": {
-                "potion": "minecraft:empty"
-            }
-        },
-        "enchant": {
-            "trigger": "minecraft:enchanted_item"
-        }
-    },
-    "requirements": [
-        [
-            "obsidian",
-            "nether",
-            "efeitos",
-            "potion",
-            "enchant"
-        ]
-    ]
+		"obsidian": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [ 
+							"minecraft:obsidian"
+						]
+					}
+				]
+			}
+		}
+	}
 }

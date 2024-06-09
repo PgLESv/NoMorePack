@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:adventure/spyglass_at_ghast",
 	"rewards": {
-		"function": "bc_rewards:end/is_it_a_plane"
+		"function": "minecraft:function/adventure/is_it_a_plane"
 	},		
 	"criteria": {
 		"spyglass_at_dragon": {

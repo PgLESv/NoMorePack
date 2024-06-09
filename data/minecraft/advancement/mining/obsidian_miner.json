@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:obsidian"
+            "id": "minecraft:obsidian"
         },
         "title": {"translate":"Minerador de obsidian"},
         "description": {"color":"green","translate":"Minere um pack de obsidian (isso vai demorar um pouco...)"},
@@ -10,7 +10,7 @@
     },
     "parent": "minecraft:mining/bulldozer",
     "rewards": {
-		"function": "bc_rewards:mining/obsidian_miner"
+		"function": "minecraft:function/mining/obsidian_miner"
     },		
     "criteria": {
         "obsidian": {

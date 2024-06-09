@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:desafios/all_the_blocks",
 	"rewards": {
-		"function": "bc_rewards:challenges/all_the_items"
+		"function": "minecraft:function/desafios/all_the_items"
 	},		
 	"criteria": {
 		"acacia_boat": {

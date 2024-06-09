@@ -10,7 +10,7 @@
     },
     "parent": "minecraft:magia/a_rather_pointy_fence_post",
     "rewards": {
-		"function": "bc_rewards:enchanting/over_overkill"
+		"function": "minecraft:function/magia/over_overkill"
     },		
 	"criteria": {
 		"overkill": {

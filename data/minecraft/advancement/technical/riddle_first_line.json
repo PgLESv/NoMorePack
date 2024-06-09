@@ -14,7 +14,7 @@
 						"predicates": {
 							"enchantments": [
 								{
-									"enchantment": "minecraft:vanishing_curse"
+									"enchantments": "minecraft:vanishing_curse"
 								}
 							]
 						}

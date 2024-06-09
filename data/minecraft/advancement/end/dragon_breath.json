@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:end/root",
 	"rewards": {
-		"function": "bc_rewards:potion/you_need_a_mint"
+		"function": "minecraft:function/end/you_need_a_mint"
 	},	
 	"criteria": {
 		"dragon_breath": {

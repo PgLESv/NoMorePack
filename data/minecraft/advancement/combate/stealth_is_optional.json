@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:mining/fallen_kingdom",
 	"rewards": {
-		"function": "bc_rewards:monsters/stealth_is_optional"
+		"function": "minecraft:function/combate/stealth_is_optional"
 	},		
 	"criteria": {
 		"warden": {

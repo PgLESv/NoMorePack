@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:adventure/master_logger",
 	"rewards": {
-		"function": "bc_rewards:building/fruit_of_the_looms"
+		"function": "minecraft:function/adventure/fruit_of_the_looms"
 	},		
 	"criteria": {
 		"flower_banner_pattern": {

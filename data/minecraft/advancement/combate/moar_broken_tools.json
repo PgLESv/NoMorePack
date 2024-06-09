@@ -10,7 +10,7 @@
     },
     "parent": "minecraft:combate/stabcraft",
     "rewards": {
-		"function": "bc_rewards:mining/moar_broken_tools"
+		"function": "minecraft:function/combate/moar_broken_tools"
     },		
     "criteria": {
 		"wooden_shovel": {

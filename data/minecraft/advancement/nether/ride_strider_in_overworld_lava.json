@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:nether/ride_strider",
 	"rewards": {
-		"function": "bc_rewards:nether/feels_like_home"
+		"function": "minecraft:function/nether/feels_like_home"
 	},
   "criteria": {
 	"ride_entity_distance": {

@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:adventure/house_of_psychos",
 	"rewards": {
-		"function": "bc_rewards:adventure/allayance"
+		"function": "minecraft:function/adventure/allayance"
 	},		
 	"criteria": {
 		"allay": {

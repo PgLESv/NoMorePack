@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:husbandry/i_just_want_to_make_toast",
 	"rewards": {
-		"function": "bc_rewards:animal/overpopulation"
+		"function": "minecraft:function/husbandry/overpopulation"
 	},		
 	"criteria": {
 		"minecraft:horse": {

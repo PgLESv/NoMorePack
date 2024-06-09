@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:nether/root",
 	"rewards": {
-		"function": "bc_rewards:nether/return_to_sender"
+		"function": "minecraft:function/nether/return_to_sender"
 	},	
 	"criteria": {
 		"killed_ghast": {

@@ -10,7 +10,7 @@
     },
     "parent": "minecraft:end/sky_high",
     "rewards": {
-        "function": "bc_rewards:end/uh_houston_we_have_a_problem"
+        "function": "minecraft:function/end/uh_houston_we_have_a_problem"
     },		
 	"criteria": {
 		"world_height": {
@@ -38,7 +38,7 @@
 							"predicate": {
 								"type_specific": {
 									"type": "player",
-									"gamemode": "spectator"
+									"gamemode": ["spectator"]
 								}
 							}
 						}

@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:mining/follow_ender_eye",
 	"rewards": {
-		"function": "bc_rewards:nether/the_end"
+		"function": "minecraft:function/mining/the_end"
 	},	
 	"criteria": {
 		"entered_end_portal": {

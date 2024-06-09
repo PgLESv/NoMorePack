@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:end/elytra",
 	"rewards": {
-		"function": "bc_rewards:end/the_point_of_no_return"
+		"function": "minecraft:function/end/the_point_of_no_return"
 	},		
 	"criteria": {
 		"world_height": {
@@ -38,7 +38,7 @@
 							"predicate": {
 								"type_specific": {
 									"type": "player",
-									"gamemode": "spectator"
+									"gamemode": ["spectator"]
 								}
 							}
 						}

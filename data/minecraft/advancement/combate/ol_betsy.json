@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:combate/shoot_arrow",
 	"rewards": {
-		"function": "bc_rewards:weaponry/ol_betsy"
+		"function": "minecraft:function/combate/ol_betsy"
 	},
 	"criteria": {
 		"shot_crossbow": {

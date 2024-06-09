@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:scute"
+            "id": "minecraft:turtle_scute"
         },
         "title": {"translate":"Duas Horas Depois..."},
         "description": {"translate":"Colete a Carapaça de Uma Tartaruga Bebê Quando Ela Crescer"},
@@ -9,7 +9,7 @@
     },
     "parent": "minecraft:husbandry/live_and_let_dye",
 	"rewards": {
-		"function": "bc_rewards:animal/scuttler"
+		"function": "minecraft:function/husbandry/scuttler"
     },		
     "criteria": {
 		"scute": {

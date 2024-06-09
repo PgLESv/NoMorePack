@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:desafios/dragon_vs_dragon_ii_electric_boogaloo",
 	"rewards": {
-		"function": "bc_rewards:challenges/were_in_the_endgame_now"
+		"function": "minecraft:function/desafios/were_in_the_endgame_now"
 	},		
 	"criteria": {
 		"start_raid_end": {

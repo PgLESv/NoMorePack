@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:adventure/root",
 	"rewards": {
-		"function": "bc_rewards:animal/sticky_situation"
+		"function": "minecraft:function/adventure/sticky_situation"
 	},
 	"criteria": {
 		"honey_block_slide": {

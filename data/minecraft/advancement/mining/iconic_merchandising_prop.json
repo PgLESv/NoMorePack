@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:diamond_pickaxe"
+            "id": "minecraft:diamond_pickaxe"
         },
         "title": {"translate":"A segunda melhor"},
         "description": {"color":"green","translate":"Crie uma picareta do (antigo) maior calibre!"},
@@ -9,20 +9,20 @@
     },
     "parent": "minecraft:mining/mine_diamond",
     "rewards": {
-		"function": "bc_rewards:mining/iconic_merchandising_prop"
+		"function": "minecraft:function/mining/iconic_merchandising_prop"
     },			
     "criteria": {
-        "diamond_pickaxe": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
+		"diamond_pickaxe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
 						"items": [
 							"minecraft:diamond_pickaxe"
 						]
-                    }
-                ]
-            }
-        }
-    }
+					}
+				]
+			}
+		}
+	}
 }

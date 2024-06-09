@@ -17,7 +17,7 @@
 	},
 	"parent": "minecraft:adventure/salvage_sherd",
 	"rewards": {
-		"function": "bc_rewards:adventure/careful_restoration"
+		"function": "minecraft:function/adventure/careful_restoration"
 	},		
 	"criteria": {
 		"pot_crafted_using_only_sherds": {

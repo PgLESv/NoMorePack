@@ -13,7 +13,7 @@
     },
     "parent": "minecraft:magia/master_sniper",
     "rewards": {
-		"function": "bc_rewards:enchanting/master_arbalist"
+		"function": "minecraft:function/magia/master_arbalist"
     },		
     "criteria": {
 		"perfect_bow_multishot": {

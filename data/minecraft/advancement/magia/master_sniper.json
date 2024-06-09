@@ -13,7 +13,7 @@
     },
     "parent": "minecraft:magia/enchant_item",
     "rewards": {
-		"function": "bc_rewards:enchanting/master_sniper"
+		"function": "minecraft:function/magia/master_sniper"
     },		
     "criteria": {
 		"perfect_bow_infinity": {

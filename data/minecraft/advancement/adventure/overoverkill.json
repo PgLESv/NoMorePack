@@ -3,14 +3,14 @@
 		"icon": {
 			"id": "minecraft:deepslate_redstone_ore"
 		},
-		"title": {"translate":"Meteor Strike"},
-		"description": {"color":"dark_purple","translate":"Deal 50 hearts of damage in a single hit using the Mace"},
+		"title": {"translate":"Golpe baixo"},
+		"description": {"color":"dark_purple","translate":"Cause 50 corações de dano com um só golpe de clava"},
 		"announce_to_chat": true,
 		"frame": "challenge"
 	},
-	"parent": "blazeandcave:weaponry/nice_to_mace_you",
+	"parent": "minecraft:adventure/minecraft_trials_editio",
 	"rewards": {
-		"function": "bc_rewards:weaponry/meteor_strike"
+		"function": "minecraft:function/adventure/meteor_strike"
 	},
 	"criteria": {
 		"overoverkill": {

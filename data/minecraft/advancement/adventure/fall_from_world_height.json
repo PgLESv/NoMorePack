@@ -6,11 +6,11 @@
 		"title": {"translate":"Estrela cadente"},
 		"description": {"translate":"Sobreviva a uma queda do ponto mais alto do mundo (altura-limite) ao mais baixo"},
 		"announce_to_chat": true,
-		"frame": "task"
+		"frame": "goal"
 	},
 	"parent": "minecraft:mining/rock_bottom",
 	"rewards": {
-		"function": "bc_rewards:mining/caves_and_cliffs"
+		"function": "minecraft:function/adventure/caves_and_cliffs"
 	},
 	"criteria": {
 		"fall_from_world_height": {

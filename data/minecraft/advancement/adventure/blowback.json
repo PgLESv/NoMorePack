@@ -3,14 +3,14 @@
 		"icon": {
 			"id": "minecraft:breeze_rod"
 		},
-		"title": {"translate":"Blowback"},
-		"description": {"color":"dark_purple","translate":"Kill a Breeze with a deflected Wind Charge"},
+		"title": {"translate":"A vida é um sopro"},
+		"description": {"color":"dark_purple","translate":"Mate um vórtice com seu próprio projétil"},
 		"announce_to_chat": true,
 		"frame": "challenge"
 	},
-	"parent": "blazeandcave:adventure/from_under_your_feet",
+	"parent": "minecraft:adventure/under_lock_and_key",
 	"rewards": {
-		"function": "bc_rewards:adventure/break_wind"
+		"function": "minecraft:function/adventure/break_wind"
 	},
 	"criteria": {
 		"blowback": {

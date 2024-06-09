@@ -10,7 +10,7 @@
     },
     "parent": "minecraft:combate/moar_broken_tools",
     "rewards": {
-		"function": "bc_rewards:mining/where_are_all_your_clothes"
+		"function": "minecraft:function/combate/where_are_all_your_clothes"
     },		
     "criteria": {
 		"leather_helmet": {

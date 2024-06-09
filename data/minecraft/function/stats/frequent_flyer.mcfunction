@@ -1,2 +1,1 @@
-execute if score challenge bac_settings matches 1 run function bc_rewards:msg/statistics/frequent_flyer
-execute if score challenge bac_settings matches -1 unless score minecraft:stats/frequent_flyer bac_obtained matches 1.. run function bc_rewards:msg/statistics/frequent_flyer
+tellraw @a {"translate":"%1$s concluiu o desafio %2$s%3$s%4$s","with":[{"selector":"@s"},{"color":"dark_purple","text":"["},{"color":"dark_purple","translate":"Bem-te-vi","hoverEvent":{"action":"show_text","contents":{"color":"dark_purple","translate":"Bem-te-vi","extra":[{"text":"\n"},{"color":"#C900C7","translate":"Voe 1000km com uma Elytra!"},{"text":"\n\n"},{"color":"gray","italic":true,"translate":"%1$s tab","with":[{"translate":"Stats"}]}]}}},{"color":"dark_purple","text":"]"}]}

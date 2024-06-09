@@ -13,7 +13,7 @@
     },
     "parent": "minecraft:combate/loser",
     "rewards": {
-        "function": "bc_rewards:biomes/kung_fu_panda"
+        "function": "minecraft:function/combate/kung_fu_panda"
     },		
     "criteria": {
 		"panda": {

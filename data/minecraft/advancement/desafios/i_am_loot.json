@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:desafios/root",
 	"rewards": {
-		"function": "bc_rewards:challenges/i_am_loot"
+		"function": "minecraft:function/desafios/i_am_loot"
 	},		
 	"criteria": {
 		"abandoned_mineshaft": {

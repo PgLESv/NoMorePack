@@ -3,14 +3,14 @@
 		"icon": {
 			"id": "minecraft:map"
 		},
-		"title": {"translate":"Me diga o que é isso","extra":[{"italic":"true","text":"           "}]},
+		"title": {"translate":"Me diga o que é isso","extra":[{"italic":true,"text":"           "}]},
 		"description": {"color":"#FF2A2A","translate":"A primeira é forjar uma bússola que desaparece","extra":[{"text":"\n"},{"color":"#FF2A2A","translate":"A segunda é matar um cadáver que pesca"},{"text":"\n"},{"color":"#FF2A2A","translate":"A terceira é viajar em uma montaria de cabeça para baixo"},{"text":"\n"},{"color":"#FF2A2A","translate":"A quarta é levar em conta um tripwire do templo"},{"text":"\n"},{"color":"#FF2A2A","translate":"A quinta é ser invisível, mas visível em todos os lugares"},{"text":"\n"},{"color":"#FF2A2A","translate":"A sexta é devolver o produto de uma ave em pleno ar"},{"text":"\n"},{"color":"#FF2A2A","translate":"A sétima é permitir que uma criança cometa o ato de roubar"},{"text":"\n"},{"color":"#FF2A2A","translate":"A oitava é ferir um Wither com uma cura de respingos"},{"text":"\n"},{"color":"#FF2A2A","translate":"A nona é ser um pirata; papagaio, luneta, mapa e barco"},{"text":"\n"},{"color":"#FF2A2A","translate":"A décima, se você conseguir alcançá-lo, será o G.O.A.T."}]},
 		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "minecraft:desafios/the_perfect_run",
 	"rewards": {
-		"function": "bc_rewards:challenges/riddle_me_this"
+		"function": "minecraft:function/desafios/riddle_me_this"
 	},		
 	"criteria": {
 		"first_line": {
@@ -20,7 +20,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:technical/riddle_first_line": true
+							"minecraft:technical/riddle_first_line": true
 						}
 					}
 				}
@@ -33,7 +33,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:technical/riddle_second_line": true
+							"minecraft:technical/riddle_second_line": true
 						}
 					}
 				}
@@ -46,7 +46,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:technical/riddle_third_line": true
+							"minecraft:technical/riddle_third_line": true
 						}
 					}
 				}
@@ -59,7 +59,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:technical/riddle_fourth_line": true
+							"minecraft:technical/riddle_fourth_line": true
 						}
 					}
 				}
@@ -72,7 +72,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:technical/riddle_fifth_line": true
+							"minecraft:technical/riddle_fifth_line": true
 						}
 					}
 				}
@@ -85,7 +85,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:technical/riddle_sixth_line": true
+							"minecraft:technical/riddle_sixth_line": true
 						}
 					}
 				}
@@ -98,7 +98,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:technical/riddle_seventh_line": true
+							"minecraft:technical/riddle_seventh_line": true
 						}
 					}
 				}
@@ -111,7 +111,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:technical/riddle_eighth_line": true
+							"minecraft:technical/riddle_eighth_line": true
 						}
 					}
 				}
@@ -124,7 +124,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:technical/riddle_ninth_line": true
+							"minecraft:technical/riddle_ninth_line": true
 						}
 					}
 				}
@@ -137,7 +137,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:technical/riddle_tenth_line": true
+							"minecraft:technical/riddle_tenth_line": true
 						}
 					}
 				}

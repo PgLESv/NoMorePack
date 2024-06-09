@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:chicken"
+            "id": "minecraft:chicken"
         },
         "title": {"translate":"De dois em dois em dois..."},
         "description": {"color":"dark_purple","translate":"Faça 2500 animais filhotes"},

@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:adventure/were_being_attacked",
 	"rewards": {
-		"function": "bc_rewards:adventure/hero_of_the_village"
+		"function": "minecraft:function/adventure/hero_of_the_village"
 	},		
 	"criteria": {
 		"hero_of_the_village": {

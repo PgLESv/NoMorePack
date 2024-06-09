@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:husbandry/tame_an_animal",
 	"rewards": {
-		"function": "bc_rewards:adventure/a_complete_catalogue"
+		"function": "minecraft:function/husbandry/a_complete_catalogue"
 	},	
   "criteria": {
     "minecraft:black": {

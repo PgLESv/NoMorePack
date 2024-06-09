@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:adventure/root",
 	"rewards": {
-		"function": "bc_rewards:adventure/what_a_deal"
+		"function": "minecraft:function/adventure/what_a_deal"
 	},		
 	"criteria": {
 		"trade": {

@@ -10,7 +10,7 @@
     },
     "parent": "minecraft:husbandry/tame_an_animal",
     "rewards": {
-        "function": "bc_rewards:animal/blistering_barnacles"
+        "function": "minecraft:function/husbandry/blistering_barnacles"
     },		
     "criteria": {
         "llama_hurt_player": {

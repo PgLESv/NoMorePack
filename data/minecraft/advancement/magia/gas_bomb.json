@@ -10,7 +10,7 @@
     },
     "parent": "minecraft:magia/a_furious_test_subject",
 	"rewards": {
-		"function": "bc_rewards:potion/gas_bomb"
+		"function": "minecraft:function/magia/gas_bomb"
     },		
     "criteria": {
 		"speed": {

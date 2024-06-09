@@ -1,0 +1,1 @@
+function minecraft:update_score

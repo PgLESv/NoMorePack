@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:chest_minecart"
+            "id": "minecraft:chest_minecart"
         },
         "title": {"translate":"Correios!"},
         "description": {"color":"green","translate":"Abra um Minecart de uma Mina Abandonada!"},
@@ -9,7 +9,7 @@
     },
     "parent": "minecraft:mining/dungeons_and_spawners",
     "rewards": {
-        "function": "bc_rewards:mining/steals_on_wheels"
+        "function": "minecraft:function/mining/steals_on_wheels"
     },		
     "criteria": {
 		"heart_of_the_sea": {

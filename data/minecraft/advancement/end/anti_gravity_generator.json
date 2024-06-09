@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:end/a_wizards_breakfast",
 	"rewards": {
-		"function": "bc_rewards:end/anti_gravity_generator"
+		"function": "minecraft:function/end/anti_gravity_generator"
 	},		
 	"criteria": {
 		"shulker_hurt_player": {

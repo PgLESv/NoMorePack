@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:mining/lava_bucket",
 	"rewards": {
-		"function": "bc_rewards:mining/ice_bucket_challenge"
+		"function": "minecraft:function/mining/ice_bucket_challenge"
 	},			
 	"criteria": {
 		"obsidian": {

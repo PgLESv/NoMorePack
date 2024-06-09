@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:combate/still_talking",
 	"rewards": {
-		"function": "bc_rewards:nether/piglin_peril"
+		"function": "minecraft:function/combate/piglin_peril"
 	},	
 	"criteria": {
 		"piglin_head": {

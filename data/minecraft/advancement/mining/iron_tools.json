@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:mining/smelt_iron",
 	"rewards": {
-		"function": "bc_rewards:mining/isnt_it_iron_pick"
+		"function": "minecraft:function/mining/isnt_it_iron_pick"
 	},			
 	"criteria": {
 		"iron_pickaxe": {

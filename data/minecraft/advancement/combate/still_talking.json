@@ -10,7 +10,7 @@
     },
     "parent": "minecraft:combate/creepy_heads",
     "rewards": {
-        "function": "bc_rewards:monsters/still_talking"
+        "function": "minecraft:function/combate/still_talking"
     },		
     "criteria": {
         "zombie_head": {

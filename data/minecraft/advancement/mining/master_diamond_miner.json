@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:diamond_block"
+            "id": "minecraft:diamond_block"
         },
         "title": {"translate":"Degustador de Diamantes"},
         "description": {"translate":"Minere Diamantes suficientes para fazer um pack de blocos!"},
@@ -10,7 +10,7 @@
     },
     "parent": "minecraft:mining/master_iron_miner",
     "rewards": {
-		"function": "bc_rewards:mining/master_diamond_miner"
+		"function": "minecraft:function/mining/master_diamond_miner"
     },		
     "criteria": {
         "diamond": {

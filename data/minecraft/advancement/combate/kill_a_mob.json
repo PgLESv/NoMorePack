@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:combate/root",
 	"rewards": {
-		"function": "bc_rewards:monsters/monster_hunter"
+		"function": "minecraft:function/combate/monster_hunter"
 	},		
 	"criteria": {
 		"monster_hunter": {

@@ -10,7 +10,7 @@
     },
     "parent": "minecraft:desafios/root",
     "rewards": {
-        "function": "bc_rewards:challenges/nuclear_fusion"
+        "function": "minecraft:function/desafios/nuclear_fusion"
     },
 	"criteria": {
 		"struck_villager": {

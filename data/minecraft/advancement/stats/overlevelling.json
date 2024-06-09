@@ -1,21 +1,23 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:enchanted_book",
-			"nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
-        },
+			"id": "minecraft:enchanted_book",
+			"components": {
+				"minecraft:enchantment_glint_override": true
+			}
+		},
         "title": {"translate":"Ficando Velho"},
         "description": {"color":"dark_purple","translate":"Atinja 100 de experiência!"},
         "announce_to_chat": true,
-		"frame": "goal"
+		"frame": "challenge"
     },
     "parent": "minecraft:stats/root",
 	"rewards": {
 		"function": "minecraft:function/stats/overlevelling"
     },		
     "criteria": {
-        "trigger": {
-            "trigger": "minecraft:location",
+		"trigger": {
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
 					"type_specific": {
@@ -26,6 +28,6 @@
 					}
 				}
 			}
-        }
-    }
+		}
+	}
 }

@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:husbandry/root",
 	"rewards": {
-		"function": "bc_rewards:animal/bee_our_guest"
+		"function": "minecraft:function/husbandry/bee_our_guest"
 	},
 	"criteria": {
 		"safely_harvest_honey": {

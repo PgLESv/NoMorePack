@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:bedrock"
+            "id": "minecraft:bedrock"
         },
         "title": {"translate":"I have the high ground"},
         "description": {"color":"dark_purple","translate":"Suba no teto do Nether"},
@@ -10,7 +10,7 @@
     },
     "parent": "minecraft:nether/root",
     "rewards": {
-        "function": "bc_rewards:nether/limbo_walker"
+        "function": "minecraft:function/nether/limbo_walker"
     },		
 	"criteria": {
 		"world_height": {
@@ -39,7 +39,7 @@
 							"predicate": {
 								"type_specific": {
 									"type": "player",
-									"gamemode": "spectator"
+									"gamemode": ["spectator"]
 								}
 							}
 						}

@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:combate/sniper_duel",
 	"rewards": {
-		"function": "bc_rewards:redstone/bullseye"
+		"function": "minecraft:function/combate/bullseye"
 	},	
 	"criteria": {
 		"bullseye": {

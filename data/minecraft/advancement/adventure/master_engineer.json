@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:adventure/master_logger",
 	"rewards": {
-		"function": "bc_rewards:redstone/master_engineer"
+		"function": "minecraft:function/adventure/master_engineer"
 	},
 	"criteria": {
 		"redstone": {
@@ -806,6 +806,88 @@
 					{
 						"items": [
 							"minecraft:redstone_ore"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"decorated_pot": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:decorated_pot"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"copper_bulb": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:copper_bulb",
+							"minecraft:waxed_copper_bulb"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"exposed_copper_bulb": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:exposed_copper_bulb",
+							"minecraft:waxed_exposed_copper_bulb"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"weathered_copper_bulb": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:weathered_copper_bulb",
+							"minecraft:waxed_weathered_copper_bulb"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"oxidized_copper_bulb": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:oxidized_copper_bulb",
+							"minecraft:waxed_oxidized_copper_bulb"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"crafter": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:crafter"
 						],
 						"count": 64
 					}

@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:adventure/root",
 	"rewards": {
-		"function": "bc_rewards:building/master_logger"
+		"function": "minecraft:function/adventure/master_logger"
 	},		
 	"criteria": {
 		"oak_log": {

@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:adventure/brushed_away",
 	"rewards": {
-		"function": "bc_rewards:adventure/happy_trails"
+		"function": "minecraft:function/adventure/happy_trails"
 	},		
 	"criteria": {
 		"desert_pyramid": {
@@ -33,7 +33,7 @@
 							"predicate": {
 								"type_specific": {
 									"type": "player",
-									"gamemode": "spectator"
+									"gamemode": ["spectator"]
 								}
 							}
 						}

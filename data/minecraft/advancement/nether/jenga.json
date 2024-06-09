@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:acacia_boat"
+            "id": "minecraft:acacia_boat"
         },
         "title": {"translate":"Equilibrismo"},
         "description": {"color":"dark_purple","translate":"Ande num Lavagante, em cima de um Lavagante, em cima de um Barco, em cima de um Minecart"},
@@ -10,15 +10,15 @@
     },
     "parent": "minecraft:nether/ride_strider_in_overworld_lava",
     "rewards": {
-        "function": "bc_rewards:nether/jenga"
+        "function": "minecraft:function/nether/jenga"
     },		
     "criteria": {
-        "jenga": {
-            "trigger": "minecraft:started_riding",
-            "conditions": {
-                "player": [
-                    {
-                        "condition": "minecraft:entity_properties",
+		"jenga": {
+			"trigger": "minecraft:started_riding",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
 						"entity": "this",
 						"predicate": {
 							"vehicle": {
@@ -26,7 +26,7 @@
 								"vehicle": {
 									"type": "strider",
 									"vehicle": {
-										"type": "boat",
+										"type": "#minecraft:boats",
 										"vehicle": {
 											"type": "minecart"
 										}
@@ -34,9 +34,9 @@
 								}
 							}
 						}
-                    }
-                ]
-            }
+					}
+				]
+			}
 		}
-    }
+	}
 }

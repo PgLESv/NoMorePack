@@ -15,7 +15,7 @@
     },
     "parent": "minecraft:adventure/veteran_of_the_village",
     "rewards": {
-        "function": "bc_rewards:adventure/justice"
+        "function": "minecraft:function/adventure/justice"
     },	
 	"criteria": {
 		"arbalistic": {

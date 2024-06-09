@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:husbandry/obtain_diamond_hoe",
 	"rewards": {
-		"function": "bc_rewards:farming/serious_dedication"
+		"function": "minecraft:function/husbandry/serious_dedication"
 	},	
 	"criteria": {
 		"netherite_hoe": {

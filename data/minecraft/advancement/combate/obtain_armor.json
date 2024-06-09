@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:combate/root",
 	"rewards": {
-		"function": "bc_rewards:mining/suit_up"
+		"function": "minecraft:function/combate/suit_up"
 	},
 	"criteria": {
 		"iron_helmet": {

@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:combate/ol_betsy",
 	"rewards": {
-		"function": "bc_rewards:monsters/two_birds_one_arrow"
+		"function": "minecraft:function/combate/two_birds_one_arrow"
 	},
 	"criteria": {
 		"two_birds": {

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:reinforced_deepslate"
+			"id": "minecraft:reinforced_deepslate"
 		},
 		"title": {"translate":"Fallen Kingdom"},
 		"description": {"color":"green","translate":"Encontre e entre em uma Cidade Antiga no subsolo"},
@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:mining/root",
 	"rewards": {
-		"function": "bc_rewards:mining/fallen_kingdom"
+		"function": "minecraft:function/mining/fallen_kingdom"
 	},		
 	"criteria": {
 		"ancient_city": {
@@ -21,7 +21,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"structure": "ancient_city"
+								"structures": "ancient_city"
 							}
 						}
 					},
@@ -33,7 +33,7 @@
 							"predicate": {
 								"type_specific": {
 									"type": "player",
-									"gamemode": "spectator"
+									"gamemode": ["spectator"]
 								}
 							}
 						}

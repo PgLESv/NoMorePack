@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:combate/deflect_arrow",
 	"rewards": {
-		"function": "bc_rewards:weaponry/take_aim"
+		"function": "minecraft:function/combate/take_aim"
 	},		
 	"criteria": {
 		"shot_arrow": {

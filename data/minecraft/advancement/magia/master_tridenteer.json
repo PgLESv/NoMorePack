@@ -13,7 +13,7 @@
     },
     "parent": "minecraft:magia/master_arbalist",
     "rewards": {
-		"function": "bc_rewards:enchanting/master_tridenteer"
+		"function": "minecraft:function/magia/master_tridenteer"
     },		
     "criteria": {
 		"perfect_trident_loyalty": {

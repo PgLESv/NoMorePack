@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:diamond_horse_armor"
+            "id": "minecraft:diamond_horse_armor"
         },
         "title": {"translate":"Lampião e Suas Façanhas"},
         "description": {"color":"dark_purple","translate":"Ande 50km em um cavalo"},

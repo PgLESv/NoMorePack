@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:adventure/sleep_with_the_fishes",
 	"rewards": {
-		"function": "bc_rewards:building/insomniac"
+		"function": "minecraft:function/adventure/insomniac"
 	},		
 	"criteria": {
 		"trigger": {
@@ -43,7 +43,7 @@
 							"predicate": {
 								"type_specific": {
 									"type": "player",
-									"gamemode": "spectator"
+									"gamemode": ["spectator"]
 								}
 							}
 						}

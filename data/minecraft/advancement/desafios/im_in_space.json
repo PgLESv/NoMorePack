@@ -5,12 +5,12 @@
         },
         "title": {"translate":"Balão Meteorológico!"},
         "description": {"color":"#FF2A2A","translate":"Levite uma distância de 320 Blocos"},
-        "announce_to_chat": "true",
+        "announce_to_chat": true,
         "frame": "challenge"
     },
     "parent": "minecraft:desafios/ad_astra",
 	"rewards": {
-		"function": "bc_rewards:challenges/im_in_space"
+		"function": "minecraft:function/desafios/im_in_space"
     },	
     "criteria": {
         "levitated": {

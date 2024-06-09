@@ -1,12 +1,12 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:carrot_on_a_stick"
+            "id": "minecraft:carrot_on_a_stick"
         },
         "title": {"translate":"Rabicó Simulator"},
         "description": {"color":"dark_purple","translate":"Ande 1km em um porco"},
         "announce_to_chat": true,
-		"frame": "goal"
+		"frame": "challenge"
     },
     "parent": "minecraft:stats/scourge_of_the_west",
 	"rewards": {

@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:combate/obtain_armor",
 	"rewards": {
-		"function": "bc_rewards:mining/cover_me_with_diamonds"
+		"function": "minecraft:function/combate/cover_me_with_diamonds"
 	},			
 	"criteria": {
 		"diamond_helmet": {

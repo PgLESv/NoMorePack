@@ -3,14 +3,14 @@
 		"icon": {
 			"id": "minecraft:crafting_table"
 		},
-		"title": {"translate":"Crafters Crafting Crafters"},
-		"description": {"color":"#75E1FF","translate":"Be near a Crafter when it crafts a Crafter"},
+		"title": {"translate":"Revolução industrial"},
+		"description": {"color":"#75E1FF","translate":"Veja uma bancada automática fabricar uma bancada automática"},
 		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "minecraft:adventure/root",
 	"rewards": {
-		"function": "bc_rewards:redstone/crafters_crafting_crafters"
+		"function": "minecraft:function/adventure/crafters_crafting_crafters"
 	},
 	"criteria": {
 		"crafter_crafted_crafter": {

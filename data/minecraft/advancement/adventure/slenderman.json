@@ -10,7 +10,7 @@
     },
     "parent": "minecraft:adventure/the_one_and_true_johnny",
     "rewards": {
-        "function": "bc_rewards:adventure/slenderman"
+        "function": "minecraft:function/adventure/slenderman"
     },		
     "criteria": {
 		"slenderman": {

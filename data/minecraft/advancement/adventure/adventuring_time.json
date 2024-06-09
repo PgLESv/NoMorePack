@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:adventure/titanic",	
 	"rewards": {
-		"function": "bc_rewards:biomes/adventuring_time"
+		"function": "minecraft:function/adventure/adventuring_time"
 	},	
 	"criteria": {
 		"snowy_plains": {

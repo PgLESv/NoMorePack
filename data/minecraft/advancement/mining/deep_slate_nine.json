@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:deepslate"
+			"id": "minecraft:deepslate"
 		},
 		"title": {"translate":"A velha bedrock"},
 		"description": {"color":"green","translate":"Minere fundo o suficiente para a rocha se tornar escura"},
@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:mining/spelunker",
 	"rewards": {
-		"function": "bc_rewards:mining/deep_slate_nine"
+		"function": "minecraft:function/mining/deep_slate_nine"
 	},		
 	"criteria": {
 		"deepslate_level": {
@@ -24,7 +24,7 @@
 							"predicate": {
 								"type_specific": {
 									"type": "player",
-									"gamemode": "spectator"
+									"gamemode": ["spectator"]
 								}
 							}
 						}

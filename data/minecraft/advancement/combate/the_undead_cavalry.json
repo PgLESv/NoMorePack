@@ -10,7 +10,7 @@
     },
     "parent": "minecraft:combate/bone_to_party",
     "rewards": {
-        "function": "bc_rewards:monsters/the_undead_cavalry"
+        "function": "minecraft:function/combate/the_undead_cavalry"
     },		
     "criteria": {
         "skeleton_horse": {

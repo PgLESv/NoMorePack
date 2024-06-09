@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:adventure/fruit_of_the_looms",
 	"rewards": {
-		"function": "bc_rewards:building/art_gallery"
+		"function": "minecraft:function/adventure/art_gallery"
 	},		
 	"criteria": {
 		"kebab": {

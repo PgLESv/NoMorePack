@@ -10,7 +10,7 @@
     },
     "parent": "minecraft:husbandry/breed_an_animal",
 	"rewards": {
-		"function": "bc_rewards:animal/live_and_let_dye"
+		"function": "minecraft:function/husbandry/live_and_let_dye"
     },		
     "criteria": {
 		"white_dye": {

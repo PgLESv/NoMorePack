@@ -10,7 +10,7 @@
     },
     "parent": "minecraft:combate/spooky_skulls",
     "rewards": {
-        "function": "bc_rewards:monsters/creepy_heads"
+        "function": "minecraft:function/combate/creepy_heads"
     },		
     "criteria": {
         "creeper_head": {

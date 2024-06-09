@@ -12,7 +12,7 @@
 	},
 	"parent": "minecraft:nether/diamonds_are_not_forever",
 	"rewards": {
-		"function": "bc_rewards:nether/country_lode_take_me_home"
+		"function": "minecraft:function/nether/country_lode_take_me_home"
 	},	
 	"criteria": {
 		"use_lodestone": {

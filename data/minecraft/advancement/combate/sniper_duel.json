@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:combate/shoot_arrow",
 	"rewards": {
-		"function": "bc_rewards:weaponry/sniper_duel"
+		"function": "minecraft:function/combate/sniper_duel"
 	},	
 	"criteria": {
 		"killed_skeleton": {

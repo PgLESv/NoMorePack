@@ -6,11 +6,11 @@
 		"title": {"translate":"Acho Que Vou Vomitar"},
 		"description": {"color":"dark_purple","translate":"Tome todas as Sopas Suspeitas (Exceto a de Morcego, de preferência)"},
 		"announce_to_chat": true,
-		"frame": "goal"
+		"frame": "challenge"
 	},
 	"parent": "minecraft:husbandry/ultra_hardcore",
 	"rewards": {
-		"function": "bc_rewards:farming/im_gonna_be_sick"
+		"function": "minecraft:function/husbandry/im_gonna_be_sick"
 	},		
 	"criteria": {
 		"oxeye_daisy_stew": {

@@ -13,7 +13,7 @@
     },
     "parent": "minecraft:magia/master_knight",
     "rewards": {
-		"function": "bc_rewards:enchanting/master_axeman"
+		"function": "minecraft:function/magia/master_axeman"
     },		
     "criteria": {
 		"perfect_axe_fortune": {
@@ -21,7 +21,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "#blazeandcave:master_axes",
+						"items": "#minecraft:master_axes",
 						"predicates": {
 							"enchantments": [
 								{
@@ -65,7 +65,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "#blazeandcave:master_axes",
+						"items": "#minecraft:master_axes",
 						"predicates": {
 							"enchantments": [
 								{
@@ -109,7 +109,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "#blazeandcave:master_axes",
+						"items": "#minecraft:master_axes",
 						"predicates": {
 							"enchantments": [
 								{
@@ -153,7 +153,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "#blazeandcave:master_axes",
+						"items": "#minecraft:master_axes",
 						"predicates": {
 							"enchantments": [
 								{
@@ -197,7 +197,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "#blazeandcave:master_axes",
+						"items": "#minecraft:master_axes",
 						"predicates": {
 							"enchantments": [
 								{
@@ -241,7 +241,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "#blazeandcave:master_axes",
+						"items": "#minecraft:master_axes",
 						"predicates": {
 							"enchantments": [
 								{

@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:husbandry/wax_on",
 	"rewards": {
-		"function": "bc_rewards:mining/wax_off"
+		"function": "minecraft:function/husbandry/wax_off"
 	},		
 	"criteria": {
 		"wax_off": {
@@ -20,14 +20,14 @@
 						"condition": "minecraft:location_check",
 						"predicate": {
 							"block": {
-								"tag": "#blazeandcave:waxed_copper_blocks"
+								"blocks": "#blazeandcave:waxed_copper_blocks"
 							}
 						}
 					},
 					{
 						"condition": "minecraft:match_tool",
 						"predicate": {
-							"tag": "#blazeandcave:axes"
+							"items": "#blazeandcave:axes"
 						}
 					}
 				]

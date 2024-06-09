@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:combate/ol_betsy",
 	"rewards": {
-		"function": "bc_rewards:enchanting/arbalistic"
+		"function": "minecraft:function/combate/arbalistic"
 	},	
 	"criteria": {
 		"arbalistic": {

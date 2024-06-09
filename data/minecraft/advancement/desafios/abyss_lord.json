@@ -10,7 +10,7 @@
     },
     "parent": "minecraft:desafios/warlock",
 	"rewards": {
-		"function": "bc_rewards:challenges/abyss_lord"
+		"function": "minecraft:function/desafios/abyss_lord"
     },		
     "criteria": {
         "conduit": {

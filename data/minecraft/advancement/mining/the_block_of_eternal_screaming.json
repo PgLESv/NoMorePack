@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:sculk_shrieker"
+			"id": "minecraft:sculk_shrieker"
 		},
 		"title": {"translate":"O Bloco do Grito Eterno"},
 		"description": {"color":"green","translate":"Use Silk Touch para pegar um Sculk Shrieker"},
@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:mining/fallen_kingdom",
 	"rewards": {
-		"function": "bc_rewards:mining/the_block_of_eternal_screaming"
+		"function": "minecraft:function/mining/the_block_of_eternal_screaming"
 	},		
 	"criteria": {
 		"sculk_shrieker": {

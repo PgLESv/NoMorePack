@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:adventure/root",
 	"rewards": {
-		"function": "bc_rewards:adventure/brushed_away"
+		"function": "minecraft:function/adventure/brushed_away"
 	},		
 	"criteria": {
 		"brush": {

@@ -10,7 +10,7 @@
     },
     "parent": "minecraft:desafios/root",
     "rewards": {
-        "function": "bc_rewards:challenges/stockbroker"
+        "function": "minecraft:function/desafios/stockbroker"
     },
     "criteria": {
 		"farmer_plains": {

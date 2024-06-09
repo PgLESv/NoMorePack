@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:diamond_boots"
+            "id": "minecraft:diamond_boots"
         },
         "title": {"translate":"W Simulator"},
         "description": {"color":"dark_purple","translate":"Ande 250km"},

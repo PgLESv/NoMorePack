@@ -9,7 +9,7 @@
     },
     "parent": "minecraft:husbandry/root",
     "rewards": {
-        "function": "bc_rewards:animal/cephalight"
+        "function": "minecraft:function/husbandry/cephalight"
     },		
     "criteria": {
         "glow_squid": {

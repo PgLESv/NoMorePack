@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:husbandry/plant_seed",
 	"rewards": {
-		"function": "bc_rewards:farming/yay_deadbush"
+		"function": "minecraft:function/husbandry/yay_deadbush"
 	},		
 	"criteria": {
 		"dead_bush": {

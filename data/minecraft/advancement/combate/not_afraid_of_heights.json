@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:combate/blind_stare",
 	"rewards": {
-		"function": "bc_rewards:monsters/not_afraid_of_heights"
+		"function": "minecraft:function/combate/not_afraid_of_heights"
 	},		
 	"criteria": {
 		"not_afraid_of_heights": {

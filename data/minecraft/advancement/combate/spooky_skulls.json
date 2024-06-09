@@ -10,7 +10,7 @@
     },
     "parent": "minecraft:combate/bone_to_party",
     "rewards": {
-        "function": "bc_rewards:monsters/spooky_skulls"
+        "function": "minecraft:function/combate/spooky_skulls"
     },		
     "criteria": {
         "skeleton_skull": {

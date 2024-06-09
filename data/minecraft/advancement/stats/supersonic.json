@@ -1,12 +1,12 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:elytra"
+            "id": "minecraft:elytra"
         },
         "title": {"translate":"SR-71"},
         "description": {"color":"dark_purple","translate":"Voe 100km com uma Elytra!"},
         "announce_to_chat": true,
-		"frame": "goal"
+		"frame": "challenge"
     },
     "parent": "minecraft:stats/take_to_the_skies",
 	"rewards": {

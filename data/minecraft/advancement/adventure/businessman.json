@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:adventure/hero_of_the_village",
 	"rewards": {
-		"function": "bc_rewards:adventure/businessman"
+		"function": "minecraft:function/adventure/businessman"
 	},		
 	"criteria": {
 		"farmer": {

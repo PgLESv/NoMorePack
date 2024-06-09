@@ -9,7 +9,7 @@
     },
     "parent": "minecraft:combate/obtain_armor",
     "rewards": {
-		"function": "bc_rewards:mining/stabcraft"
+		"function": "minecraft:function/combate/stabcraft"
     },			
     "criteria": {
         "diamond_sword": {

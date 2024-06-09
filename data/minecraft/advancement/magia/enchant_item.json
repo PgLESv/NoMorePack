@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:magia/root",
 	"rewards": {
-		"function": "bc_rewards:mining/enchanter"
+		"function": "minecraft:function/magia/enchanter"
 	},		
 	"criteria": {
 		"enchanted_item": {

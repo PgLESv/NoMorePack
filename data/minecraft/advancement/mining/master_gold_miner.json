@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:gold_block"
+            "id": "minecraft:gold_block"
         },
         "title": {"translate":"Amador de Ouro"},
         "description": {"translate":"Minere Ouro suficiente para fazer um pack de blocos!"},
@@ -10,7 +10,7 @@
     },
     "parent": "minecraft:mining/master_copper_miner",
     "rewards": {
-		"function": "bc_rewards:mining/master_gold_miner"
+		"function": "minecraft:function/mining/master_gold_miner"
     },		
     "criteria": {
         "gold": {
