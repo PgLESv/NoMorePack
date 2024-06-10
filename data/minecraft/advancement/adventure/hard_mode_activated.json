@@ -1,0 +1,24 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:ominous_bottle"
+		},
+		"title": {"translate":"Modo hard ativado!"},
+		"description": {"color":"green","translate":"Beba um frasco sombrio em uma Câmara do desafio para ter um desafio maior"},
+		"announce_to_chat": true
+	},
+	"parent": "minecraft:adventure/under_lock_and_key",
+	"rewards": {
+		"function": "minecraft:function/adventure/hard_mode_activated"
+	},		
+	"criteria": {
+		"trial_omen": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"minecraft:trial_omen": {}
+				}
+			}
+		}
+	}
+}

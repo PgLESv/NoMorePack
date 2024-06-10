@@ -10,7 +10,7 @@
 			}
 		},
 		"title": {"translate":"Pirotecnia"},
-		"description": {"color":"dark_purple","translate":"Faça um foguete de todos os formatos e efeitos adicionais"},
+		"description": {"color":"green","translate":"Faça um foguete de todos os formatos e efeitos adicionais"},
 		"announce_to_chat": true,
 		"frame": "goal"
 	},
