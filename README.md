@@ -6,6 +6,7 @@
 
 Esse é um projeto do grupo NML, onde adaptamos conquistas que achamos interessante do BACAP para o nosso servidor, nos traduzimos, editamos e consertamos algumas coisas.
 
+Atualmente pronto para 1.21 :)
 
 ## Roadmap
 
@@ -14,7 +15,6 @@ Esse é um projeto do grupo NML, onde adaptamos conquistas que achamos interessa
 - ~~Revisar traduções antigas~~
 
 - ~~Adicinionar mais conquistas~~
-
 
 ## Autores
 
