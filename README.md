@@ -1,5 +1,5 @@
 
-![Logo](https://media.discordapp.net/attachments/876819680256487464/1127293703011176478/NML-final.png)
+![Logo](https://imgur.com/rUWqnkN)
 
 
 # NoMorePack
@@ -9,14 +9,14 @@ Esse é um projeto do grupo NML, onde adaptamos conquistas que achamos interessa
 
 ## Roadmap
 
-- Retirar alguns arquivos inuteis de conquistas apagadas
+- ~~Retirar alguns arquivos inuteis de conquistas apagadas~~
 
-- Revisar traduções antigas
+- ~~Revisar traduções antigas~~
 
-- Adicinionar mais conquistas
+- ~~Adicinionar mais conquistas~~
 
 
 ## Autores
 
 - [@PgLESv](https://www.github.com/pglesv)
-
+- Autor original [Cavinator1](https://www.planetminecraft.com/data-pack/blazeandcave-s-advancements-pack-1-12/)
