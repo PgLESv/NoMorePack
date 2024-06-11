@@ -1,11 +1,2 @@
-
-.datapack/advancements.json
-.datapack/blocksTag.json
-.datapack/bossbars.json
-.datapack/entity_tags.json
-.datapack/functions.json
-.datapack/functionsTag.json
-.datapack/itemsTag.json
-.datapack/objectives.json
-.datapack/sounds.json
-.datapack/teams.json
+.datapack/
+.vscode/
