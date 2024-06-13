@@ -10,6 +10,9 @@ execute as @a if score @s bac_apple_a_day matches 1.. run function minecraft:app
 scoreboard players enable @a bac_statistics
 execute as @a if score @s bac_statistics matches 1.. run function minecraft:statistics_trigger
 
+# Timers
+scoreboard players enable @a bac_timers
+execute as @a if score @s bac_timers matches 1.. run function minecraft:timers_trigger
 
 # # Item and mob rename advancements
 execute as @e[type=rabbit,name=Toast] at @s run advancement grant @a[distance=..5] only minecraft:husbandry/i_just_want_to_make_toast

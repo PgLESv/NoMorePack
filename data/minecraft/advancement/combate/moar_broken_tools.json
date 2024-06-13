@@ -532,6 +532,19 @@
 					"max": 0
 				}
 			}
+		},
+		"mace": {
+			"trigger": "minecraft:item_durability_changed",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:mace"
+					]
+				},
+				"durability": {
+					"max": 0
+				}
+			}
 		}
 	}
 }
