@@ -1,6 +1,6 @@
 {
 	"rewards": {
-		"function": "blazeandcave:riddle/eighth_line"
+		"function": "minecraft:riddle/eighth_line"
 	},	
 	"criteria": {
 		"wither": {
@@ -19,7 +19,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:technical/riddle_seventh_line": true
+							"minecraft:technical/riddle_seventh_line": true
 						}
 					}
 				}

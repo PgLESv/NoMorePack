@@ -1,5 +1,5 @@
 {
-	"parent": "blazeandcave:challenges/abyss_lord",	
+	"parent": "minecraft:challenges/abyss_lord",	
 	"criteria": {
 		"root": {
 			"trigger": "minecraft:location",
@@ -8,7 +8,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:challenges/root": true
+							"minecraft:desafios/root": true
 						}
 					}
 				}

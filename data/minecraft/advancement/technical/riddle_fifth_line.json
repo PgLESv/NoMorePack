@@ -1,6 +1,6 @@
 {
 	"rewards": {
-		"function": "blazeandcave:riddle/fifth_line"
+		"function": "minecraft:riddle/fifth_line"
 	},		
 	"criteria": {
 		"fifth_line": {
@@ -14,7 +14,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:technical/riddle_fourth_line": true
+							"minecraft:technical/riddle_fourth_line": true
 						}
 					}
 				}

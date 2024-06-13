@@ -1,6 +1,6 @@
 {
 	"rewards": {
-		"function": "blazeandcave:riddle/first_line"
+		"function": "minecraft:riddle/first_line"
 	},
 	"criteria": {
 		"first_line": {
@@ -25,7 +25,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:challenges/root": true
+							"minecraft:challenges/root": true
 						}
 					}
 				}

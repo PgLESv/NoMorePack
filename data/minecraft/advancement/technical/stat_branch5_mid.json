@@ -1,5 +1,5 @@
 {
-	"parent": "blazeandcave:statistics/overlevelling",	
+	"parent": "minecraft:stats/overlevelling",	
 	"criteria": {
 		"root": {
 			"trigger": "minecraft:location",
@@ -8,7 +8,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:statistics/root": true
+							"minecraft:stats/root": true
 						}
 					}
 				}

@@ -1,6 +1,6 @@
 {
 	"rewards": {
-		"function": "blazeandcave:on_a_rail_start"
+		"function": "minecraft:on_a_rail_start"
 	},
 	"criteria": {
 		"enter_minecart": {

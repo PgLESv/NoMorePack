@@ -9,7 +9,7 @@
 						"entity": "this",
 						"predicate": {
 							"vehicle": {
-								"type": "#blazeandcave:player_rideables"
+								"type": "#minecraft:player_rideables"
 							}
 						}
 					}

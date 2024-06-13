@@ -1,6 +1,6 @@
 {
 	"rewards": {
-		"function": "blazeandcave:riddle/third_line"
+		"function": "minecraft:riddle/third_line"
 	},		
 	"criteria": {
 		"dinnerbone": {
@@ -13,7 +13,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:technical/riddle_second_line": true
+							"minecraft:technical/riddle_second_line": true
 						}
 					}
 				}
@@ -29,7 +29,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:technical/riddle_second_line": true
+							"minecraft:technical/riddle_second_line": true
 						}
 					}
 				}
@@ -45,7 +45,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:technical/riddle_second_line": true
+							"minecraft:technical/riddle_second_line": true
 						}
 					}
 				}
@@ -61,7 +61,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:technical/riddle_second_line": true
+							"minecraft:technical/riddle_second_line": true
 						}
 					}
 				}

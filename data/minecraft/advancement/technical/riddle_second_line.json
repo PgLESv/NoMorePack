@@ -1,6 +1,6 @@
 {
 	"rewards": {
-		"function": "blazeandcave:riddle/second_line"
+		"function": "minecraft:riddle/second_line"
 	},
 	"criteria": {
 		"drowned": {
@@ -20,7 +20,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:technical/riddle_first_line": true
+							"minecraft:technical/riddle_first_line": true
 						}
 					}
 				}
@@ -37,7 +37,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:technical/riddle_first_line": true
+							"minecraft:technical/riddle_first_line": true
 						}
 					}
 				}

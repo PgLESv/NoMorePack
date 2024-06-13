@@ -21,7 +21,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "#blazeandcave:master_pickaxes",
+						"items": "#minecraft:master_pickaxes",
 						"predicates": {
 							"enchantments": [
 								{
@@ -59,7 +59,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "#blazeandcave:master_pickaxes",
+						"items": "#minecraft:master_pickaxes",
 						"predicates": {
 							"enchantments": [
 								{
