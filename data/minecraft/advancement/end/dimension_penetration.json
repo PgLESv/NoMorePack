@@ -1,0 +1,45 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:tipped_arrow",
+			"components": {
+				"minecraft:potion_contents": {
+					"potion": "minecraft:turtle_master"
+				}
+			}
+		},
+		"title": {"translate":"Penetração Dimensional"},
+		"description": {"color":"dark_purple","translate":"Seja atingido por uma flecha que visitou todas as dimensões durante sua vida"},
+		"announce_to_chat": true,
+		"frame": "challenge"
+	},
+	"parent": "minecraft:end/unending_hell",
+	"rewards": {
+		"function": "minecraft:function/end/dimension_penetration"
+	},
+	"criteria": {
+		"dimension_penetration": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"type": {
+						"tags": [
+							{
+								"id": "minecraft:is_projectile",
+								"expected": true
+							}
+						],
+						"direct_entity": {
+							"type": [
+								"arrow",
+								"spectral_arrow"
+							],
+							"nbt": "{Tags:[dimpen_overworld,dimpen_nether,dimpen_end]}"
+						}
+					},
+					"blocked": false
+				}
+			}
+		}
+	}
+}

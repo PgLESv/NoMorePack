@@ -25,7 +25,11 @@
 						]
 				},
 				"entity": {
-					"type": "skeleton",
+					"type": [
+						"skeleton",
+						"stray",
+						"bogged"
+					],
 					"distance": {
 						"horizontal": {
 							"min": 50
@@ -33,33 +37,6 @@
 					}
 				}
 			}
-		},
-		"killed_stray": {
-			"trigger": "minecraft:player_killed_entity",
-			"conditions": {
-				"killing_blow": {
-					"tags": [
-							{
-								"id": "minecraft:is_projectile",
-								"expected": true
-							}
-						]
-				},
-				"entity": {
-					"type": "stray",
-					"distance": {
-						"horizontal": {
-							"min": 50
-						}
-					}
-				}
-			}
-		}	
-	},
-	"requirements": [
-		[
-		"killed_skeleton",
-		"killed_stray"
-		]
-	]
+		}
+	}
 }

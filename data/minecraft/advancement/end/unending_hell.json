@@ -1,18 +1,19 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:chiseled_tuff"
+			"id": "minecraft:crimson_nylium"
 		},
-		"title": {"translate":"Minecraft: Jogos Vorazes"},
-		"description": {"color":"green","translate":"Entre numa câmara do desafio"},
-		"announce_to_chat": true
+		"title": {"translate":"Inferno sem fim"},
+		"description": {"color":"green","translate":"Viaje diretamente do Fim para o Nether"},
+		"announce_to_chat": true,
+		"frame": "goal"
 	},
-	"parent": "minecraft:adventure/root",
+	"parent": "minecraft:end/void_walker",
 	"rewards": {
-		"function": "minecraft:function/adventure/minecraft_trials_edition"
-	},
+		"function": "minecraft:function/end/unending_hell"
+	},	
 	"criteria": {
-		"minecraft_trials_edition": {
+		"unending_hell": {
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
@@ -21,7 +22,13 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"structures": "minecraft:trial_chambers"
+								"dimension": "minecraft:the_nether"
+							},
+							"type_specific": {
+								"type": "player",
+								"advancements": {
+									"minecraft:technical/unending_hell_end": true
+								}
 							}
 						}
 					},

@@ -1,6 +1,6 @@
 {
 	"rewards": {
-		"function": "minecraft:stats/open_loot_chest"
+		"function": "minecraft:statistics/open_loot_chest"
 	},		
 	"criteria": {
 		"abandoned_mineshaft": {
@@ -61,12 +61,6 @@
 			"trigger": "minecraft:player_generates_container_loot",
 			"conditions": {
 				"loot_table": "minecraft:chests/jungle_temple"
-			}
-		},
-		"jungle_temple_dispenser": {
-			"trigger": "minecraft:player_generates_container_loot",
-			"conditions": {
-				"loot_table": "minecraft:chests/jungle_temple_dispenser"
 			}
 		},
 		"nether_bridge": {
@@ -253,6 +247,42 @@
 			"trigger": "minecraft:player_generates_container_loot",
 			"conditions": {
 				"loot_table": "minecraft:chests/ancient_city_ice_box"
+			}
+		},
+		"trial_chambers_corridor": {
+			"trigger": "minecraft:player_generates_container_loot",
+			"conditions": {
+				"loot_table": "minecraft:chests/trial_chambers/corridor"
+			}
+		},
+		"trial_chambers_entrance": {
+			"trigger": "minecraft:player_generates_container_loot",
+			"conditions": {
+				"loot_table": "minecraft:chests/trial_chambers/entrance"
+			}
+		},
+		"trial_chambers_intersection": {
+			"trigger": "minecraft:player_generates_container_loot",
+			"conditions": {
+				"loot_table": "minecraft:chests/trial_chambers/intersection"
+			}
+		},
+		"trial_chambers_intersection_barrel": {
+			"trigger": "minecraft:player_generates_container_loot",
+			"conditions": {
+				"loot_table": "minecraft:chests/trial_chambers/intersection_barrel"
+			}
+		},
+		"trial_chambers_reward": {
+			"trigger": "minecraft:player_generates_container_loot",
+			"conditions": {
+				"loot_table": "minecraft:chests/trial_chambers/reward"
+			}
+		},
+		"trial_chambers_supply": {
+			"trigger": "minecraft:player_generates_container_loot",
+			"conditions": {
+				"loot_table": "minecraft:chests/trial_chambers/supply"
 			}
 		},
 		"fortified_village_archer": {
@@ -514,7 +544,6 @@
 			"end_city_treasure",
 			"igloo_chest",
 			"jungle_temple",
-			"jungle_temple_dispenser",
 			"nether_bridge",
 			"pillager_outpost",
 			"ruined_portal",
@@ -546,6 +575,12 @@
 			"village_weaponsmith",
 			"ancient_city",
 			"ancient_city_ice_box",
+			"trial_chambers_corridor",
+			"trial_chambers_entrance",
+			"trial_chambers_intersection",
+			"trial_chambers_intersection_barrel",
+			"trial_chambers_reward",
+			"trial_chambers_supply",
 			"fortified_village_archer",
 			"fortified_village_attic",
 			"fortified_village_butcher",

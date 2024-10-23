@@ -14,15 +14,25 @@ execute as @a if score @s bac_statistics matches 1.. run function minecraft:stat
 scoreboard players enable @a bac_timers
 execute as @a if score @s bac_timers matches 1.. run function minecraft:timers_trigger
 
-# # Item and mob rename advancements
-execute as @e[type=rabbit,name=Toast] at @s run advancement grant @a[distance=..5] only minecraft:husbandry/i_just_want_to_make_toast
-execute as @e[name=Dinnerbone] at @s run advancement grant @a[distance=..5] only minecraft:husbandry/whats_up_doc
-execute as @e[name=Grumm] at @s run advancement grant @a[distance=..5] only minecraft:husbandry/whats_up_doc
-execute as @e[type=sheep,name=jeb_] at @s run advancement grant @a[distance=..5] only minecraft:husbandry/nyan_sheep
-execute as @e[type=piglin_brute,name=Technoblade] at @s run advancement grant @a[distance=..5] only minecraft:nether/nerds_never_die
+
+# # Llama Festival (progress resets if the player has not completed the advancement and is not sitting on a llama)
+execute as @a at @s unless entity @s[predicate=minecraft:llama_sit] if entity @s[advancements={minecraft:animal/llama_festival=false}] run advancement revoke @s only minecraft:animal/llama_festival
 
 # # Free Diver and Sleep with the Fishes (stay underwater)
 execute as @a[gamemode=!spectator] at @s run function minecraft:stay_underwater
+
+# # Captain America (stay in powder snow)
+execute as @a[gamemode=!spectator] at @s run function minecraft:captain_america
+
+
+# # On A Rail
+execute as @a at @s if score @s bac_oar_eligible_x matches 1 run function minecraft:on_a_rail_check
+execute as @a at @s unless score @s bac_oar_eligible_x matches 1 if score @s bac_oar_eligible_z matches 1 run function minecraft:on_a_rail_check
+
+
+# # Chestful of Cobblestone
+execute as @a[advancements={minecraft:mining/chestful_of_cobblestone=false}] at @s run function minecraft:inv_check_chestful_of_cobblestone
+
 
 # All mobs with Wave set to 1 or higher (part of a raid) get given a special tag for being detected by advancements
 # THESE COMMANDS HAVE BEEN COMMENTED OUT - AS OF MC 1.20.5, THE HAS_RAID TYPE_SPECIFIC RAIDER SUB-PREDICATE HAS BEEN ADDED AND ACCOMPLISHES WHAT THIS ONCE DID
@@ -115,7 +125,7 @@ execute as @a[gamemode=!spectator] at @s if entity @e[type=husk,tag=!bac_baby,di
 
 
 # # Bone-to-Party
-execute as @a[gamemode=!spectator] at @s if entity @e[type=skeleton_horse,distance=..5] if entity @e[type=wither,distance=..5] if entity @e[type=stray,distance=..5] if entity @e[type=wither_skeleton,distance=..5] if entity @e[type=skeleton,distance=..5] run advancement grant @s only minecraft:monsters/bone_to_party
+execute as @a[gamemode=!spectator] at @s if entity @e[type=skeleton_horse,distance=..5] if entity @e[type=wither,distance=..5] if entity @e[type=stray,distance=..5] if entity @e[type=bogged,distance=..5] if entity @e[type=wither_skeleton,distance=..5] if entity @e[type=skeleton,distance=..5] run advancement grant @s only minecraft:monsters/bone_to_party
 
 
 # # Redemption Arc
@@ -128,10 +138,6 @@ execute as @e[type=warden,predicate=minecraft:at_world_height] at @s run advance
 
 # # House of Freaks & Overwarden
 execute as @a[gamemode=!spectator] at @s if entity @e[type=warden,distance=..16] run function minecraft:count_wardens
-
-
-# # Dimension Penetration
-execute as @e[type=shulker_bullet] at @s run function minecraft:dimpen_tag
 
 
 # # Animal Kingdom
@@ -153,6 +159,10 @@ execute as @a[gamemode=!spectator,scores={bac_health=1..},advancements={minecraf
 
 # If the player makes it above y = 0 they gain the advancement
 execute as @a[gamemode=!spectator,advancements={minecraft:technical/return_from_void=true},scores={bac_eventhorizon=1}] run advancement grant @s only minecraft:end/event_horizon
+
+
+# Diver's Dozen - in liquid fail
+execute as @a[scores={bac_divers_dozen_count=1..}] if predicate minecraft:in_liquid run scoreboard players set @s bac_divers_dozen_count 0
 
 
 # # Dragon vs Dragon

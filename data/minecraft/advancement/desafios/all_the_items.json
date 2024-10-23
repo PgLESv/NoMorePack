@@ -3900,6 +3900,426 @@
 					}
 				]
 			}
+		},
+		"breeze_rod": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:breeze_rod"
+						]
+					}
+				]
+			}
+		},
+		"mace": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:mace"
+						]
+					}
+				]
+			}
+		},
+		"ominous_bottle": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:ominous_bottle"
+						]
+					}
+				]
+			}
+		},
+		"ominous_trial_key": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:ominous_trial_key"
+						]
+					}
+				]
+			}
+		},
+		"trial_key": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:trial_key"
+						]
+					}
+				]
+			}
+		},
+		"wind_charge": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:wind_charge"
+						]
+					}
+				]
+			}
+		},
+		"music_disc_creator": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:music_disc_creator"
+						]
+					}
+				]
+			}
+		},
+		"music_disc_creator_music_box": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:music_disc_creator_music_box"
+						]
+					}
+				]
+			}
+		},
+		"music_disc_precipice": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:music_disc_precipice"
+						]
+					}
+				]
+			}
+		},
+		"flow_banner_pattern": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:flow_banner_pattern"
+						]
+					}
+				]
+			}
+		},
+		"guster_banner_pattern": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:guster_banner_pattern"
+						]
+					}
+				]
+			}
+		},
+		"flow_pottery_sherd": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:flow_pottery_sherd"
+						]
+					}
+				]
+			}
+		},
+		"guster_pottery_sherd": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:guster_pottery_sherd"
+						]
+					}
+				]
+			}
+		},
+		"scrape_pottery_sherd": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:scrape_pottery_sherd"
+						]
+					}
+				]
+			}
+		},
+		"bolt_armor_trim_smithing_template": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:bolt_armor_trim_smithing_template"
+						]
+					}
+				]
+			}
+		},
+		"flow_armor_trim_smithing_template": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:flow_armor_trim_smithing_template"
+						]
+					}
+				]
+			}
+		},
+		"field_masoned_banner_pattern": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:field_masoned_banner_pattern"
+						]
+					}
+				]
+			}
+		},
+		"bordure_indented_banner_pattern": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:bordure_indented_banner_pattern"
+						]
+					}
+				]
+			}
+		},
+		"bundle": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:bundle"
+						]
+					}
+				]
+			}
+		},
+		"white_bundle": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:white_bundle"
+						]
+					}
+				]
+			}
+		},
+		"light_gray_bundle": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:light_gray_bundle"
+						]
+					}
+				]
+			}
+		},
+		"gray_bundle": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:gray_bundle"
+						]
+					}
+				]
+			}
+		},
+		"black_bundle": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:black_bundle"
+						]
+					}
+				]
+			}
+		},
+		"brown_bundle": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:brown_bundle"
+						]
+					}
+				]
+			}
+		},
+		"red_bundle": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:red_bundle"
+						]
+					}
+				]
+			}
+		},
+		"orange_bundle": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:orange_bundle"
+						]
+					}
+				]
+			}
+		},
+		"yellow_bundle": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:yellow_bundle"
+						]
+					}
+				]
+			}
+		},
+		"lime_bundle": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:lime_bundle"
+						]
+					}
+				]
+			}
+		},
+		"green_bundle": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:green_bundle"
+						]
+					}
+				]
+			}
+		},
+		"cyan_bundle": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:cyan_bundle"
+						]
+					}
+				]
+			}
+		},
+		"light_blue_bundle": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:light_blue_bundle"
+						]
+					}
+				]
+			}
+		},
+		"blue_bundle": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:blue_bundle"
+						]
+					}
+				]
+			}
+		},
+		"purple_bundle": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:purple_bundle"
+						]
+					}
+				]
+			}
+		},
+		"magenta_bundle": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:magenta_bundle"
+						]
+					}
+				]
+			}
+		},
+		"pink_bundle": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:pink_bundle"
+						]
+					}
+				]
+			}
 		}
 	}
 }

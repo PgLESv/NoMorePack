@@ -26,7 +26,7 @@
 								"vehicle": {
 									"type": "strider",
 									"vehicle": {
-										"type": "#minecraft:boats",
+										"type": "#minecraft:all_boats",
 										"vehicle": {
 											"type": "minecart"
 										}

@@ -20,7 +20,7 @@
 						"condition": "minecraft:entity_properties",
 						"predicate": {
 							"vehicle": {
-								"type": "minecraft:boat",
+								"type": "#minecraft:boat",
 								"passenger": {
 									"type": "minecraft:goat"
 								}

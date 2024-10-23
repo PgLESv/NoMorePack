@@ -115,6 +115,7 @@ scoreboard objectives add bac_apple_eaten minecraft.used:minecraft.apple
 scoreboard objectives add bac_apple_days dummy
 scoreboard objectives add bac_apple_a_day trigger
 scoreboard objectives add bac_statistics trigger
+scoreboard objectives add bac_timers trigger
 scoreboard objectives add bac_pr_tl dummy
 scoreboard objectives add bac_pr_dmgt minecraft.custom:minecraft.damage_taken
 scoreboard objectives add bac_pr_dmga minecraft.custom:minecraft.damage_absorbed
@@ -138,6 +139,7 @@ scoreboard objectives add bac_inv_immortal dummy
 scoreboard objectives add bac_factorio_count dummy
 scoreboard objectives add bac_vault_hunter_count dummy
 scoreboard objectives add bac_whack_a_mole_count dummy
+scoreboard objectives add bac_divers_dozen_count dummy
 
 
 # If a setting for advancement message visibility is not found, it is set to its default (which is all on)
@@ -165,6 +167,8 @@ execute unless score super_challenge bac_settings matches 0 run execute in the_n
 execute unless score milestone bac_settings matches 0 run execute in the_end run gamerule announceAdvancements false
 execute unless score milestone bac_settings matches 0 run execute in overworld run gamerule announceAdvancements false 
 execute unless score milestone bac_settings matches 0 run execute in the_nether run gamerule announceAdvancements false
+
+gamerule maxCommandForkCount 20000000
 
 
 # # Starts timers

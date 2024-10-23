@@ -73,12 +73,6 @@
 				"loot_table": "minecraft:chests/jungle_temple"
 			}
 		},
-		"jungle_temple_dispenser": {
-			"trigger": "minecraft:player_generates_container_loot",
-			"conditions": {
-				"loot_table": "minecraft:chests/jungle_temple_dispenser"
-			}
-		},
 		"nether_bridge": {
 			"trigger": "minecraft:player_generates_container_loot",
 			"conditions": {
@@ -257,6 +251,42 @@
 			"trigger": "minecraft:player_generates_container_loot",
 			"conditions": {
 				"loot_table": "minecraft:chests/ancient_city_ice_box"
+			}
+		},
+		"trial_chambers_corridor": {
+			"trigger": "minecraft:player_generates_container_loot",
+			"conditions": {
+				"loot_table": "minecraft:chests/trial_chambers/corridor"
+			}
+		},
+		"trial_chambers_entrance": {
+			"trigger": "minecraft:player_generates_container_loot",
+			"conditions": {
+				"loot_table": "minecraft:chests/trial_chambers/entrance"
+			}
+		},
+		"trial_chambers_intersection": {
+			"trigger": "minecraft:player_generates_container_loot",
+			"conditions": {
+				"loot_table": "minecraft:chests/trial_chambers/intersection"
+			}
+		},
+		"trial_chambers_intersection_barrel": {
+			"trigger": "minecraft:player_generates_container_loot",
+			"conditions": {
+				"loot_table": "minecraft:chests/trial_chambers/intersection_barrel"
+			}
+		},
+		"trial_chambers_reward": {
+			"trigger": "minecraft:player_generates_container_loot",
+			"conditions": {
+				"loot_table": "minecraft:chests/trial_chambers/reward"
+			}
+		},
+		"trial_chambers_supply": {
+			"trigger": "minecraft:player_generates_container_loot",
+			"conditions": {
+				"loot_table": "minecraft:chests/trial_chambers/supply"
 			}
 		}
 	}

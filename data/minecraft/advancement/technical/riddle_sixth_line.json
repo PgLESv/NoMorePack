@@ -9,7 +9,7 @@
 				"entity": {
 					"type": "chicken",
 					"flags": {
-						"is_on_ground": true
+						"is_on_ground": false
 					}
 				},
 				"damage": {
