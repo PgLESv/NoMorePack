@@ -155,6 +155,19 @@
 					}
 				]
 			}
+		},
+		"pale_oak_log": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:pale_oak_log"
+						],
+						"count": 64
+					}
+				]
+			}
 		}
 	}		
 }

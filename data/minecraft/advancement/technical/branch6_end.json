@@ -1,5 +1,5 @@
 {
-	"parent": "minecraft:challenges/riddle_me_this",	
+	"parent": "minecraft:desafios/riddle_me_this",	
 	"criteria": {
 		"root": {
 			"trigger": "minecraft:location",

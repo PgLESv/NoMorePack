@@ -17,28 +17,10 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "#minecraft:trim_templates"
-					}
-				]
-			}
-		},
-		"netherite_upgrade": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"items": [
-							"minecraft:netherite_upgrade_smithing_template"
-						]
+						"items": "#minecraft:smithing_templates"
 					}
 				]
 			}
 		}
-	},
-	"requirements": [
-		[
-		"trim_templates",
-		"netherite_upgrade"
-		]
-	]
+	}
 }

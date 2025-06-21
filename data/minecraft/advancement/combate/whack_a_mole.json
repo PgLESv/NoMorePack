@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:armadillo_spawn_egg"
+		},
+		"title": {"translate":"MiniGame"},
+		"description": {"color":"dark_purple","translate":"Usando uma maça encantada com Wind Burst, acerte oito tatus consecutivamente sem tocar no chão"},
+		"announce_to_chat": true,
+		"frame": "challenge"
+	},
+	"parent": "minecraft:combate/root",
+	"rewards": {
+		"function": "minecraft:function/combate/whack_a_mole"
+	},			
+	"criteria": {
+		"whack_a_mole": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

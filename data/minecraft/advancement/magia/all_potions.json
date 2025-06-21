@@ -29,7 +29,11 @@
 					"minecraft:weakness": {},
 					"minecraft:poison": {},
 					"minecraft:slow_falling": {},
-					"minecraft:resistance": {}
+					"minecraft:resistance": {},
+					"minecraft:oozing": {},
+					"minecraft:weaving": {},
+					"minecraft:infested": {},
+					"minecraft:wind_charged": {}
 				}
 			}
 		}

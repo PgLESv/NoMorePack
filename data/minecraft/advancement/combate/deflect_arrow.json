@@ -50,35 +50,10 @@
 					},
 					"blocked": true,
 					"source_entity": {
-						"type": "skeleton"
+						"type": "#minecraft:skeletons"
 					}
 				}
 			}
-		},
-		"deflected_stray": {
-			"trigger": "minecraft:entity_hurt_player",
-			"conditions": {
-				"damage": {
-					"type": {
-						"tags": [
-							{
-								"id": "minecraft:is_projectile",
-								"expected": true
-							}
-						]
-					},
-					"blocked": true,
-					"source_entity": {
-						"type": "stray"
-					}
-				}
-			}
-		}		
-	},
-	"requirements": [
-		[
-		"deflected_skeleton",
-		"deflected_stray"
-		]
-	]
+		}	
+	}
 }

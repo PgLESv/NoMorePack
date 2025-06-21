@@ -4,7 +4,7 @@
 			"id": "minecraft:ominous_trial_key"
 		},
 		"title": {"translate":"Caixa-forte"},
-		"description": {"color":"#75E1FF","translate":"Abra um cofre sombrio com uma chave sombria do desafio"},
+		"description": {"color":"green","translate":"Abra um cofre sombrio com uma chave sombria do desafio"},
 		"announce_to_chat": true,
 		"frame": "goal"
 	},

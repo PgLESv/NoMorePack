@@ -292,6 +292,30 @@
 		  "type": "minecraft:warden"
 		}
 	  }
+	},
+	"minecraft:breeze": {
+	  "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+		"entity": {
+		  "type": "minecraft:breeze"
+		}
+	  }
+	},
+	"minecraft:bogged": {
+	  "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+		"entity": {
+		  "type": "minecraft:bogged"
+		}
+	  }
+	},
+	"minecraft:creaking": {
+	  "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+		"entity": {
+		  "type": "minecraft:creaking"
+		}
+	  }
 	}
   }
 }

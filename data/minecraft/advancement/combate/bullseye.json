@@ -4,8 +4,9 @@
 			"id": "minecraft:arrow"
 		},
 		"title": {"translate":"Na mosca!"},
-		"description": {"translate":"Acerte o centro de um alvo a pelo menos 30 blocos de distância"},
-		"announce_to_chat": true
+		"description": {"color":"dark_purple","translate":"Acerte o centro de um alvo a pelo menos 30 blocos de distância"},
+		"announce_to_chat": true,
+		"frame": "challenge"
 	},
 	"parent": "minecraft:combate/sniper_duel",
 	"rewards": {

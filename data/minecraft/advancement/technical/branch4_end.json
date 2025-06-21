@@ -1,5 +1,5 @@
 {
-	"parent": "minecraft:challenges/abyss_lord",	
+	"parent": "minecraft:desafios/abyss_lord",	
 	"criteria": {
 		"root": {
 			"trigger": "minecraft:location",

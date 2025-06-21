@@ -1,5 +1,15 @@
 # Function runs at the beginning of a load
 
+#  Adjusts gamerules to work properly with everything related to BACAP
+execute in minecraft:overworld run gamerule maxCommandForkCount 20000000
+execute in minecraft:overworld run gamerule maxCommandChainLength 20000000
+
+execute in minecraft:the_nether run gamerule maxCommandForkCount 20000000
+execute in minecraft:the_nether run gamerule maxCommandChainLength 20000000
+
+execute in minecraft:the_end run gamerule maxCommandForkCount 20000000
+execute in minecraft:the_end run gamerule maxCommandChainLength 20000000
+
 # # Adds/updates scoreboard objectives and settings
 scoreboard objectives add bac_advancements dummy {"text":"Advancements"}
 scoreboard objectives add bac_advfirst dummy {"text":"First Advancements"}
@@ -130,6 +140,9 @@ scoreboard objectives add bac_oar_current_x dummy
 scoreboard objectives add bac_oar_current_z dummy
 scoreboard objectives add bac_oar_eligible_x dummy
 scoreboard objectives add bac_oar_eligible_z dummy
+scoreboard objectives add bac_third_line_horse minecraft.custom:minecraft.horse_one_cm
+scoreboard objectives add bac_third_line_pig minecraft.custom:minecraft.pig_one_cm
+scoreboard objectives add bac_third_line_strider minecraft.custom:minecraft.strider_one_cm
 scoreboard objectives add bac_1000th_item minecraft.used:minecraft.warped_button
 scoreboard objectives add bac_inv_check dummy
 scoreboard objectives add bac_inv_artillery dummy
@@ -140,6 +153,7 @@ scoreboard objectives add bac_factorio_count dummy
 scoreboard objectives add bac_vault_hunter_count dummy
 scoreboard objectives add bac_whack_a_mole_count dummy
 scoreboard objectives add bac_divers_dozen_count dummy
+scoreboard objectives add bac_i_yearned_for_the_mines dummy
 
 
 # If a setting for advancement message visibility is not found, it is set to its default (which is all on)
@@ -168,15 +182,12 @@ execute unless score milestone bac_settings matches 0 run execute in the_end run
 execute unless score milestone bac_settings matches 0 run execute in overworld run gamerule announceAdvancements false 
 execute unless score milestone bac_settings matches 0 run execute in the_nether run gamerule announceAdvancements false
 
-gamerule maxCommandForkCount 20000000
-
 
 # # Starts timers
 scoreboard objectives add bac_timer dummy
 
 function minecraft:one_second_timer
 function minecraft:ten_second_timer
-function minecraft:five_minute_timer
 
 # # This function sets base scoreboards when loading a world for the first time
 scoreboard objectives add bac_created dummy
@@ -184,17 +195,3 @@ execute unless score bac_created bac_created matches 1 run function minecraft:ne
 
 # # This function sets scoreboard number format. This function is also run for a player when they log onto the world for the first time and gain the root of the minecraft's Advancements tab
 execute as @a run function minecraft:config/update_number_format
-
-# # This function sets the scoreboard team format.
-execute as @a run function minecraft:config/update_team_format
-
-# # These functions are run only if this is an Alpha or Beta Build, and give a warning to players based on the nature
-scoreboard players set alpha_build bac_settings 0
-scoreboard players set beta_build bac_settings 0
-
-execute if score alpha_build bac_settings matches 1 run schedule function minecraft:msg_alpha_build 3s replace
-execute if score beta_build bac_settings matches 1 run schedule function minecraft:msg_beta_build 3s replace
-
-
-# # This function runs only if the Terralith version is installed, and it sets a certain scoreboard
-function minecraft:terralith_check

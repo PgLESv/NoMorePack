@@ -14,7 +14,7 @@
 	},		
 	"criteria": {
 		"coast_armor_trim": {
-		"conditions": {
+			"conditions": {
 				"recipe_id": "minecraft:coast_armor_trim_smithing_template_smithing_trim"
 			},
 			"trigger": "minecraft:recipe_crafted"
@@ -106,6 +106,18 @@
 		"wild_armor_trim": {
 			"conditions": {
 				"recipe_id": "minecraft:wild_armor_trim_smithing_template_smithing_trim"
+			},
+			"trigger": "minecraft:recipe_crafted"
+		},
+		"bolt_armor_trim": {
+			"conditions": {
+				"recipe_id": "minecraft:bolt_armor_trim_smithing_template_smithing_trim"
+			},
+			"trigger": "minecraft:recipe_crafted"
+		},
+		"flow_armor_trim": {
+			"conditions": {
+				"recipe_id": "minecraft:flow_armor_trim_smithing_template_smithing_trim"
 			},
 			"trigger": "minecraft:recipe_crafted"
 		}

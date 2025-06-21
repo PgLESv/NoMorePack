@@ -17,7 +17,7 @@
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"item": {
-					"tag": "#minecraft:sniffer_food"
+					"items": "#minecraft:sniffer_food"
 				},
 				"entity": [
 					{

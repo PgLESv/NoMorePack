@@ -4,9 +4,8 @@
 			"id": "minecraft:crafting_table"
 		},
 		"title": {"translate":"Revolução industrial"},
-		"description": {"color":"#75E1FF","translate":"Veja uma bancada automática fabricar uma bancada automática"},
-		"announce_to_chat": true,
-		"frame": "goal"
+		"description": {"color":"green","translate":"Veja uma bancada automática fabricar uma bancada automática"},
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:adventure/root",
 	"rewards": {

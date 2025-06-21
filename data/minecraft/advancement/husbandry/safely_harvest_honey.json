@@ -21,7 +21,7 @@
 						"predicate": {
 							"smokey": true,
 							"block": {
-								"tag": "#minecraft:beehives"
+								"blocks": "#minecraft:beehives"
 							}
 						}
 					},

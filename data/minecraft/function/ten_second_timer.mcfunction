@@ -9,21 +9,11 @@ scoreboard players set @a bac_quit 0
 execute as @a[scores={bac_apple_eaten=1..99}] run scoreboard players add @s bac_apple_days 1
 execute as @a[scores={bac_apple_eaten=1..}] run scoreboard players set @s bac_apple_eaten 100
 
-# Once reaching 30 consecutive days "An Apple a Day" is awarded
-execute as @a[scores={bac_apple_days=30..}] at @s run advancement grant @s only minecraft:farming/an_apple_a_day
-
 
 # Day count is increased by 1 at each sunrise
 scoreboard players operation previous bac_current_time = time bac_current_time
 execute store result score time bac_current_time run time query daytime
 execute if score time bac_current_time matches 0..200 run function minecraft:increase_day
-
-# If it is just before a sunrise players gain "The First Night"
-execute if score time bac_current_time matches 23000..23200 run advancement grant @a[gamemode=!spectator] only minecraft:statistics/the_first_night
-
-# "The First Night" is also achieved upon sleeping through the night. Because sleeping resets the time back to zero, it checks if the previous time was far greater than the time now
-scoreboard players operation previous bac_current_time -= time bac_current_time
-execute unless score previous bac_current_time matches ..13000 run advancement grant @a[gamemode=!spectator] only minecraft:statistics/the_first_night
 
 
 

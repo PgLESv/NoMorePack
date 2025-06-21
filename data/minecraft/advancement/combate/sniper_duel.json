@@ -18,11 +18,17 @@
 			"conditions": {
 				"killing_blow": {
 					"tags": [
-							{
-								"id": "minecraft:is_projectile",
-								"expected": true
-							}
+						{
+							"id": "minecraft:is_projectile",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"type": [
+							"minecraft:arrow",
+							"minecraft:spectral_arrow"
 						]
+					}
 				},
 				"entity": {
 					"type": [
