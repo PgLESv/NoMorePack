@@ -13,6 +13,10 @@ execute as @a if score @s bac_timers matches 1.. run function minecraft:timers_t
 # # Free Diver and Sleep with the Fishes (stay underwater)
 execute as @a[gamemode=!spectator] at @s run function minecraft:stay_underwater
 
+# # If leashing a boat, bac_leashing_boat score is set to 1 (used for Lead Zeppelin)
+scoreboard players set @a bac_leashing_boat 0
+execute as @e[type=#minecraft:all_boats] on leasher run scoreboard players set @s[type=player] bac_leashing_boat 1
+
 # All mobs with Wave set to 1 or higher (part of a raid) get given a special tag for being detected by advancements
 # THESE COMMANDS HAVE BEEN COMMENTED OUT - AS OF MC 1.20.5, THE HAS_RAID TYPE_SPECIFIC RAIDER SUB-PREDICATE HAS BEEN ADDED AND ACCOMPLISHES WHAT THIS ONCE DID
 #execute as @e[type=#minecraft:raiders] store result score @s bac_part_of_raid run data get entity @s Wave

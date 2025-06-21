@@ -837,6 +837,39 @@
 					}
 				}
 			}
+		},
+		"breeze": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "breeze",
+					"location": {
+						"dimension": "the_nether"
+					}
+				}
+			}
+		},
+		"bogged": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "bogged",
+					"location": {
+						"dimension": "the_nether"
+					}
+				}
+			}
+		},
+		"happy_ghast": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "happy_ghast",
+					"location": {
+						"dimension": "the_nether"
+					}
+				}
+			}
 		}
 	}
 }

@@ -460,6 +460,118 @@
 					}
 				]
 			}
+		},
+		"music_disc_creator": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:jukebox"
+								],
+								"state": {
+									"has_record": "true"
+								}
+							}
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": [
+								"minecraft:music_disc_creator"
+							]
+						}
+					}
+				]
+			}
+		},
+		"music_disc_creator_music_box": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:jukebox"
+								],
+								"state": {
+									"has_record": "true"
+								}
+							}
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": [
+								"minecraft:music_disc_creator_music_box"
+							]
+						}
+					}
+				]
+			}
+		},
+		"music_disc_precipice": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:jukebox"
+								],
+								"state": {
+									"has_record": "true"
+								}
+							}
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": [
+								"minecraft:music_disc_precipice"
+							]
+						}
+					}
+				]
+			}
+		},
+		"music_disc_tears": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:jukebox"
+								],
+								"state": {
+									"has_record": "true"
+								}
+							}
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": [
+								"minecraft:music_disc_tears"
+							]
+						}
+					}
+				]
+			}
 		}
 	}
 }

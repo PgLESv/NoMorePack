@@ -1,0 +1,46 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:mace"
+		},
+		"title": {"translate":"One Mace Man"},
+		"description": {"color":"#FF2A2A","translate":"Mate o Dragão Ender com um golpe usando uma Maça"},
+		"announce_to_chat": true,
+		"frame": "challenge"
+	},
+	"parent": "minecraft:desafios/dragon_vs_dragon_ii_electric_boogaloo",
+	"rewards": {
+		"function": "minecraft:function/desafios/at_the_rim_of_the_sky"
+	},
+	"criteria": {
+		"ender_dragon": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"type": {
+						"direct_entity": {
+							"type": "minecraft:player",
+							"equipment": {
+								"mainhand": {
+									"items": "minecraft:mace"
+								}
+							}
+						},
+						"tags": [
+							{
+								"id": "minecraft:mace_smash",
+								"expected": true
+							}
+						]
+					},
+					"dealt": {
+						"min": 200.0
+					}
+				},
+				"entity": {
+					"type": "minecraft:ender_dragon"
+				}
+			}
+		}
+	}
+}

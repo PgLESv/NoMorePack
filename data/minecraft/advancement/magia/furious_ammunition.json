@@ -617,7 +617,7 @@
 					}
 				]
 			}
-		},		
+		},
 		"long_slow_falling": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
@@ -632,6 +632,66 @@
 					}
 				]
 			}
-		}	
+		},
+		"oozing": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:tipped_arrow"
+						],
+						"predicates": {
+							"potion_contents": "minecraft:oozing"
+						}
+					}
+				]
+			}
+		},
+		"weaving": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:tipped_arrow"
+						],
+						"predicates": {
+							"potion_contents": "minecraft:weaving"
+						}
+					}
+				]
+			}
+		},
+		"infested": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:tipped_arrow"
+						],
+						"predicates": {
+							"potion_contents": "minecraft:infested"
+						}
+					}
+				]
+			}
+		},
+		"wind_charged": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:tipped_arrow"
+						],
+						"predicates": {
+							"potion_contents": "minecraft:wind_charged"
+						}
+					}
+				]
+			}
+		}
 	}
 }
