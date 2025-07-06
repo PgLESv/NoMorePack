@@ -25,7 +25,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:challenges/root": true
+							"minecraft:desafios/root": true
 						}
 					}
 				}

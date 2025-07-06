@@ -4584,6 +4584,18 @@
 					}
 				]
 			}
+		},
+		"music_disc_lava_chicken": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:music_disc_lava_chicken"
+						]
+					}
+				]
+			}
 		}
 	}
 }

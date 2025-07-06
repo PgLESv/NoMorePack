@@ -7,7 +7,7 @@
 		"description": {"color":"green","translate":"Prenda um barco a um Happy Ghast usando uma guia"},
 		"announce_to_chat": true
 	},
-	"parent": "minecraft:husbandry/midport_village",
+	"parent": "minecraft:husbandry/hot_air_balloon",
 	"rewards": {
 		"function": "minecraft:husbandry/lead_zeppelin"
 	},

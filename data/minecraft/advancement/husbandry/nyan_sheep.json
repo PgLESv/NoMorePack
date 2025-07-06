@@ -13,33 +13,15 @@
 	},		
 	"criteria": {
 		"name_tag": {
-			"trigger": "minecraft:impossible",
+			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"item": {
 					"items": [
 						"minecraft:name_tag"
 					],
-					"nbt": "{display:{Name:\'\"jeb_\"\'}}"
-				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"predicate": {
-							"type": "minecraft:sheep"
-						},
-						"entity": "this"
+					"components": {
+						"minecraft:custom_name": "jeb_"
 					}
-				]
-			}
-		},
-		"name_tag_old": {
-			"trigger": "minecraft:impossible",
-			"conditions": {
-				"item": {
-					"items": [
-						"minecraft:name_tag"
-					],
-					"nbt": "{display:{Name:\"{\\\"text\\\":\\\"jeb_\\\"}\"}}"
 				},
 				"entity": [
 					{
@@ -52,11 +34,5 @@
 				]
 			}
 		}
-	},
-	"requirements": [
-		[
-			"name_tag",
-			"name_tag_old"
-		]
-	]
+	}
 }

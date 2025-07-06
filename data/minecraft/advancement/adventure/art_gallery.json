@@ -90,6 +90,69 @@
 		},
 		"burning_skull": {
 			"trigger": "minecraft:impossible"
+		},
+		"meditative": {
+			"trigger": "minecraft:impossible"
+		},
+		"prairie_ride": {
+			"trigger": "minecraft:impossible"
+		},
+		"baroque": {
+			"trigger": "minecraft:impossible"
+		},
+		"humble": {
+			"trigger": "minecraft:impossible"
+		},
+		"bouquet": {
+			"trigger": "minecraft:impossible"
+		},
+		"cavebird": {
+			"trigger": "minecraft:impossible"
+		},
+		"cotan": {
+			"trigger": "minecraft:impossible"
+		},
+		"endboss": {
+			"trigger": "minecraft:impossible"
+		},
+		"fern": {
+			"trigger": "minecraft:impossible"
+		},
+		"owlemons": {
+			"trigger": "minecraft:impossible"
+		},
+		"sunflowers": {
+			"trigger": "minecraft:impossible"
+		},
+		"tides": {
+			"trigger": "minecraft:impossible"
+		},
+		"backyard": {
+			"trigger": "minecraft:impossible"
+		},
+		"pond": {
+			"trigger": "minecraft:impossible"
+		},
+		"changing": {
+			"trigger": "minecraft:impossible"
+		},
+		"finding": {
+			"trigger": "minecraft:impossible"
+		},
+		"lowmist": {
+			"trigger": "minecraft:impossible"
+		},
+		"passage": {
+			"trigger": "minecraft:impossible"
+		},
+		"unpacked": {
+			"trigger": "minecraft:impossible"
+		},
+		"orb": {
+			"trigger": "minecraft:impossible"
+		},
+		"dennis": {
+			"trigger": "minecraft:impossible"
 		}
 	}
 }
