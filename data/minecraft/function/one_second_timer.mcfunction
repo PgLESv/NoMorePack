@@ -131,11 +131,13 @@ execute as @a[advancements={minecraft:technical/spawn_perfect_one=true},scores={
 # For the third line, if you are NOT riding an upside-down mount the scoreboards reset
 execute as @a unless predicate minecraft:third_line run function minecraft:riddle/third_line_reset
 
+## The following were commented out as this is now handled using the technical place_warped_button advancement
+
 # For the tenth line, it only starts counting once the player has completed the ninth line
-execute as @a if entity @s[advancements={minecraft:technical/riddle_ninth_line=false}] run scoreboard players set @s bac_1000th_item 0
+#execute as @a if entity @s[advancements={minecraft:technical/riddle_ninth_line=false}] run scoreboard players set @s bac_1000th_item 0
 
 # Once they have placed 1000 Warped Buttons, the tenth line is complete
-execute as @a if entity @s[advancements={minecraft:technical/riddle_ninth_line=true}] if score @s bac_1000th_item matches 1000.. run advancement grant @s only minecraft:technical/riddle_tenth_line
+#execute as @a if entity @s[advancements={minecraft:technical/riddle_ninth_line=true}] if score @s bac_1000th_item matches 1000.. run advancement grant @s only minecraft:technical/riddle_tenth_line
 
 
 # Runs the ten_second_timer every 10 times

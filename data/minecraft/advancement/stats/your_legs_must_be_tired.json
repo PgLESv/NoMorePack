@@ -13,8 +13,8 @@
 		"function": "minecraft:function/stats/your_legs_must_be_tired"
     },		
     "criteria": {
-        "trigger": {
-            "trigger": "minecraft:location",
+		"trigger": {
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
 					"type_specific": {
@@ -31,6 +31,6 @@
 					}
 				}
 			}
-        }
-    }
+		}
+	}
 }

@@ -11,7 +11,7 @@
         "text": "É maior, é melhor!",
         "color": "green"
       },
-      "background": "minecraft:textures/block/loom_side.png",
+      "background": "block/loom_side",
       "show_toast": false,
       "announce_to_chat": false
     },

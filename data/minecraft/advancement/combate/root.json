@@ -21,7 +21,7 @@
         "show_toast": false,
         "announce_to_chat": true,
         "hidden": false,
-        "background": "minecraft:textures/block/red_concrete.png"
+        "background": "block/red_concrete"
     },
 	"criteria": {
 		"killed_something": {

@@ -1,0 +1,72 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:lever"
+		},
+		"title": {"translate":"Bebê, bebê, bebê, não!!"},
+		"description": {"color":"#75E1FF","translate":"Mate um de cada: um bebê zumbi, um aldeão zumbi, um zumbi morto-vivo, um afogado e um zumbi porco."},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "minecraft:combate/root",
+	"rewards": {
+		"function": "minecraft:function/combate/baby_baby_baby_noo"
+	},		
+	"criteria": {
+		"zombie": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "zombie",
+					"flags": {
+						"is_baby": true
+					}
+				}
+			}
+		},
+		"zombie_villager": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "zombie_villager",
+					"flags": {
+						"is_baby": true
+					}
+				}
+			}
+		},
+		"husk": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "husk",
+					"flags": {
+						"is_baby": true
+					}
+				}
+			}
+		},
+		"zombified_piglin": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "zombified_piglin",
+					"flags": {
+						"is_baby": true
+					}
+				}
+			}
+		},
+		"drowned": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "drowned",
+					"flags": {
+						"is_baby": true
+					}
+				}
+			}
+		}
+	}
+}

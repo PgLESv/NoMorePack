@@ -1,0 +1,58 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:player_head",
+			"components": {"profile":{"id":[-258220559,-434548866,-1620885784,1820151027],"properties":[{"name":"textures","value":"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTE2YjhlOTgzODljNTQxYmIzNjQ1Mzg1MGJjYmQxZjdiYzVhNTdkYTYyZGNjNTA1MDYwNDA5NzM3ZWM1YjcyYSJ9fX0="}]}}
+		},
+		"title": {"translate":"Lenda dos chikens jockeys do Inferno"},
+		"description": {"color":"green","translate":"Mate um chicken jockey no Nether."},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "minecraft:combate/poultry_boy",
+	"rewards": {
+		"function": "minecraft:function/combate/legend_of_hell_chicken_riders"
+	},		
+	"criteria": {
+		"chicken": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "chicken",
+					"passenger": {
+						"type": "#minecraft:zombies",
+						"flags": {
+							"is_baby": true
+						}
+					},
+					"location": {
+						"dimension": "the_nether"
+					}
+				}
+			}
+		},
+		"zombified_piglin": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "#minecraft:zombies",
+					"flags": {
+						"is_baby": true
+					},
+					"vehicle": {
+						"type": "chicken"
+					},
+					"location": {
+						"dimension": "the_nether"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"chicken",
+			"zombified_piglin"
+		]
+	]
+}

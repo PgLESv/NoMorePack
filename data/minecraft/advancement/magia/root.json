@@ -10,7 +10,7 @@
 		},
 		"title": {"translate":"Poções e Encantamentos"},
 		"description": {"color":"green","translate":"Bem auto explicativo"},
-		"background": "minecraft:textures/block/glowstone.png",
+		"background": "block/glowstone",
 		"show_toast": false,
 		"announce_to_chat": false
 	},

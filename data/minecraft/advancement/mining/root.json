@@ -5,7 +5,7 @@
         },
         "title": {"translate":"Mining Away"},
         "description": {"color":"green","translate":"I don't know what to mine. I'll mine this anyway"},
-		"background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+		"background": "gui/advancements/backgrounds/stone",
         "show_toast": false,
         "announce_to_chat": true
     },

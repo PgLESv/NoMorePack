@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Nether"},
 		"description": {"color":"#CCCCCC","translate":"Traga uns óculos de sol"},
-		"background": "minecraft:textures/block/netherrack.png",
+		"background": "block/netherrack",
 		"show_toast": false,
 		"announce_to_chat": false
 	},
