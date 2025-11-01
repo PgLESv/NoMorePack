@@ -1,0 +1,226 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:filled_map",
+      "components": {
+        "minecraft:map_color": 13187899
+      }
+    },
+    "title": {
+      "translate": "Me diga o que é isto",
+      "extra": [
+        {
+          "italic": true,
+          "text": "                  "
+        }
+      ]
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "A primeira é usar a tecnologia de iglu para acelerar a cura.",
+      "extra": [
+        {
+          "text": "\n"
+        },
+        {
+          "color": "#FF2A2A",
+          "translate": "A segunda é derreter a geada com sua própria chama"
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "color": "#FF2A2A",
+          "translate": "A terceira é selar os quatro elementos dentro de um pote"
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "color": "#FF2A2A",
+          "translate": "A quarta é encher seu inventário, mas mantê-lo vazio"
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "color": "#FF2A2A",
+          "translate": "A quinta é ir a todos os lugares ao mesmo tempo"
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "color": "#FF2A2A",
+          "translate": "A sexta é coletar todas as referências do silencioso \"Shhh...\""
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "color": "#FF2A2A",
+          "translate": "A sétima é manter a lei: afiado abaixo, macio acima \u2013 um equilíbrio que não pode ser derrubado"
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "color": "#FF2A2A",
+          "translate": "A oitava é terminar o duelo dos cavaleiros mortos-vivos congelados, com base em pernas diferentes"
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "color": "#FF2A2A",
+          "translate": "A nona é perseguir um gato através de suas nove vidas sem perder o rastro"
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "color": "#FF2A2A",
+          "translate": "A décima é fazer um acordo com um comerciante que cacareja"
+        }
+      ]
+    },
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "minecraft:desafios/the_perfect_run",
+  "criteria": {
+    "first_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:technical/riddle/line_one": true
+            }
+          }
+        }
+      }
+    },
+    "second_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:technical/riddle/line_two": true
+            }
+          }
+        }
+      }
+    },
+    "third_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:technical/riddle/line_three": true
+            }
+          }
+        }
+      }
+    },
+    "fourth_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:technical/riddle/line_four": true
+            }
+          }
+        }
+      }
+    },
+    "fifth_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:technical/riddle/line_five": true
+            }
+          }
+        }
+      }
+    },
+    "sixth_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:technical/riddle/line_six": true
+            }
+          }
+        }
+      }
+    },
+    "seventh_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:technical/riddle/line_seven": true
+            }
+          }
+        }
+      }
+    },
+    "eighth_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:technical/riddle/line_eight": true
+            }
+          }
+        }
+      }
+    },
+    "ninth_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:technical/riddle/line_nine": true
+            }
+          }
+        }
+      }
+    },
+    "tenth_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:technical/riddle/line_ten": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "minecraft:function/desafios/riddle_me_that"
+  }
+}

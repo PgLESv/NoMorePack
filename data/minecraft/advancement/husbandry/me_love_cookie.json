@@ -4,7 +4,7 @@
             "id": "minecraft:cookie"
         },
         "title": {"translate":"Tem Mais Cookies?"},
-        "description": {"color":"green","translate":"Coma Cookies (Roube Cookies da Bella)"},
+        "description": {"color":"green","translate":"Coma Cookies (Não tem como mais roubar dela)"},
         "announce_to_chat": true
     },
     "parent": "minecraft:husbandry/plant_seed",

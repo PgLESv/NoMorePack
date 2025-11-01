@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanted_book",
+      "components": {
+        "minecraft:enchantments": {
+          "minecraft:thorns": 3
+        }
+      }
+    },
+    "title": {
+      "translate": "A raposa sem um bom coração"
+    },
+    "description": {
+      "translate": "Receba dano de uma raposa",
+      "color": "green"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:husbandry/fox_poses",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "minecraft:fox"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "minecraft:function/husbandry/furry_fury"
+  }
+}

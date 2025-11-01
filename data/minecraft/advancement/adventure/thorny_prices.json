@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:emerald"
+    },
+    "title": {
+      "translate": "Preços Espinhosos"
+    },
+    "description": {
+      "translate": "Morra para um aldeão que esteja usando uma armadura com espinhos",
+      "color": "green"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:adventure/do_you_see_this",
+  "criteria": {
+    "villager": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:villager"
+        },
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:is_thorns",
+              "expected": true
+            }
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "minecraft:function/adventure/thorny_prices"
+  }
+}

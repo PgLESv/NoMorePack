@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:jigsaw"
+    },
+    "title": {
+      "translate": "Em duas realidades"
+    },
+    "description": {
+      "translate": "Esteja dentro de duas estruturas ao mesmo tempo",
+      "color": "dark_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:adventure/raidin_master",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "minecraft:function/adventure/dual_reality"
+  }
+}

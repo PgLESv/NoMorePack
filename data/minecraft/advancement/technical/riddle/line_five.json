@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "minecraft:technical/riddle/line_four": true
+            },
+            "input": {
+              "forward": true,
+              "backward": true,
+              "left": true,
+              "right": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "minecraft:riddle/fifth_line"
+  }
+}

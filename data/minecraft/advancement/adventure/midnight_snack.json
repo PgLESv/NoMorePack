@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cookie"
+    },
+    "title": {
+      "translate": "Lanchinho noturno"
+    },
+    "description": {
+      "translate": "Acorde um aldeão para comprar biscoitos tarde da noite",
+      "color": "green"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:adventure/trade",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:time_check",
+            "value": {
+              "min": 21000,
+              "max": 22000
+            },
+            "period": 24000
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:cookie"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "minecraft:function/adventure/midnight_snack"
+  }
+}

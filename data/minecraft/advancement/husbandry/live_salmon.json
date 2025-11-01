@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:salmon"
+    },
+    "title": {
+      "translate": "É assim que se pesca"
+    },
+    "description": {
+      "translate": "Pesque um salmão vivo com uma vara de pesca",
+      "color": "green"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:husbandry/root",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:salmon"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "minecraft:function/husbandry/live_salmon"
+  }
+}

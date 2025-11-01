@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cauldron"
+    },
+    "title": {
+      "translate": "Banheira quente"
+    },
+    "description": {
+      "translate": "Passe o dia todo em um caldeirão de lava",
+      "extra": [
+        {
+          "text": "\n\n"
+        },
+        {
+          "translate": "Para ver o progresso, execute:",
+          "color": "dark_gray",
+          "italic": true
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "text": "/trigger bacaped_timers",
+          "color": "gray"
+        }
+      ]
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:adventure/sleep_with_the_fishes",
+  "criteria": {
+    "1200sec_in_lava": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "minecraft:function/adventure/the_infernal_cauldron"
+  }
+}

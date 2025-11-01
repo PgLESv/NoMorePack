@@ -18,80 +18,6 @@ scoreboard objectives add bac_settings dummy
 scoreboard objectives add bac_trophy_given dummy
 scoreboard objectives add bac_quit minecraft.custom:minecraft.leave_game
 
-# The following are related to teams
-scoreboard objectives add bac_advancements_team dummy {"text":"Team Advancements"}
-scoreboard objectives add bac_advfirst_team_sum dummy {"text":"Total Team Advancements"}
-scoreboard objectives add bac_advfirst_sum dummy {"text":"Team First Advancements"}
-scoreboard objectives add bac_advfirst_team dummy {"text":"First Advancements in Team"}
-
-scoreboard objectives add bac_obtained_black dummy
-scoreboard objectives add bac_obtained_dark_blue dummy
-scoreboard objectives add bac_obtained_dark_green dummy
-scoreboard objectives add bac_obtained_dark_aqua dummy
-scoreboard objectives add bac_obtained_dark_red dummy
-scoreboard objectives add bac_obtained_dark_purple dummy
-scoreboard objectives add bac_obtained_gold dummy
-scoreboard objectives add bac_obtained_gray dummy
-scoreboard objectives add bac_obtained_dark_gray dummy
-scoreboard objectives add bac_obtained_blue dummy
-scoreboard objectives add bac_obtained_green dummy
-scoreboard objectives add bac_obtained_aqua dummy
-scoreboard objectives add bac_obtained_red dummy
-scoreboard objectives add bac_obtained_light_purple dummy
-scoreboard objectives add bac_obtained_yellow dummy
-scoreboard objectives add bac_obtained_white dummy
-
-team add bac_team_black {"translate":"Black Team"}
-team add bac_team_dark_blue {"translate":"Dark Blue Team"}
-team add bac_team_dark_green {"translate":"Dark Green Team"}
-team add bac_team_dark_aqua {"translate":"Dark Aqua Team"}
-team add bac_team_dark_red {"translate":"Dark Red Team"}
-team add bac_team_dark_purple {"translate":"Dark Purple Team"}
-team add bac_team_gold {"translate":"Gold Team"}
-team add bac_team_gray {"translate":"Gray Team"}
-team add bac_team_dark_gray {"translate":"Dark Gray Team"}
-team add bac_team_blue {"translate":"Blue Team"}
-team add bac_team_green {"translate":"Green Team"}
-team add bac_team_aqua {"translate":"Aqua Team"}
-team add bac_team_red {"translate":"Red Team"}
-team add bac_team_light_purple {"translate":"Light Purple Team"}
-team add bac_team_yellow {"translate":"Yellow Team"}
-team add bac_team_white {"translate":"White Team"}
-
-team modify bac_team_black color black
-team modify bac_team_dark_blue color dark_blue
-team modify bac_team_dark_green color dark_green
-team modify bac_team_dark_aqua color dark_aqua
-team modify bac_team_dark_red color dark_red
-team modify bac_team_dark_purple color dark_purple
-team modify bac_team_gold color gold
-team modify bac_team_gray color gray
-team modify bac_team_dark_gray color dark_gray
-team modify bac_team_blue color blue
-team modify bac_team_green color green
-team modify bac_team_aqua color aqua
-team modify bac_team_red color red
-team modify bac_team_light_purple color light_purple
-team modify bac_team_yellow color yellow
-team modify bac_team_white color white
-
-team join bac_team_black Black_Team
-team join bac_team_dark_blue Dark_Blue_Team
-team join bac_team_dark_green Dark_Green_Team
-team join bac_team_dark_aqua Dark_Aqua_Team
-team join bac_team_dark_red Dark_Red_Team
-team join bac_team_dark_purple Dark_Purple_Team
-team join bac_team_gold Gold_Team
-team join bac_team_gray Gray_Team
-team join bac_team_dark_gray Dark_Gray_Team
-team join bac_team_blue Blue_Team
-team join bac_team_green Green_Team
-team join bac_team_aqua Aqua_Team
-team join bac_team_red Red_Team
-team join bac_team_light_purple Light_Purple_Team
-team join bac_team_yellow Yellow_Team
-team join bac_team_white White_Team
-
 # The following are used for statistical advancements
 scoreboard objectives add bac_day_count dummy
 scoreboard objectives add bac_current_time dummy
@@ -175,6 +101,53 @@ execute unless score challenge bac_settings matches ..1000 run scoreboard player
 execute unless score super_challenge bac_settings matches ..1000 run scoreboard players set super_challenge bac_settings 1
 execute unless score milestone bac_settings matches ..1000 run scoreboard players set milestone bac_settings 1
 
+# Objectives
+scoreboard objectives add bacaped_dragon_blitz dummy
+scoreboard objectives add bacaped_air_battle dummy
+scoreboard objectives add bacaped_dragon1_timer dummy
+scoreboard objectives add bacaped_dragon2_timer dummy
+scoreboard objectives add bacaped_in_lava_cauldron dummy
+scoreboard objectives add bacaped_warden_mason dummy
+scoreboard objectives add bacaped_ravager_count dummy
+scoreboard objectives add bacaped_unlucky_death deathCount
+scoreboard objectives add bacaped_in_cave dummy
+scoreboard objectives add bacaped_pvd5 dummy
+scoreboard objectives add bacaped_dvw6 dummy
+scoreboard objectives add bacaped_changed_dim dummy
+scoreboard objectives add bacaped_horse_speed dummy
+scoreboard objectives add bacaped_horse_health dummy
+scoreboard objectives add bacaped_horse_jump dummy
+scoreboard objectives add bacaped_warden_near_seconds dummy
+scoreboard objectives add bacaped_ignite_tnt dummy
+scoreboard objectives add bacaped_riddle_nine_line_cat_var dummy
+scoreboard objectives add bacaped_riddle_nine_line_cat_num dummy
+scoreboard objectives add bacaped_totems_used dummy
+scoreboard objectives add bacaped_coord_x dummy
+scoreboard objectives add bacaped_coord_z dummy
+scoreboard objectives add bacaped_distance_from_0_0 dummy
+scoreboard objectives add bacaped_ghast_passenger_count dummy
+scoreboard objectives add bacaped_current_day dummy
+scoreboard objectives add bacaped_cookies_eaten_today dummy
+
+# In Structures
+scoreboard objectives add bacaped_in_struct_ancient_city dummy
+scoreboard objectives add bacaped_in_struct_bastion dummy
+scoreboard objectives add bacaped_in_struct_desert_pyramid dummy
+scoreboard objectives add bacaped_in_struct_fortress dummy
+scoreboard objectives add bacaped_in_struct_igloo dummy
+scoreboard objectives add bacaped_in_struct_mansion dummy
+scoreboard objectives add bacaped_in_struct_mineshaft dummy
+scoreboard objectives add bacaped_in_struct_monument dummy
+scoreboard objectives add bacaped_in_struct_ocean_ruin dummy
+scoreboard objectives add bacaped_in_struct_pillager_outpost dummy
+scoreboard objectives add bacaped_in_struct_ruined_portal dummy
+scoreboard objectives add bacaped_in_struct_stronghold dummy
+scoreboard objectives add bacaped_in_struct_swamp_hut dummy
+scoreboard objectives add bacaped_in_struct_trail_ruins dummy
+scoreboard objectives add bacaped_in_struct_trial_chambers dummy
+scoreboard objectives add bacaped_in_struct_village dummy
+scoreboard objectives add bacaped_in_struct_summary dummy
+
 
 # If a setting is set to anything other than off, /gamerule announceAdvancements is set to false
 # (This is done in all dimensions because on some kinds of servers this is required)
@@ -200,6 +173,8 @@ scoreboard objectives add bac_timer dummy
 
 function minecraft:one_second_timer
 function minecraft:ten_second_timer
+function minecraft:1sec_timer
+function minecraft:10sec_timer
 
 # # This function sets base scoreboards when loading a world for the first time
 scoreboard objectives add bac_created dummy
